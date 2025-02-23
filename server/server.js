@@ -1,9 +1,11 @@
 // server.js
 const express = require('express');
-const connectDB = require('./config/db.js'); // Import the DB connection
-require('dotenv').config(); // Optional: Load environment variables here too
+const cors = require('cors');
+const connectDB = require('./config/db.js'); 
+require('dotenv').config();
 const discRoutes = require('./routes/discRoutes.js');
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB Atlas
