@@ -1,0 +1,36 @@
+{
+    "navbar": {
+        "yourResults": "Tus Resultados",
+        "personalityTypes": "Tipos de Personalidad",
+        "language": "Idioma"
+    },
+    "personalityType": {
+        "introduction": "Introducción",
+        "romanticRelationships": "Relaciones Románticas",
+        "friendships": "Amistades",
+        "parenthood": "Paternidad",
+        "careerPaths": "Caminos Profesionales",
+        "workplaceHabits": "Hábitos Laborales",
+        "conclusion": "Conclusión",
+        "analysts": "Analistas",
+        "diplomats": "Diplomáticos",
+        "sentinels": "Centinelas",
+        "explorers": "Exploradores",
+        "logician": "Lógico",
+        "commander": "Comandante",
+        "debater": "Debatidor",
+        "advocate": "Defensor",
+        "mediator": "Mediador",
+        "protagonist": "Protagonista",
+        "campaigner": "Campañista",
+        "logistics": "Logística",
+        "defender": "Defensor",
+        "executive": "Ejecutivo",
+        "consult": "Consultor",
+        "virtuoso": "Virtuoso",
+        "adventurer": "Aventurero",
+        "entrepreneur": "Empresario",
+        "entertainer": "Animador",
+        "description": "Las personas con el tipo de personalidad INTJ (Arquitectos) son pensadores imaginativos y estratégicos, con un plan para todo."
+    }
+}
