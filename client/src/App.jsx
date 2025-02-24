@@ -7,6 +7,7 @@
    import './i18n'; // Import i18n configuration
 import EnneagramPersonalityTest from './components/tests/EnneagramPersonalityTest';
 import DISCPersonalityTest from './components/tests/DISCPersonalityTest';
+import ResultPage from './components/tests/ResultPage';
 
    const App = () => {
        return (
@@ -18,6 +19,7 @@ import DISCPersonalityTest from './components/tests/DISCPersonalityTest';
                        <Route path="/personality" element={<PersonalityType />} />
                        <Route path='/EnneagramPersonalityTest' element={<EnneagramPersonalityTest/>}/>
                        <Route path='/DISCPersonalityTest'  element={<DISCPersonalityTest/>}/>
+                       <Route path="/result" element={<ResultPage />} />
                    </Routes>
                </main>
            </Router>
