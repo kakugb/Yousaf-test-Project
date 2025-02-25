@@ -1,7 +1,11 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { FaRedo } from "react-icons/fa";
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
+
+// Register required Chart.js components
+ChartJS.register(ArcElement, Tooltip, Legend);
 
 const ResultPage = () => {
   const { state } = useLocation();
@@ -13,7 +17,8 @@ const ResultPage = () => {
     return null;
   }
 
-  const { totals, dominantDimension } = state;
+  // Destructure totals, dominantDimension, and resultType (object with name and description)
+  const { totals, dominantDimension, resultType } = state;
 
   // Prepare data for the Pie chart
   const data = {
@@ -21,13 +26,13 @@ const ResultPage = () => {
     datasets: [
       {
         data: [totals.D, totals.I, totals.S, totals.C],
-        backgroundColor: ["#F87171", "#60A5FA", "#34D399", "#FBBF24"], // Red, Blue, Green, Yellow
+        backgroundColor: ["#F87171", "#60A5FA", "#34D399", "#FBBF24"],
         hoverOffset: 4,
       },
     ],
   };
 
-  // Some custom chart options
+  // Chart options
   const options = {
     plugins: {
       legend: {
@@ -38,7 +43,6 @@ const ResultPage = () => {
     maintainAspectRatio: false,
   };
 
-  // Simple descriptive text for each dimension (customize as you wish)
   const dimensionDescriptions = {
     D: {
       title: "Dominance (D)",
@@ -66,10 +70,15 @@ const ResultPage = () => {
     <div className="bg-blue-50 min-h-screen flex flex-col">
       {/* Banner Section */}
       <div className="bg-blue-600 text-white py-8 px-4 text-center">
-        <h1 className="text-3xl font-bold uppercase">My DISC Results</h1>
-        <p className="mt-2 text-sm">
-          Your personalized breakdown of the four DISC dimensions
-        </p>
+       
+        <p className="text-3xl font-bold uppercase">
+            Your DISC Result is:{" "}
+            <span className="font-bold">{resultType.name}</span>
+          </p>
+          <p className="text-sm text-white mb-4 text-center pt-3">
+            {resultType.description}
+          </p>
+       
       </div>
 
       {/* Main Content */}
@@ -77,13 +86,13 @@ const ResultPage = () => {
         {/* Left: Chart and summary */}
         <div className="w-full lg:w-1/2 flex flex-col items-center">
           <h2 className="text-2xl font-bold text-blue-800 mb-4">
-            Your Dominant Dimension:
+            Your Dominant Dimension:{" "}
             <span className="text-blue-600 ml-2">{dominantDimension}</span>
           </h2>
+          
           <div className="w-64 h-64 relative mb-6">
-          <Pie key={JSON.stringify(data)} data={data} options={options} />
+            <Pie key={JSON.stringify(data)} data={data} options={options} />
           </div>
-
           <div className="mt-2">
             <h3 className="text-lg font-semibold text-gray-700">
               Dimension Totals
@@ -119,7 +128,7 @@ const ResultPage = () => {
           })}
           <button
             className="flex items-center bg-blue-500 text-white px-5 py-2 rounded hover:bg-blue-600 transition duration-300 mt-4"
-            onClick={() => navigate("/DISCPersonalityTest")}
+            onClick={() => navigate("/")}
           >
             <FaRedo className="mr-2" /> Retake Test
           </button>
