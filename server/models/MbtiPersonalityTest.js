@@ -1,4 +1,4 @@
-// models/Question.js
+// models/MbtiQuestion.js
 const mongoose = require('mongoose');
 
 const questionSchema = new mongoose.Schema({
@@ -9,8 +9,8 @@ const questionSchema = new mongoose.Schema({
   dimension: {
     type: String,
     required: true,
-    enum: ['D', 'I', 'S', 'C'], 
+    enum: ['E/I', 'S/N', 'T/F', 'J/P'],
   },
 });
 
-module.exports = mongoose.model('DiscQuestion', questionSchema);
+module.exports = mongoose.model('MbtiQuestion', questionSchema);
