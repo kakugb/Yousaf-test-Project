@@ -10,6 +10,8 @@ import DISCPersonalityTest from './components/tests/DISCPersonalityTest';
 import ResultPage from './components/tests/ResultPage';
 import BigFivePersonalityTest from './components/tests/BigfivePersonlityTest';
 import BigFiveResultPage from './components/tests/BigFiveResultPage.JSX';
+import MbtiResultPage from './components/tests/MbtiResultPage';
+import MbtiPersonalityTest from './components/tests/MbtiPersonalityTest';
 
 
    const App = () => {
@@ -23,9 +25,10 @@ import BigFiveResultPage from './components/tests/BigFiveResultPage.JSX';
                        <Route path='/EnneagramPersonalityTest' element={<EnneagramPersonalityTest/>}/>
                        <Route path='/DISCPersonalityTest'  element={<DISCPersonalityTest/>}/>
                        <Route path='/BIGFIVEPersonalityTest' element={<BigFivePersonalityTest/>}/>
+                       <Route path='/MBTIPersonalityTest'  element={<MbtiPersonalityTest/>}/>
                        <Route path="/bigfive-result" element={<BigFiveResultPage />} />
-
                        <Route path="/result" element={<ResultPage />} />
+                       <Route path='/mbti-result' element={<MbtiResultPage/>}/>
                    </Routes>
                </main>
            </Router>

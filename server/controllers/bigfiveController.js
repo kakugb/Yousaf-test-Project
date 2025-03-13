@@ -86,17 +86,16 @@ exports.getQuestions = async (req, res) => {
 
 
 exports.submitAnswers = async (req, res) => {
+
     const { answers } = req.body;
     const totals = { E: 0, O: 0, A: 0, C: 0, N: 0 };
-
+    const MAX_SCORE = 20;
     try {
         for (const answer of answers) {
             const question = await BigFiveQuestion.findById(new mongoose.Types.ObjectId(answer.questionId));
 
             if (question) {
                 let score = answer.score;
-
-                // Reverse scoring if necessary
                 if (question.reverseScored) {
                     score = 4 - score;
                 }
@@ -105,15 +104,21 @@ exports.submitAnswers = async (req, res) => {
             }
         }
 
-        // Convert raw totals into personality results
-        const results = {};
+        const percentageScores = {};
         Object.keys(totals).forEach(trait => {
-            const score = totals[trait];
+            percentageScores[trait] = (totals[trait] / MAX_SCORE) * 100;
+        });
+        const dominantTrait = Object.keys(percentageScores).reduce((a, b) =>
+            percentageScores[a] > percentageScores[b] ? a : b
+        );
+        const results = {};
+        Object.keys(percentageScores).forEach(trait => {
+            const percentage = percentageScores[trait];
 
             let resultType;
-            if (score <= 6) {
+            if (percentage <= 30) {
                 resultType = bigFiveTypes[trait].low;
-            } else if (score <= 13) {
+            } else if (percentage <= 70) {
                 resultType = bigFiveTypes[trait].medium;
             } else {
                 resultType = bigFiveTypes[trait].high;
@@ -121,11 +126,11 @@ exports.submitAnswers = async (req, res) => {
 
             results[trait] = resultType;
         });
-
-        res.json({ totals, results });
+        res.json({ totals, percentageScores, results, dominantTrait });
     } catch (error) {
         console.error("Error processing answers:", error);
         res.status(500).json({ error: "Failed to process answers." });
     }
 };
+
 

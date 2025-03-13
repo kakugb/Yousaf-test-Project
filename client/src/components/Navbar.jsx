@@ -188,9 +188,11 @@ const Navbar = () => {
                         Enneagram Personality Test
                       </button>
                     </Link>
+                    <Link to='/MBTIPersonalityTest'>
                     <button className="block w-full text-left text-gray-700 hover:bg-gray-100 py-2">
-                      16 Types Personality Test
+                     MBTI Personality Test
                     </button>
+                    </Link>
                     <Link to="/BIGFIVEPersonalityTest">
                       <button className="block w-full text-left text-gray-700 hover:bg-gray-100 py-2">
                         Big Five Personality Test
