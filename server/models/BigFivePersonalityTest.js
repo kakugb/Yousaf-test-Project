@@ -9,6 +9,14 @@ const bigFiveQuestionSchema = new mongoose.Schema({
     type: String,
     required: true,
     enum: ['E', 'O', 'A', 'C', 'N'], 
+  },
+  reverseScored: {
+    type: Boolean,
+    default: false, 
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now,
   }
 });
 

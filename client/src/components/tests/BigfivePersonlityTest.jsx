@@ -4,20 +4,17 @@ import { useNavigate } from "react-router-dom";
 
 const QUESTIONS_PER_PAGE = 10;
 
-const DISCPersonalityTest = () => {
+const BigFivePersonalityTest = () => {
   const [questions, setQuestions] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
-  // Answers stored as: { [questionId]: score }
   const [answers, setAnswers] = useState({});
-  // Loader state for submission
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const navigate = useNavigate();
 
-  // Fetch questions from API when component mounts
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/disc/questions")
+      .get("http://localhost:3000/api/bigfive/questions")
       .then((response) => {
         setQuestions(response.data.questions);
       })
@@ -28,7 +25,6 @@ const DISCPersonalityTest = () => {
 
   const totalPages = Math.ceil(questions.length / QUESTIONS_PER_PAGE);
 
-  // Define sizes and accent classes for the radio buttons
   const sizes = ["w-10 h-10", "w-8 h-8", "w-6 h-6", "w-8 h-8", "w-10 h-10"];
   const accents = [
     "accent-red-500",
@@ -46,12 +42,10 @@ const DISCPersonalityTest = () => {
     if (currentPage > 0) setCurrentPage(currentPage - 1);
   };
 
-  // Save answer for a question using its _id
   const handleChange = (questionId, value) => {
     setAnswers((prev) => ({ ...prev, [questionId]: value }));
   };
 
-  // Submit answers to the backend API
   const handleSubmit = () => {
     if (Object.keys(answers).length !== questions.length) {
       alert("Please answer all questions before submitting.");
@@ -68,12 +62,11 @@ const DISCPersonalityTest = () => {
     setIsSubmitting(true);
 
     axios
-      .post("http://localhost:3000/api/disc/submit", payload)
+      .post("http://localhost:3000/api/bigfive/submit", payload)
       .then((response) => {
         setIsSubmitting(false);
         const result = response.data;
-        // Navigate to result page, passing result data in state
-        navigate("/result", { state: result });
+        navigate("/bigfive-result", { state: result });
       })
       .catch((error) => {
         console.error("Error submitting test:", error);
@@ -86,7 +79,6 @@ const DISCPersonalityTest = () => {
     return (
       <div className="flex items-center justify-center min-h-screen">
         <div className="text-center">
-          {/* Customize your loader/spinner as needed */}
           <div className="loader mb-4">
             <svg
               className="animate-spin h-10 w-10 text-blue-500 mx-auto"
@@ -118,11 +110,11 @@ const DISCPersonalityTest = () => {
   }
 
   return (
-    <div className="max-w-3xl mx-auto p-6  min-h-screen">
-      <div className="bg-yellow-600 text-white text-center py-3 font-bold uppercase">
-        <span className="px-4">Inaccurate</span>
+    <div className="max-w-3xl mx-auto p-6 min-h-screen">
+      <div className="bg-blue-600 text-white text-center py-3 font-bold uppercase">
+        <span className="px-4">Strongly Disagree</span>
         <span className="px-4">• Neutral •</span>
-        <span className="px-4">Accurate</span>
+        <span className="px-4">Strongly Agree</span>
       </div>
 
       <div className="mt-6 space-y-6">
@@ -139,22 +131,22 @@ const DISCPersonalityTest = () => {
               <p className="text-lg font-semibold text-gray-900 text-center">
                 {question.question}
               </p>
-              <div className="flex justify-center mt-4 space-x-4 items-center ">
-                <span className="text-gray-500">Inaccurate</span>
+              <div className="flex justify-center mt-4 space-x-4 items-center">
+                <span className="text-gray-500">Strongly Disagree</span>
                 {[...Array(5)].map((_, i) => (
                   <input
                     key={i}
                     type="radio"
                     name={`question-${question._id}`}
-                    value={i + 1}
-                    checked={answers[question._id] === i + 1}
+                    value={i}
+                    checked={answers[question._id] === i}
                     onChange={(e) =>
                       handleChange(question._id, parseInt(e.target.value))
                     }
                     className={`${sizes[i]} ${accents[i]}`}
                   />
                 ))}
-                <span className="text-gray-500">Accurate</span>
+                <span className="text-gray-500">Strongly Agree</span>
               </div>
             </div>
           ))}
@@ -169,7 +161,7 @@ const DISCPersonalityTest = () => {
             <span
               key={i}
               className={`h-2 w-2 rounded-full ${
-                currentPage === i ? "bg-red-600" : "bg-orange-300"
+                currentPage === i ? "bg-blue-600" : "bg-gray-300"
               }`}
             ></span>
           ))}
@@ -181,7 +173,7 @@ const DISCPersonalityTest = () => {
             </button>
           )}
           {currentPage > 0 && (
-            <button className="text-red-600" onClick={handlePrev}>
+            <button className="text-blue-600" onClick={handlePrev}>
               &lt; Previous Step
             </button>
           )}
@@ -196,4 +188,4 @@ const DISCPersonalityTest = () => {
   );
 };
 
-export default DISCPersonalityTest;
+export default BigFivePersonalityTest;

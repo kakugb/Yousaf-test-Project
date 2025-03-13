@@ -4,6 +4,7 @@ const cors = require('cors');
 const connectDB = require('./config/db.js'); 
 require('dotenv').config();
 const discRoutes = require('./routes/discRoutes.js');
+const bigFiveRoutes = require('./routes/bigfiveRoutes.js');
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -12,8 +13,8 @@ app.use(express.json());
 connectDB();
 
 // Define your routes
-app.use('/api', discRoutes);
-
+app.use('/api/disc', discRoutes);
+app.use('/api/bigfive', bigFiveRoutes);
 // Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

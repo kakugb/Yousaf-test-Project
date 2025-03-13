@@ -8,6 +8,9 @@
 import EnneagramPersonalityTest from './components/tests/EnneagramPersonalityTest';
 import DISCPersonalityTest from './components/tests/DISCPersonalityTest';
 import ResultPage from './components/tests/ResultPage';
+import BigFivePersonalityTest from './components/tests/BigfivePersonlityTest';
+import BigFiveResultPage from './components/tests/BigFiveResultPage.JSX';
+
 
    const App = () => {
        return (
@@ -19,6 +22,9 @@ import ResultPage from './components/tests/ResultPage';
                        <Route path="/personality" element={<PersonalityType />} />
                        <Route path='/EnneagramPersonalityTest' element={<EnneagramPersonalityTest/>}/>
                        <Route path='/DISCPersonalityTest'  element={<DISCPersonalityTest/>}/>
+                       <Route path='/BIGFIVEPersonalityTest' element={<BigFivePersonalityTest/>}/>
+                       <Route path="/bigfive-result" element={<BigFiveResultPage />} />
+
                        <Route path="/result" element={<ResultPage />} />
                    </Routes>
                </main>
