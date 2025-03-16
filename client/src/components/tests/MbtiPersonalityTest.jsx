@@ -94,7 +94,7 @@ const MbtiPersonalityTest = () => {
       survey: {
         ...surveyAnswers,
         genres: [...new Set(surveyAnswers.genres)], // Remove duplicate genres
-      },
+      }, 
     };
 
     console.log("Submitting Payload:", JSON.stringify(payload, null, 2));

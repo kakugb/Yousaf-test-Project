@@ -1,6 +1,5 @@
-// filepath: [db.js](http://_vscodecontentref_/0)
 const mongoose = require('mongoose');
-require('dotenv').config(); // Load environment variables
+require('dotenv').config(); 
 
 const connectDB = async (retries = 5, delay = 5000) => {
   while (retries) {
@@ -17,7 +16,7 @@ const connectDB = async (retries = 5, delay = 5000) => {
       retries -= 1;
       console.log(`Retries left: ${retries}`);
       if (retries === 0) {
-        process.exit(1); // Exit process with failure if unable to connect
+        process.exit(1); 
       }
       await new Promise(res => setTimeout(res, delay));
     }

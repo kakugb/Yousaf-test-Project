@@ -1,6 +1,3 @@
-const mongoose = require('mongoose');
-const MbtiQuestion = require('../models/MbtiPersonalityTest.js');
-
 const mbtiTypes = {
   INTJ: {
     name: 'Architect',
@@ -101,47 +98,5 @@ const mbtiTypes = {
 };
 
 
-exports.getQuestions = async (req, res) => {
-  try {
-    const questions = await MbtiQuestion.find({}).sort({ _id: 1 });
-    res.json({ questions });
-  } catch (error) {
-    console.error('Error fetching MBTI questions:', error);
-    res.status(500).json({ error: 'Failed to fetch questions.' });
-  }
-};
-
-exports.submitAnswers = async (req, res) => {
-  const { answers } = req.body;
-  const totals = { 'E/I': 0, 'S/N': 0, 'T/F': 0, 'J/P': 0 };
+  module.exports = mbtiTypes;
   
-  const maxScores = { 'E/I': 40, 'S/N': 56, 'T/F': 48, 'J/P': 52 };
-
-  try {
-    for (const answer of answers) {
-      const question = await MbtiQuestion.findById(new mongoose.Types.ObjectId(answer.questionId));
-
-      if (question) {
-        let score = answer.score;
-        if (question.reverseScored) {
-          score = 4 - score;
-        }
-
-        totals[question.dimension] += score;
-      }
-    }
-
-    const personality =
-      (totals['E/I'] >= maxScores['E/I'] / 2 ? 'E' : 'I') +
-      (totals['S/N'] >= maxScores['S/N'] / 2 ? 'S' : 'N') +
-      (totals['T/F'] >= maxScores['T/F'] / 2 ? 'T' : 'F') +
-      (totals['J/P'] >= maxScores['J/P'] / 2 ? 'J' : 'P');
-
-    const result = mbtiTypes[personality];
-
-    res.json({ totals, personality, result });
-  } catch (error) {
-    console.error('Error processing MBTI answers:', error);
-    res.status(500).json({ error: 'Failed to process answers.' });
-  }
-};
