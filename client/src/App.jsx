@@ -12,6 +12,8 @@ import BigFivePersonalityTest from './components/tests/BigfivePersonlityTest';
 import BigFiveResultPage from './components/tests/BigFiveResultPage.JSX';
 import MbtiResultPage from './components/tests/MbtiResultPage';
 import MbtiPersonalityTest from './components/tests/MbtiPersonalityTest';
+import CareerAptitudePersonalityTest from './components/tests/CareerAptitudePersonalityTest';
+import CareerAptitudeResultPage from './components/tests/CareerAptitudeResultPage';
 
 
    const App = () => {
@@ -29,6 +31,8 @@ import MbtiPersonalityTest from './components/tests/MbtiPersonalityTest';
                        <Route path="/bigfive-result" element={<BigFiveResultPage />} />
                        <Route path="/result" element={<ResultPage />} />
                        <Route path='/mbti-result' element={<MbtiResultPage/>}/>
+                       <Route path='/CareerAptitudePersonalitytest' element={<CareerAptitudePersonalityTest/>}/>
+                       <Route path='/career-aptitude-result' element={<CareerAptitudeResultPage/>}  />
                    </Routes>
                </main>
            </Router>

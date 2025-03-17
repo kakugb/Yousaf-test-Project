@@ -206,9 +206,11 @@ const Navbar = () => {
                     <button className="block w-full text-left text-gray-700 hover:bg-gray-100 py-2">
                       Emotional Intelligence Test
                     </button>
+                    <Link to="/CareerAptitudePersonalitytest">
                     <button className="block w-full text-left text-gray-700 hover:bg-gray-100 py-2">
                       Career Aptitude Test
                     </button>
+                    </Link>
                     <button className="block w-full text-left text-gray-700 hover:bg-gray-100 py-2">
                       7 Love Styles Test
                     </button>

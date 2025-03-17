@@ -139,67 +139,117 @@
 
 
 
-require('dotenv').config();
+// require('dotenv').config();
+// const mongoose = require('mongoose');
+// const MbtiQuestion = require('./models/MbtiPersonalityTest'); // Ensure correct filename here
+
+// const mbtiQuestions = [
+//   { question: "Going out with a lot of individuals makes me feel active and passionate.", dimension: "E/I", reverseScored: false },
+//   { question: "I take pleasure in introducing myself to new individuals first.", dimension: "E/I", reverseScored: false },
+//   { question: "My preference is to spend my free time with others rather than being by myself.", dimension: "E/I", reverseScored: false },
+//   { question: "The expression of my thoughts and feelings remains simple when sharing them with others in group settings.", dimension: "E/I", reverseScored: false },
+//   { question: "The interactive environments at a quick pace make me feel most comfortable.", dimension: "E/I", reverseScored: false },
+//   { question: "I speak about my thoughts prematurely even though I have not fully formed them mentally.", dimension: "E/I", reverseScored: false },
+//   { question: "My work style includes teamwork instead of working alone.", dimension: "E/I", reverseScored: false },
+//   { question: "The presence of others around me brings me a pleasant vibe although I refrain from talking to anyone.", dimension: "E/I", reverseScored: false },
+//   { question: "My habit is to start speaking without fully preparing my thoughts.", dimension: "E/I", reverseScored: false },
+//   { question: "Social interactions become exhausting when they extend for an extended period.", dimension: "E/I", reverseScored: true },
+
+//   { question: "My habit is to depend on real-world applications instead of mathematical concepts.", dimension: "S/N", reverseScored: false },
+//   { question: "My thoughts concentrate mainly on particular elements rather than broader concepts.", dimension: "S/N", reverseScored: false },
+//   { question: "When making decisions I choose information from observation over instinct.", dimension: "S/N", reverseScored: false },
+//   { question: "The structured method of problem-solving brings me satisfaction.", dimension: "S/N", reverseScored: false },
+//   { question: "Real-world events fascinate me more than theoretical possibilities.", dimension: "S/N", reverseScored: false },
+//   { question: "I trust familiar solutions instead of exploring new options.", dimension: "S/N", reverseScored: false },
+//   { question: "Information from my past comes through clear details instead of emotional impressions.", dimension: "S/N", reverseScored: false },
+//   { question: "I prefer tasks with specific instructions rather than open-ended ones.", dimension: "S/N", reverseScored: false },
+//   { question: "My attention stays focused on potential opportunities of tomorrow rather than the present.", dimension: "S/N", reverseScored: true },
+//   { question: "I prefer generating new solutions, even if they may not have practical applications.", dimension: "S/N", reverseScored: true },
+//   { question: "Discussions about fresh concepts interest me more than ordinary matters.", dimension: "S/N", reverseScored: true },
+//   { question: "I prefer discovering underlying mechanisms instead of accepting things without investigation.", dimension: "S/N", reverseScored: true },
+//   { question: "My attention typically focuses on future alternatives rather than present situations.", dimension: "S/N", reverseScored: true },
+//   { question: "Creative tasks appeal to me more than traditional problem-solving methods.", dimension: "S/N", reverseScored: true },
+
+//   { question: "I make decisions based on rational thinking rather than personal emotions.", dimension: "T/F", reverseScored: false },
+//   { question: "Fairness requires uniform standards across all individuals.", dimension: "T/F", reverseScored: false },
+//   { question: "Competence holds more value than kindness in interactions.", dimension: "T/F", reverseScored: false },
+//   { question: "Efficiency is more important than harmony in relationships.", dimension: "T/F", reverseScored: false },
+//   { question: "I have no difficulty making decisions that might inconvenience others.", dimension: "T/F", reverseScored: false },
+//   { question: "I use logical examination rather than emotional aspects in situations.", dimension: "T/F", reverseScored: false },
+//   { question: "Truthfulness matters more to me than safeguarding emotions.", dimension: "T/F", reverseScored: false },
+//   { question: "I believe emotions affect judgment significantly.", dimension: "T/F", reverseScored: true },
+//   { question: "People's decisions relying exclusively on logic create discomfort in me.", dimension: "T/F", reverseScored: true },
+//   { question: "I place individual beliefs above concrete information when deciding.", dimension: "T/F", reverseScored: true },
+//   { question: "Logical solutions produce more satisfaction than emotional solutions.", dimension: "T/F", reverseScored: false },
+
+//   { question: "I prefer structure over flexibility in schedules.", dimension: "J/P", reverseScored: false },
+//   { question: "Unexpected shifts in plans cause me stress.", dimension: "J/P", reverseScored: false },
+//   { question: "Scheduling events and daily lists bring satisfaction.", dimension: "J/P", reverseScored: false },
+//   { question: "I prefer finishing one project completely before starting another.", dimension: "J/P", reverseScored: false },
+//   { question: "I prefer certainty rather than facing unforeseen incidents.", dimension: "J/P", reverseScored: false },
+//   { question: "Unclear resolutions increase my uneasiness.", dimension: "J/P", reverseScored: false },
+//   { question: "I work best with a structured routine.", dimension: "J/P", reverseScored: false },
+//   { question: "I prefer fast decisions that I rarely change.", dimension: "J/P", reverseScored: false },
+//   { question: "I easily change plans upon receiving new information.", dimension: "J/P", reverseScored: true },
+//   { question: "I prefer open-ended situations to discover new possibilities.", dimension: "J/P", reverseScored: true },
+//   { question: "Working with a time schedule enhances my productivity.", dimension: "J/P", reverseScored: false },
+//   { question: "Predictability is more comfortable than uncertainty.", dimension: "J/P", reverseScored: false },
+//   { question: "I enjoy long-term planning rather than spontaneous changes.", dimension: "J/P", reverseScored: false },
+
+//   { question: "I feel at ease in crowds but find it harder one-on-one.", dimension: "E/I", reverseScored: false },
+// ];
+
+// const seedMBTI = async () => {
+//   try {
+//     await mongoose.connect(process.env.MONGO_URI, {
+//       useNewUrlParser: true,
+//       useUnifiedTopology: true,
+//     });
+//     console.log('Connected to MongoDB');
+
+//     await MbtiQuestion.deleteMany({});
+//     console.log('Cleared existing MBTI questions');
+
+//     await MbtiQuestion.insertMany(mbtiQuestions);
+//     console.log('MBTI questions seeded successfully');
+
+//     mongoose.disconnect();
+//   } catch (error) {
+//     console.error('Error seeding MBTI questions:', error);
+//     process.exit(1);
+//   }
+// };
+
+// seedMBTI();
+
+require('dotenv').config(); 
 const mongoose = require('mongoose');
-const MbtiQuestion = require('./models/MbtiPersonalityTest'); // Ensure correct filename here
+const CareerAptitudeQuestion = require('./models/CareerAptitudePersonalityTest.js'); // Ensure correct filename here
 
-const mbtiQuestions = [
-  { question: "Going out with a lot of individuals makes me feel active and passionate.", dimension: "E/I", reverseScored: false },
-  { question: "I take pleasure in introducing myself to new individuals first.", dimension: "E/I", reverseScored: false },
-  { question: "My preference is to spend my free time with others rather than being by myself.", dimension: "E/I", reverseScored: false },
-  { question: "The expression of my thoughts and feelings remains simple when sharing them with others in group settings.", dimension: "E/I", reverseScored: false },
-  { question: "The interactive environments at a quick pace make me feel most comfortable.", dimension: "E/I", reverseScored: false },
-  { question: "I speak about my thoughts prematurely even though I have not fully formed them mentally.", dimension: "E/I", reverseScored: false },
-  { question: "My work style includes teamwork instead of working alone.", dimension: "E/I", reverseScored: false },
-  { question: "The presence of others around me brings me a pleasant vibe although I refrain from talking to anyone.", dimension: "E/I", reverseScored: false },
-  { question: "My habit is to start speaking without fully preparing my thoughts.", dimension: "E/I", reverseScored: false },
-  { question: "Social interactions become exhausting when they extend for an extended period.", dimension: "E/I", reverseScored: true },
-
-  { question: "My habit is to depend on real-world applications instead of mathematical concepts.", dimension: "S/N", reverseScored: false },
-  { question: "My thoughts concentrate mainly on particular elements rather than broader concepts.", dimension: "S/N", reverseScored: false },
-  { question: "When making decisions I choose information from observation over instinct.", dimension: "S/N", reverseScored: false },
-  { question: "The structured method of problem-solving brings me satisfaction.", dimension: "S/N", reverseScored: false },
-  { question: "Real-world events fascinate me more than theoretical possibilities.", dimension: "S/N", reverseScored: false },
-  { question: "I trust familiar solutions instead of exploring new options.", dimension: "S/N", reverseScored: false },
-  { question: "Information from my past comes through clear details instead of emotional impressions.", dimension: "S/N", reverseScored: false },
-  { question: "I prefer tasks with specific instructions rather than open-ended ones.", dimension: "S/N", reverseScored: false },
-  { question: "My attention stays focused on potential opportunities of tomorrow rather than the present.", dimension: "S/N", reverseScored: true },
-  { question: "I prefer generating new solutions, even if they may not have practical applications.", dimension: "S/N", reverseScored: true },
-  { question: "Discussions about fresh concepts interest me more than ordinary matters.", dimension: "S/N", reverseScored: true },
-  { question: "I prefer discovering underlying mechanisms instead of accepting things without investigation.", dimension: "S/N", reverseScored: true },
-  { question: "My attention typically focuses on future alternatives rather than present situations.", dimension: "S/N", reverseScored: true },
-  { question: "Creative tasks appeal to me more than traditional problem-solving methods.", dimension: "S/N", reverseScored: true },
-
-  { question: "I make decisions based on rational thinking rather than personal emotions.", dimension: "T/F", reverseScored: false },
-  { question: "Fairness requires uniform standards across all individuals.", dimension: "T/F", reverseScored: false },
-  { question: "Competence holds more value than kindness in interactions.", dimension: "T/F", reverseScored: false },
-  { question: "Efficiency is more important than harmony in relationships.", dimension: "T/F", reverseScored: false },
-  { question: "I have no difficulty making decisions that might inconvenience others.", dimension: "T/F", reverseScored: false },
-  { question: "I use logical examination rather than emotional aspects in situations.", dimension: "T/F", reverseScored: false },
-  { question: "Truthfulness matters more to me than safeguarding emotions.", dimension: "T/F", reverseScored: false },
-  { question: "I believe emotions affect judgment significantly.", dimension: "T/F", reverseScored: true },
-  { question: "People's decisions relying exclusively on logic create discomfort in me.", dimension: "T/F", reverseScored: true },
-  { question: "I place individual beliefs above concrete information when deciding.", dimension: "T/F", reverseScored: true },
-  { question: "Logical solutions produce more satisfaction than emotional solutions.", dimension: "T/F", reverseScored: false },
-
-  { question: "I prefer structure over flexibility in schedules.", dimension: "J/P", reverseScored: false },
-  { question: "Unexpected shifts in plans cause me stress.", dimension: "J/P", reverseScored: false },
-  { question: "Scheduling events and daily lists bring satisfaction.", dimension: "J/P", reverseScored: false },
-  { question: "I prefer finishing one project completely before starting another.", dimension: "J/P", reverseScored: false },
-  { question: "I prefer certainty rather than facing unforeseen incidents.", dimension: "J/P", reverseScored: false },
-  { question: "Unclear resolutions increase my uneasiness.", dimension: "J/P", reverseScored: false },
-  { question: "I work best with a structured routine.", dimension: "J/P", reverseScored: false },
-  { question: "I prefer fast decisions that I rarely change.", dimension: "J/P", reverseScored: false },
-  { question: "I easily change plans upon receiving new information.", dimension: "J/P", reverseScored: true },
-  { question: "I prefer open-ended situations to discover new possibilities.", dimension: "J/P", reverseScored: true },
-  { question: "Working with a time schedule enhances my productivity.", dimension: "J/P", reverseScored: false },
-  { question: "Predictability is more comfortable than uncertainty.", dimension: "J/P", reverseScored: false },
-  { question: "I enjoy long-term planning rather than spontaneous changes.", dimension: "J/P", reverseScored: false },
-
-  { question: "I feel at ease in crowds but find it harder one-on-one.", dimension: "E/I", reverseScored: false },
+const careerAptitudeQuestions = [
+  { question: "Handling numerical data along with statistical information brings me satisfaction.", category: "Analytical", reverseScored: false },
+  { question: "Conflicts present no challenge to me. I specialize in conflict resolution.", category: "Leadership", reverseScored: false },
+  { question: "Physical work tasks appeal to me more than theoretical assignments do.", category: "Practical", reverseScored: false },
+  { question: "I perform well when needed to address groups publicly.", category: "Communication", reverseScored: false },
+  { question: "I focus intensely on every detail that comes my way.", category: "Analytical", reverseScored: false },
+  { question: "I possess creativity when solving problems.", category: "Creative", reverseScored: false },
+  { question: "I enjoy collaborating with others.", category: "Empathy", reverseScored: false },
+  { question: "I have demonstrated success in keeping my time under effective control.", category: "Organized", reverseScored: false },
+  { question: "I have the ability to adjust myself successfully in unfamiliar environments.", category: "Adventurous", reverseScored: false },
+  { question: "I have strong writing skills.", category: "Communication", reverseScored: false },
+  { question: "I am proficient with technology.", category: "Technical", reverseScored: false },
+  { question: "I enjoy leading projects.", category: "Leadership", reverseScored: false },
+  { question: "I am empathetic towards others.", category: "Empathy", reverseScored: false },
+  { question: "I handle stress well.", category: "Adventurous", reverseScored: false },
+  { question: "I am organized in my work.", category: "Organized", reverseScored: false },
+  { question: "I enjoy learning new languages.", category: "Creative", reverseScored: false },
+  { question: "I am mechanically inclined.", category: "Technical", reverseScored: false },
+  { question: "My perception of aesthetic quality is strong.", category: "Creative", reverseScored: false },
+  { question: "I am persuasive in discussions.", category: "Persuasive", reverseScored: false },
+  { question: "I enjoy researching complex topics.", category: "Analytical", reverseScored: false },
 ];
 
-const seedMBTI = async () => {
+const seedCareerAptitude = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
@@ -207,17 +257,18 @@ const seedMBTI = async () => {
     });
     console.log('Connected to MongoDB');
 
-    await MbtiQuestion.deleteMany({});
-    console.log('Cleared existing MBTI questions');
+    await CareerAptitudeQuestion.deleteMany({});
+    console.log('Cleared existing Career Aptitude questions');
 
-    await MbtiQuestion.insertMany(mbtiQuestions);
-    console.log('MBTI questions seeded successfully');
+    await CareerAptitudeQuestion.insertMany(careerAptitudeQuestions);
+    console.log('Career Aptitude questions seeded successfully');
 
     mongoose.disconnect();
   } catch (error) {
-    console.error('Error seeding MBTI questions:', error);
+    console.error('Error seeding Career Aptitude questions:', error);
     process.exit(1);
   }
 };
 
-seedMBTI();
+seedCareerAptitude();
+
