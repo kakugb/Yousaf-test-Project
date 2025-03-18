@@ -222,45 +222,116 @@
 
 // seedMBTI();
 
+// require('dotenv').config();
+// const mongoose = require('mongoose');
+// const CareerQuestion = require('./models/CareerAptitudePersonalityTest.js'); // Ensure this model is correct
+
+// const careerQuestions = [
+//   { question: "Handling numerical data along with statistical information brings me satisfaction.", category: "Analytical Thinker", reverseScored: false },
+//   { question: "Conflicts present no challenge to me. I specialize in conflict resolution.", category: "Conflict Resolution & Leadership", reverseScored: false },
+//   { question: "Physical work tasks appeal to me more than theoretical assignments do.", category: "Practical & Hands-On", reverseScored: false },
+//   { question: "I perform well when needed to address groups publicly.", category: "Communication & Language", reverseScored: false },
+//   { question: "I focus intensely on every detail that comes my way.", category: "Analytical Thinker", reverseScored: false },
+//   { question: "I possess creativity when solving problems.", category: "Creative & Aesthetic", reverseScored: false },
+//   { question: "I enjoy collaborating with others.", category: "Empathy & Social Work", reverseScored: false },
+//   { question: "I have demonstrated success in keeping my time under effective control.", category: "Organized & Detail-Oriented", reverseScored: false },
+//   { question: "I have the ability to adjust myself successfully in unfamiliar environments.", category: "Stress-Resistant & Adaptive", reverseScored: false },
+//   { question: "I have strong writing skills.", category: "Communication & Language", reverseScored: false },
+//   { question: "I am proficient with technology.", category: "Technology-Oriented", reverseScored: false },
+//   { question: "I enjoy leading projects.", category: "Conflict Resolution & Leadership", reverseScored: false },
+//   { question: "I am empathetic towards others.", category: "Empathy & Social Work", reverseScored: false },
+//   { question: "I handle stress well.", category: "Stress-Resistant & Adaptive", reverseScored: false },
+//   { question: "I am organized in my work.", category: "Organized & Detail-Oriented", reverseScored: false },
+//   { question: "I enjoy learning new languages.", category: "Communication & Language", reverseScored: false },
+//   { question: "I am mechanically inclined.", category: "Practical & Hands-On", reverseScored: false },
+//   { question: "My perception of aesthetic quality is strong.", category: "Creative & Aesthetic", reverseScored: false },
+//   { question: "I am persuasive in discussions.", category: "Conflict Resolution & Leadership", reverseScored: false },
+//   { question: "I enjoy researching complex topics.", category: "Analytical Thinker", reverseScored: false },
+  
+//   { question: "Analytical", category: "Analytical Thinker", reverseScored: false },
+//   { question: "Creative", category: "Creative & Aesthetic", reverseScored: false },
+//   { question: "Practical", category: "Practical & Hands-On", reverseScored: false },
+//   { question: "Adventurous", category: "Stress-Resistant & Adaptive", reverseScored: false },
+//   { question: "Organized", category: "Organized & Detail-Oriented", reverseScored: false },
+//   { question: "Empathetic", category: "Empathy & Social Work", reverseScored: false },
+//   { question: "Persuasive", category: "Conflict Resolution & Leadership", reverseScored: false },
+//   { question: "Detail-oriented", category: "Analytical Thinker", reverseScored: false },
+//   { question: "Independent", category: "Stress-Resistant & Adaptive", reverseScored: false },
+//   { question: "Innovative", category: "Technology-Oriented", reverseScored: false }
+// ];
+
+// const seedCareerTest = async () => {
+//   try {
+//     await mongoose.connect(process.env.MONGO_URI, {
+//       useNewUrlParser: true,
+//       useUnifiedTopology: true,
+//     });
+//     console.log('Connected to MongoDB');
+
+//     await CareerQuestion.deleteMany({});
+//     console.log('Cleared existing Career Aptitude questions');
+
+//     await CareerQuestion.insertMany(careerQuestions);
+//     console.log('Career Aptitude questions seeded successfully');
+
+//     mongoose.disconnect();
+//   } catch (error) {
+//     console.error('Error seeding Career Aptitude questions:', error);
+//     process.exit(1);
+//   }
+// };
+
+// seedCareerTest();
+
+
+
 require('dotenv').config();
 const mongoose = require('mongoose');
-const CareerQuestion = require('./models/CareerAptitudePersonalityTest.js'); // Ensure this model is correct
+const EnneagramQuestion = require('./models/EnneagramPersonalityTest.js'); 
 
-const careerQuestions = [
-  { question: "Handling numerical data along with statistical information brings me satisfaction.", category: "Analytical Thinker", reverseScored: false },
-  { question: "Conflicts present no challenge to me. I specialize in conflict resolution.", category: "Conflict Resolution & Leadership", reverseScored: false },
-  { question: "Physical work tasks appeal to me more than theoretical assignments do.", category: "Practical & Hands-On", reverseScored: false },
-  { question: "I perform well when needed to address groups publicly.", category: "Communication & Language", reverseScored: false },
-  { question: "I focus intensely on every detail that comes my way.", category: "Analytical Thinker", reverseScored: false },
-  { question: "I possess creativity when solving problems.", category: "Creative & Aesthetic", reverseScored: false },
-  { question: "I enjoy collaborating with others.", category: "Empathy & Social Work", reverseScored: false },
-  { question: "I have demonstrated success in keeping my time under effective control.", category: "Organized & Detail-Oriented", reverseScored: false },
-  { question: "I have the ability to adjust myself successfully in unfamiliar environments.", category: "Stress-Resistant & Adaptive", reverseScored: false },
-  { question: "I have strong writing skills.", category: "Communication & Language", reverseScored: false },
-  { question: "I am proficient with technology.", category: "Technology-Oriented", reverseScored: false },
-  { question: "I enjoy leading projects.", category: "Conflict Resolution & Leadership", reverseScored: false },
-  { question: "I am empathetic towards others.", category: "Empathy & Social Work", reverseScored: false },
-  { question: "I handle stress well.", category: "Stress-Resistant & Adaptive", reverseScored: false },
-  { question: "I am organized in my work.", category: "Organized & Detail-Oriented", reverseScored: false },
-  { question: "I enjoy learning new languages.", category: "Communication & Language", reverseScored: false },
-  { question: "I am mechanically inclined.", category: "Practical & Hands-On", reverseScored: false },
-  { question: "My perception of aesthetic quality is strong.", category: "Creative & Aesthetic", reverseScored: false },
-  { question: "I am persuasive in discussions.", category: "Conflict Resolution & Leadership", reverseScored: false },
-  { question: "I enjoy researching complex topics.", category: "Analytical Thinker", reverseScored: false },
-  
-  { question: "Analytical", category: "Analytical Thinker", reverseScored: false },
-  { question: "Creative", category: "Creative & Aesthetic", reverseScored: false },
-  { question: "Practical", category: "Practical & Hands-On", reverseScored: false },
-  { question: "Adventurous", category: "Stress-Resistant & Adaptive", reverseScored: false },
-  { question: "Organized", category: "Organized & Detail-Oriented", reverseScored: false },
-  { question: "Empathetic", category: "Empathy & Social Work", reverseScored: false },
-  { question: "Persuasive", category: "Conflict Resolution & Leadership", reverseScored: false },
-  { question: "Detail-oriented", category: "Analytical Thinker", reverseScored: false },
-  { question: "Independent", category: "Stress-Resistant & Adaptive", reverseScored: false },
-  { question: "Innovative", category: "Technology-Oriented", reverseScored: false }
+const enneagramQuestions = [
+  { question: "I choose proper methods to complete tasks regardless of needing additional time.", category: "The Reformer", reverseScored: false },
+  { question: "I become uneasy every time I encounter disorder in my environment.", category: "The Reformer", reverseScored: false },
+  { question: "Self-criticism is a common habit due to my perception of insufficient abilities.", category: "The Loyalist", reverseScored: false },
+  { question: "My approach to life consists of following rules while demanding similar behavior from others.", category: "The Reformer", reverseScored: false },
+  { question: "My greatest sense of happiness emerges when I assist other people.", category: "The Helper", reverseScored: false },
+  { question: "Most of my choices prioritize help for others above what I need.", category: "The Helper", reverseScored: false },
+  { question: "The request for help from others creates a difficult situation because I find it hard to decline their requests.", category: "The Helper", reverseScored: false },
+  { question: "The way I show kindness to others makes me sad when they fail to recognize its value.", category: "The Helper", reverseScored: false },
+  { question: "I dedicate myself to success as well as the respect of others.", category: "The Achiever", reverseScored: false },
+  { question: "Achieving my goals makes me feel highly honored.", category: "The Achiever", reverseScored: false },
+  { question: "My anxiety stems from the apprehension I have about how people perceive me.", category: "The Loyalist", reverseScored: false },
+  { question: "People perceive me as providing the highest level of expertise in my profession.", category: "The Achiever", reverseScored: false },
+  { question: "I frequently notice myself apart from the way most people live their lives.", category: "The Individualist", reverseScored: false },
+  { question: "I experience my emotions with great power and perceptiveness.", category: "The Individualist", reverseScored: false },
+  { question: "My passion is discovering original methods to show myself to the world.", category: "The Individualist", reverseScored: false },
+  { question: "Others have a challenge understanding me on occasion.", category: "The Individualist", reverseScored: false },
+  { question: "I take pleasure in embracing new information along with analyzing situations in depth.", category: "The Investigator", reverseScored: false },
+  { question: "I require personal time for recuperation after spending time with others.", category: "The Investigator", reverseScored: false },
+  { question: "I watch others first before entering into social discussions.", category: "The Investigator", reverseScored: false },
+  { question: "Sharing inner emotions stands as something I avoid with other people.", category: "The Investigator", reverseScored: false },
+  { question: "A disorder of thought directs me toward considering potential failures in different circumstances.", category: "The Loyalist", reverseScored: false },
+  { question: "I need a strategy in place because unexpected situations can occur.", category: "The Loyalist", reverseScored: false },
+  { question: "I seek guidance and support from the reliable people in my life.", category: "The Loyalist", reverseScored: false },
+  { question: "Anxiety builds within me whenever an uncertain situation faces me.", category: "The Loyalist", reverseScored: false },
+  { question: "I always seek out fresh experiences as well as new adventures.", category: "The Enthusiast", reverseScored: false },
+  { question: "My high need for stimulation makes me seek out pleasurable experiences.", category: "The Enthusiast", reverseScored: false },
+  { question: "I choose to concentrate on hopeful things instead of letting problems disturb my thoughts.", category: "The Enthusiast", reverseScored: false },
+  { question: "When needed I defend myself together with defending others.", category: "The Challenger", reverseScored: false },
+  { question: "Others make it difficult for me to handle when they control my actions.", category: "The Challenger", reverseScored: false },
+  { question: "I express my thoughts to people regardless of their disagreement with me.", category: "The Challenger", reverseScored: false },
+  { question: "Independence and personal strength is what I wish to demonstrate.", category: "The Challenger", reverseScored: false },
+  { question: "I make an effort to maintain peaceful relations by staying out of disputes.", category: "The Peacemaker", reverseScored: false },
+  { question: "When others desire to stay clear of disagreements I follow their lead rather than starting an argument.", category: "The Peacemaker", reverseScored: false },
+  { question: "The state of pure happiness comes when all those around me maintain friendly relationships with one another.", category: "The Peacemaker", reverseScored: false },
+  { question: "I avoid dealing with serious as well as negative emotions at times.", category: "The Enthusiast", reverseScored: false }
 ];
 
-const seedCareerTest = async () => {
+
+
+
+
+const seedEnneagramTest = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
@@ -268,17 +339,17 @@ const seedCareerTest = async () => {
     });
     console.log('Connected to MongoDB');
 
-    await CareerQuestion.deleteMany({});
-    console.log('Cleared existing Career Aptitude questions');
+    await EnneagramQuestion.deleteMany({});
+    console.log('Cleared existing Enneagram test questions');
 
-    await CareerQuestion.insertMany(careerQuestions);
-    console.log('Career Aptitude questions seeded successfully');
+    await EnneagramQuestion.insertMany(enneagramQuestions);
+    console.log('Enneagram test questions seeded successfully');
 
     mongoose.disconnect();
   } catch (error) {
-    console.error('Error seeding Career Aptitude questions:', error);
+    console.error('Error seeding Enneagram test questions:', error);
     process.exit(1);
   }
 };
 
-seedCareerTest();
+seedEnneagramTest();
