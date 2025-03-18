@@ -9,7 +9,17 @@ const careerAptitudeSchema = new mongoose.Schema({
   category: {
     type: String,
     required: true,
-    enum: ['Analytical', 'Creative', 'Leadership', 'Technical', 'Organized', 'Empathy', 'Practical', 'Communication', 'Adventurous', 'Persuasive'], // Add 'Persuasive' here
+    enum: [
+      'Analytical Thinker',
+      'Conflict Resolution & Leadership',
+      'Practical & Hands-On',
+      'Communication & Language',
+      'Technology-Oriented',
+      'Organized & Detail-Oriented',
+      'Creative & Aesthetic',
+      'Empathy & Social Work',
+      'Stress-Resistant & Adaptive',
+    ], 
   },
   reverseScored: {
     type: Boolean,

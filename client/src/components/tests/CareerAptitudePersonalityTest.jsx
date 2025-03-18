@@ -81,14 +81,14 @@ const CareerAptitudePersonalityTest = () => {
     const payload = {
       answers: questions
         .map((q) => ({
-          questionId: String(q._id), 
+          questionId: String(q._id),
           score: answers[q._id] ?? 0,
         }))
-        .filter((ans) => ans.score !== null), 
+        .filter((ans) => ans.score !== null),
 
       survey: {
         ...surveyAnswers,
-        genres: [...new Set(surveyAnswers.genres)], 
+        genres: [...new Set(surveyAnswers.genres)],
       },
     };
 
@@ -131,6 +131,8 @@ const CareerAptitudePersonalityTest = () => {
             .map((question) => (
               <div key={question._id} className="bg-white p-6 rounded-lg shadow-md mb-4">
                 <p className="text-lg font-semibold">{question.question}</p>
+                <p className="text-sm text-gray-500">{question.category}</p>
+                <p className="text-sm text-gray-500">{question.details}</p> {/* Category details here */}
                 <div className="flex justify-center mt-4 space-x-4">
                   <span className="text-gray-500">Strongly Disagree</span>
                   {[...Array(5)].map((_, i) => (

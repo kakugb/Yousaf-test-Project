@@ -222,34 +222,45 @@
 
 // seedMBTI();
 
-require('dotenv').config(); 
+require('dotenv').config();
 const mongoose = require('mongoose');
-const CareerAptitudeQuestion = require('./models/CareerAptitudePersonalityTest.js'); // Ensure correct filename here
+const CareerQuestion = require('./models/CareerAptitudePersonalityTest.js'); // Ensure this model is correct
 
-const careerAptitudeQuestions = [
-  { question: "Handling numerical data along with statistical information brings me satisfaction.", category: "Analytical", reverseScored: false },
-  { question: "Conflicts present no challenge to me. I specialize in conflict resolution.", category: "Leadership", reverseScored: false },
-  { question: "Physical work tasks appeal to me more than theoretical assignments do.", category: "Practical", reverseScored: false },
-  { question: "I perform well when needed to address groups publicly.", category: "Communication", reverseScored: false },
-  { question: "I focus intensely on every detail that comes my way.", category: "Analytical", reverseScored: false },
-  { question: "I possess creativity when solving problems.", category: "Creative", reverseScored: false },
-  { question: "I enjoy collaborating with others.", category: "Empathy", reverseScored: false },
-  { question: "I have demonstrated success in keeping my time under effective control.", category: "Organized", reverseScored: false },
-  { question: "I have the ability to adjust myself successfully in unfamiliar environments.", category: "Adventurous", reverseScored: false },
-  { question: "I have strong writing skills.", category: "Communication", reverseScored: false },
-  { question: "I am proficient with technology.", category: "Technical", reverseScored: false },
-  { question: "I enjoy leading projects.", category: "Leadership", reverseScored: false },
-  { question: "I am empathetic towards others.", category: "Empathy", reverseScored: false },
-  { question: "I handle stress well.", category: "Adventurous", reverseScored: false },
-  { question: "I am organized in my work.", category: "Organized", reverseScored: false },
-  { question: "I enjoy learning new languages.", category: "Creative", reverseScored: false },
-  { question: "I am mechanically inclined.", category: "Technical", reverseScored: false },
-  { question: "My perception of aesthetic quality is strong.", category: "Creative", reverseScored: false },
-  { question: "I am persuasive in discussions.", category: "Persuasive", reverseScored: false },
-  { question: "I enjoy researching complex topics.", category: "Analytical", reverseScored: false },
+const careerQuestions = [
+  { question: "Handling numerical data along with statistical information brings me satisfaction.", category: "Analytical Thinker", reverseScored: false },
+  { question: "Conflicts present no challenge to me. I specialize in conflict resolution.", category: "Conflict Resolution & Leadership", reverseScored: false },
+  { question: "Physical work tasks appeal to me more than theoretical assignments do.", category: "Practical & Hands-On", reverseScored: false },
+  { question: "I perform well when needed to address groups publicly.", category: "Communication & Language", reverseScored: false },
+  { question: "I focus intensely on every detail that comes my way.", category: "Analytical Thinker", reverseScored: false },
+  { question: "I possess creativity when solving problems.", category: "Creative & Aesthetic", reverseScored: false },
+  { question: "I enjoy collaborating with others.", category: "Empathy & Social Work", reverseScored: false },
+  { question: "I have demonstrated success in keeping my time under effective control.", category: "Organized & Detail-Oriented", reverseScored: false },
+  { question: "I have the ability to adjust myself successfully in unfamiliar environments.", category: "Stress-Resistant & Adaptive", reverseScored: false },
+  { question: "I have strong writing skills.", category: "Communication & Language", reverseScored: false },
+  { question: "I am proficient with technology.", category: "Technology-Oriented", reverseScored: false },
+  { question: "I enjoy leading projects.", category: "Conflict Resolution & Leadership", reverseScored: false },
+  { question: "I am empathetic towards others.", category: "Empathy & Social Work", reverseScored: false },
+  { question: "I handle stress well.", category: "Stress-Resistant & Adaptive", reverseScored: false },
+  { question: "I am organized in my work.", category: "Organized & Detail-Oriented", reverseScored: false },
+  { question: "I enjoy learning new languages.", category: "Communication & Language", reverseScored: false },
+  { question: "I am mechanically inclined.", category: "Practical & Hands-On", reverseScored: false },
+  { question: "My perception of aesthetic quality is strong.", category: "Creative & Aesthetic", reverseScored: false },
+  { question: "I am persuasive in discussions.", category: "Conflict Resolution & Leadership", reverseScored: false },
+  { question: "I enjoy researching complex topics.", category: "Analytical Thinker", reverseScored: false },
+  
+  { question: "Analytical", category: "Analytical Thinker", reverseScored: false },
+  { question: "Creative", category: "Creative & Aesthetic", reverseScored: false },
+  { question: "Practical", category: "Practical & Hands-On", reverseScored: false },
+  { question: "Adventurous", category: "Stress-Resistant & Adaptive", reverseScored: false },
+  { question: "Organized", category: "Organized & Detail-Oriented", reverseScored: false },
+  { question: "Empathetic", category: "Empathy & Social Work", reverseScored: false },
+  { question: "Persuasive", category: "Conflict Resolution & Leadership", reverseScored: false },
+  { question: "Detail-oriented", category: "Analytical Thinker", reverseScored: false },
+  { question: "Independent", category: "Stress-Resistant & Adaptive", reverseScored: false },
+  { question: "Innovative", category: "Technology-Oriented", reverseScored: false }
 ];
 
-const seedCareerAptitude = async () => {
+const seedCareerTest = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
@@ -257,10 +268,10 @@ const seedCareerAptitude = async () => {
     });
     console.log('Connected to MongoDB');
 
-    await CareerAptitudeQuestion.deleteMany({});
+    await CareerQuestion.deleteMany({});
     console.log('Cleared existing Career Aptitude questions');
 
-    await CareerAptitudeQuestion.insertMany(careerAptitudeQuestions);
+    await CareerQuestion.insertMany(careerQuestions);
     console.log('Career Aptitude questions seeded successfully');
 
     mongoose.disconnect();
@@ -270,5 +281,4 @@ const seedCareerAptitude = async () => {
   }
 };
 
-seedCareerAptitude();
-
+seedCareerTest();

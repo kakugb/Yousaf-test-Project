@@ -1,55 +1,101 @@
-import React from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
-import { FaRedo } from 'react-icons/fa';
+import React, { useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { FaRedo } from "react-icons/fa";
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
+import { Pie } from "react-chartjs-2";
+
+ChartJS.register(ArcElement, Tooltip, Legend);
 
 const CareerAptitudeResultPage = () => {
   const { state } = useLocation();
   const navigate = useNavigate();
 
+  // Use effect to navigate after the component is mounted
+  useEffect(() => {
+    if (!state || !state.totals || !state.result) {
+      navigate("/CareerAptitudePersonalitytest"); // Navigate only when there is an issue
+    }
+  }, [state, navigate]);
+
   if (!state || !state.totals || !state.result) {
-    navigate("/CareerAptitudePersonalitytest");
-    return null;
+    return null; // Return nothing while navigating
   }
 
-  const { totals, result } = state;
+  const { totals, result, highestCategory } = state;
+
+  // Prepare data for the Pie chart
+  const data = {
+    labels: [
+      "Analytical", "Creative", "Leadership", "Technical", 
+      "Organized", "Empathy", "Practical", "Communication", 
+      "Adventurous", "Persuasive"
+    ], // Labels for the Pie chart
+    datasets: [
+      {
+        data: [
+          totals["Analytical Thinker"],
+          totals["Creative & Aesthetic"],
+          totals["Conflict Resolution & Leadership"],
+          totals["Technology-Oriented"],
+          totals["Organized & Detail-Oriented"],
+          totals["Empathy & Social Work"],
+          totals["Practical & Hands-On"],
+          totals["Communication & Language"],
+          totals["Adventurous"],
+          totals["Persuasive"]
+        ], // Passing the corresponding scores for each trait
+        backgroundColor: [
+          "#F87171", "#60A5FA", "#34D399", "#FBBF24", 
+          "#7C3AED", "#10B981", "#F97316", "#4B5563", 
+          "#F59E0B", "#D1D5DB"
+        ], // Different colors for the traits
+        hoverOffset: 4,
+      },
+    ],
+  };
 
   return (
     <div className="bg-gray-50 min-h-screen flex flex-col">
       {/* Header Section */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-500 text-white py-10 text-center shadow-md rounded-b-xl">
-        <p className="text-4xl font-extrabold uppercase">Your Career Aptitude Result</p>
-        <p className="text-lg mt-3 font-medium">{result.strengths}</p>
+        <p className="text-4xl font-extrabold uppercase">Your Career Aptitude Result: {highestCategory}</p>
+        <p className="text-lg mt-3 font-medium">{result.recommendations}</p>
       </div>
 
       {/* Main Content */}
-      <div className="max-w-6xl mx-auto p-8 mt-8 bg-white rounded-xl shadow-lg flex flex-col lg:flex-row">
-        {/* Left Side: Scores */}
-        <div className="w-full lg:w-1/2 flex flex-col items-center p-6 border-r border-gray-300">
+      <div className="max-w-7xl mx-auto p-8 mt-8 bg-white rounded-xl shadow-lg flex flex-col lg:flex-row gap-8">
+        {/* Left Side: Chart */}
+        <div className="w-full lg:w-1/2 flex flex-col items-center p-6 border-r border-gray-300 bg-white rounded-lg shadow-md">
           <h2 className="text-2xl font-bold text-blue-700 mb-6">Your Trait Scores</h2>
-          <ul className="space-y-2 text-gray-600">
-            {Object.entries(totals).map(([trait, score]) => (
-              <li key={trait} className="text-md">
-                <span className="font-bold">{trait}:</span> {score} / 20
-              </li>
-            ))}
-          </ul>
+
+          {/* Pie Chart */}
+          <div className="w-80 h-80 lg:w-96 lg:h-96 mt-6 lg:mt-0">
+            <Pie data={data} />
+          </div>
         </div>
 
         {/* Right Side: Career Insights */}
-        <div className="w-full lg:w-1/2 lg:pl-10 mt-8 lg:mt-0 flex flex-col">
-          <h2 className="text-3xl font-bold text-blue-700">{result.name}</h2>
-          <p className="text-gray-700 mt-3 leading-relaxed">{result.description}</p>
-
-          <div className="mt-6 p-4 bg-blue-50 border-l-4 border-blue-300 rounded-lg">
-            <h3 className="text-xl font-semibold text-blue-700">Strengths</h3>
-            <p className="text-gray-700 mt-1">{result.strengths}</p>
+        <div className="w-full lg:w-1/2 lg:pl-10 flex flex-col">
+          {/* Career Insights for the Highest Category */}
+          <div className="bg-gradient-to-r from-blue-600 to-blue-500 text-white p-6 rounded-lg shadow-md mb-6">
+            <h4 className="text-lg font-semibold">{result.details}</h4>
+            <p className="text-gray-200 mt-2">{result.description}</p>
           </div>
 
-          <div className="mt-4 p-4 bg-green-50 border-l-4 border-green-300 rounded-lg">
-            <h3 className="text-xl font-semibold text-green-700">Areas for Growth</h3>
-            <p className="text-gray-700 mt-1">{result.growth}</p>
+          {/* Scores Section */}
+          <div className="bg-gray-100 p-6 rounded-lg shadow-md mb-8 mt-6">
+            <h3 className="text-2xl font-bold text-gray-700 mb-6">Your Scores</h3>
+            <ul className="space-y-4 text-gray-600">
+              {Object.entries(totals).map(([trait, score]) => (
+                <li key={trait} className="flex items-center justify-between text-md">
+                  <span className="font-semibold">{trait}</span>
+                  <span className="font-bold text-blue-600">{score} / 20</span>
+                </li>
+              ))}
+            </ul>
           </div>
 
+          {/* Retake Button */}
           <button
             className="flex items-center justify-center bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-full mt-8 hover:shadow-md transition duration-300"
             onClick={() => navigate("/career-aptitude-test")}
