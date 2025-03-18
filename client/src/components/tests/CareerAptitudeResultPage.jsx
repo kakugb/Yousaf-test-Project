@@ -82,18 +82,6 @@ const CareerAptitudeResultPage = () => {
             <p className="text-gray-200 mt-2">{result.description}</p>
           </div>
 
-          {/* Scores Section */}
-          <div className="bg-gray-100 p-6 rounded-lg shadow-md mb-8 mt-6">
-            <h3 className="text-2xl font-bold text-gray-700 mb-6">Your Scores</h3>
-            <ul className="space-y-4 text-gray-600">
-              {Object.entries(totals).map(([trait, score]) => (
-                <li key={trait} className="flex items-center justify-between text-md">
-                  <span className="font-semibold">{trait}</span>
-                  <span className="font-bold text-blue-600">{score} / 20</span>
-                </li>
-              ))}
-            </ul>
-          </div>
 
           {/* Retake Button */}
           <button
