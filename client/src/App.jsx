@@ -14,6 +14,7 @@ import MbtiResultPage from './components/tests/MbtiResultPage';
 import MbtiPersonalityTest from './components/tests/MbtiPersonalityTest';
 import CareerAptitudePersonalityTest from './components/tests/CareerAptitudePersonalityTest';
 import CareerAptitudeResultPage from './components/tests/CareerAptitudeResultPage';
+import EnneagramResultPage from './components/tests/EnneagramResultPage';
 
 
    const App = () => {
@@ -24,7 +25,6 @@ import CareerAptitudeResultPage from './components/tests/CareerAptitudeResultPag
                    <Routes>
                        <Route path="/" element={<Home />} />
                        <Route path="/personality" element={<PersonalityType />} />
-                       <Route path='/EnneagramPersonalityTest' element={<EnneagramPersonalityTest/>}/>
                        <Route path='/DISCPersonalityTest'  element={<DISCPersonalityTest/>}/>
                        <Route path='/BIGFIVEPersonalityTest' element={<BigFivePersonalityTest/>}/>
                        <Route path='/MBTIPersonalityTest'  element={<MbtiPersonalityTest/>}/>
@@ -33,6 +33,8 @@ import CareerAptitudeResultPage from './components/tests/CareerAptitudeResultPag
                        <Route path='/mbti-result' element={<MbtiResultPage/>}/>
                        <Route path='/CareerAptitudePersonalitytest' element={<CareerAptitudePersonalityTest/>}/>
                        <Route path='/career-aptitude-result' element={<CareerAptitudeResultPage/>}  />
+                       <Route path='/EnneagramPersonalityTest' element={<EnneagramPersonalityTest/>}/>
+                       <Route path="/enneagram-result" element={<EnneagramResultPage />} />
                    </Routes>
                </main>
            </Router>
