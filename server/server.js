@@ -7,6 +7,7 @@ const bigFiveRoutes = require('./routes/bigfiveRoutes.js');
 const mbtiRoutes = require('./routes/mbtiRoutes.js');
 const careerAptitudeRoutes = require('./routes/aptitudeRoutes.js');
 const enneagramRoutes = require('./routes/enneagramRoute.js');
+const emotionalIntelligenceRoutes = require('./routes/emotionalRoutes.js');
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -24,7 +25,7 @@ connectDB()
     app.use('/api/mbti', mbtiRoutes);
     app.use('/api/careeraptitude', careerAptitudeRoutes);
     app.use('/api/enneagram', enneagramRoutes);
-    
+    app.use('/api/emotional-intelligence', emotionalIntelligenceRoutes);
     // Start server only after DB is connected
     app.listen(PORT, () => {
       console.log(`🚀 Server running on port ${PORT}`);

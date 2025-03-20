@@ -285,53 +285,113 @@
 
 
 
+// require('dotenv').config();
+// const mongoose = require('mongoose');
+// const EnneagramQuestion = require('./models/EnneagramPersonalityTest.js'); 
+
+// const enneagramQuestions = [
+//   { question: "I choose proper methods to complete tasks regardless of needing additional time.", category: "The Reformer", reverseScored: false },
+//   { question: "I become uneasy every time I encounter disorder in my environment.", category: "The Reformer", reverseScored: false },
+//   { question: "Self-criticism is a common habit due to my perception of insufficient abilities.", category: "The Loyalist", reverseScored: false },
+//   { question: "My approach to life consists of following rules while demanding similar behavior from others.", category: "The Reformer", reverseScored: false },
+//   { question: "My greatest sense of happiness emerges when I assist other people.", category: "The Helper", reverseScored: false },
+//   { question: "Most of my choices prioritize help for others above what I need.", category: "The Helper", reverseScored: false },
+//   { question: "The request for help from others creates a difficult situation because I find it hard to decline their requests.", category: "The Helper", reverseScored: false },
+//   { question: "The way I show kindness to others makes me sad when they fail to recognize its value.", category: "The Helper", reverseScored: false },
+//   { question: "I dedicate myself to success as well as the respect of others.", category: "The Achiever", reverseScored: false },
+//   { question: "Achieving my goals makes me feel highly honored.", category: "The Achiever", reverseScored: false },
+//   { question: "My anxiety stems from the apprehension I have about how people perceive me.", category: "The Loyalist", reverseScored: false },
+//   { question: "People perceive me as providing the highest level of expertise in my profession.", category: "The Achiever", reverseScored: false },
+//   { question: "I frequently notice myself apart from the way most people live their lives.", category: "The Individualist", reverseScored: false },
+//   { question: "I experience my emotions with great power and perceptiveness.", category: "The Individualist", reverseScored: false },
+//   { question: "My passion is discovering original methods to show myself to the world.", category: "The Individualist", reverseScored: false },
+//   { question: "Others have a challenge understanding me on occasion.", category: "The Individualist", reverseScored: false },
+//   { question: "I take pleasure in embracing new information along with analyzing situations in depth.", category: "The Investigator", reverseScored: false },
+//   { question: "I require personal time for recuperation after spending time with others.", category: "The Investigator", reverseScored: false },
+//   { question: "I watch others first before entering into social discussions.", category: "The Investigator", reverseScored: false },
+//   { question: "Sharing inner emotions stands as something I avoid with other people.", category: "The Investigator", reverseScored: false },
+//   { question: "A disorder of thought directs me toward considering potential failures in different circumstances.", category: "The Loyalist", reverseScored: false },
+//   { question: "I need a strategy in place because unexpected situations can occur.", category: "The Loyalist", reverseScored: false },
+//   { question: "I seek guidance and support from the reliable people in my life.", category: "The Loyalist", reverseScored: false },
+//   { question: "Anxiety builds within me whenever an uncertain situation faces me.", category: "The Loyalist", reverseScored: false },
+//   { question: "I always seek out fresh experiences as well as new adventures.", category: "The Enthusiast", reverseScored: false },
+//   { question: "My high need for stimulation makes me seek out pleasurable experiences.", category: "The Enthusiast", reverseScored: false },
+//   { question: "I choose to concentrate on hopeful things instead of letting problems disturb my thoughts.", category: "The Enthusiast", reverseScored: false },
+//   { question: "When needed I defend myself together with defending others.", category: "The Challenger", reverseScored: false },
+//   { question: "Others make it difficult for me to handle when they control my actions.", category: "The Challenger", reverseScored: false },
+//   { question: "I express my thoughts to people regardless of their disagreement with me.", category: "The Challenger", reverseScored: false },
+//   { question: "Independence and personal strength is what I wish to demonstrate.", category: "The Challenger", reverseScored: false },
+//   { question: "I make an effort to maintain peaceful relations by staying out of disputes.", category: "The Peacemaker", reverseScored: false },
+//   { question: "When others desire to stay clear of disagreements I follow their lead rather than starting an argument.", category: "The Peacemaker", reverseScored: false },
+//   { question: "The state of pure happiness comes when all those around me maintain friendly relationships with one another.", category: "The Peacemaker", reverseScored: false },
+//   { question: "I avoid dealing with serious as well as negative emotions at times.", category: "The Enthusiast", reverseScored: false }
+// ];
+
+// const seedEnneagramTest = async () => {
+//   try {
+//     await mongoose.connect(process.env.MONGO_URI, {
+//       useNewUrlParser: true,
+//       useUnifiedTopology: true,
+//     });
+//     console.log('Connected to MongoDB');
+
+//     await EnneagramQuestion.deleteMany({});
+//     console.log('Cleared existing Enneagram test questions');
+
+//     await EnneagramQuestion.insertMany(enneagramQuestions);
+//     console.log('Enneagram test questions seeded successfully');
+
+//     mongoose.disconnect();
+//   } catch (error) {
+//     console.error('Error seeding Enneagram test questions:', error);
+//     process.exit(1);
+//   }
+// };
+
+// seedEnneagramTest();
+
+
 require('dotenv').config();
 const mongoose = require('mongoose');
-const EnneagramQuestion = require('./models/EnneagramPersonalityTest.js'); 
+const EmotionalIntelligenceQuestion = require('./models/EmotionalPersonalityTest.js');
 
-const enneagramQuestions = [
-  { question: "I choose proper methods to complete tasks regardless of needing additional time.", category: "The Reformer", reverseScored: false },
-  { question: "I become uneasy every time I encounter disorder in my environment.", category: "The Reformer", reverseScored: false },
-  { question: "Self-criticism is a common habit due to my perception of insufficient abilities.", category: "The Loyalist", reverseScored: false },
-  { question: "My approach to life consists of following rules while demanding similar behavior from others.", category: "The Reformer", reverseScored: false },
-  { question: "My greatest sense of happiness emerges when I assist other people.", category: "The Helper", reverseScored: false },
-  { question: "Most of my choices prioritize help for others above what I need.", category: "The Helper", reverseScored: false },
-  { question: "The request for help from others creates a difficult situation because I find it hard to decline their requests.", category: "The Helper", reverseScored: false },
-  { question: "The way I show kindness to others makes me sad when they fail to recognize its value.", category: "The Helper", reverseScored: false },
-  { question: "I dedicate myself to success as well as the respect of others.", category: "The Achiever", reverseScored: false },
-  { question: "Achieving my goals makes me feel highly honored.", category: "The Achiever", reverseScored: false },
-  { question: "My anxiety stems from the apprehension I have about how people perceive me.", category: "The Loyalist", reverseScored: false },
-  { question: "People perceive me as providing the highest level of expertise in my profession.", category: "The Achiever", reverseScored: false },
-  { question: "I frequently notice myself apart from the way most people live their lives.", category: "The Individualist", reverseScored: false },
-  { question: "I experience my emotions with great power and perceptiveness.", category: "The Individualist", reverseScored: false },
-  { question: "My passion is discovering original methods to show myself to the world.", category: "The Individualist", reverseScored: false },
-  { question: "Others have a challenge understanding me on occasion.", category: "The Individualist", reverseScored: false },
-  { question: "I take pleasure in embracing new information along with analyzing situations in depth.", category: "The Investigator", reverseScored: false },
-  { question: "I require personal time for recuperation after spending time with others.", category: "The Investigator", reverseScored: false },
-  { question: "I watch others first before entering into social discussions.", category: "The Investigator", reverseScored: false },
-  { question: "Sharing inner emotions stands as something I avoid with other people.", category: "The Investigator", reverseScored: false },
-  { question: "A disorder of thought directs me toward considering potential failures in different circumstances.", category: "The Loyalist", reverseScored: false },
-  { question: "I need a strategy in place because unexpected situations can occur.", category: "The Loyalist", reverseScored: false },
-  { question: "I seek guidance and support from the reliable people in my life.", category: "The Loyalist", reverseScored: false },
-  { question: "Anxiety builds within me whenever an uncertain situation faces me.", category: "The Loyalist", reverseScored: false },
-  { question: "I always seek out fresh experiences as well as new adventures.", category: "The Enthusiast", reverseScored: false },
-  { question: "My high need for stimulation makes me seek out pleasurable experiences.", category: "The Enthusiast", reverseScored: false },
-  { question: "I choose to concentrate on hopeful things instead of letting problems disturb my thoughts.", category: "The Enthusiast", reverseScored: false },
-  { question: "When needed I defend myself together with defending others.", category: "The Challenger", reverseScored: false },
-  { question: "Others make it difficult for me to handle when they control my actions.", category: "The Challenger", reverseScored: false },
-  { question: "I express my thoughts to people regardless of their disagreement with me.", category: "The Challenger", reverseScored: false },
-  { question: "Independence and personal strength is what I wish to demonstrate.", category: "The Challenger", reverseScored: false },
-  { question: "I make an effort to maintain peaceful relations by staying out of disputes.", category: "The Peacemaker", reverseScored: false },
-  { question: "When others desire to stay clear of disagreements I follow their lead rather than starting an argument.", category: "The Peacemaker", reverseScored: false },
-  { question: "The state of pure happiness comes when all those around me maintain friendly relationships with one another.", category: "The Peacemaker", reverseScored: false },
-  { question: "I avoid dealing with serious as well as negative emotions at times.", category: "The Enthusiast", reverseScored: false }
+const emotionalIntelligenceQuestions = [
+  { question: "I am aware of the emotions which surface within me in the moment.", category: "Emotional Awareness", reverseScored: false },
+  { question: "I possess knowledge about the reasons behind particular emotional experiences I encounter.", category: "Emotional Awareness", reverseScored: false },
+  { question: "My mental state depends on predictable ways that particular life experiences influence it.", category: "Emotional Awareness", reverseScored: false },
+  { question: "Throughout the day, I think about my emotions after certain incidents.", category: "Emotional Awareness", reverseScored: false },
+  { question: "My feelings directly shape the way I behave.", category: "Emotional Awareness", reverseScored: false },
+  { question: "My emotions experience different changes during the hours of the day.", category: "Emotional Awareness", reverseScored: false },
+  
+  { question: "Observation enables me to understand the emotional state of others.", category: "Empathy", reverseScored: false },
+  { question: "My emotions remain alert even though the person remains silent about their negative mood.", category: "Empathy", reverseScored: false },
+  { question: "During discussions, I can recognize the emotional states of other people.", category: "Empathy", reverseScored: false },
+  { question: "Walking into a room allows me to detect the prevailing atmosphere surrounding me.", category: "Empathy", reverseScored: false },
+  { question: "Anyone concealing their emotions reveals their hidden emotions to me.", category: "Empathy", reverseScored: false },
+  { question: "My spoken words produce noticeable effects on emotional responses in other people.", category: "Empathy", reverseScored: false },
+
+  { question: "I stay calm under pressure.", category: "Emotional Regulation", reverseScored: false },
+  { question: "During situations that cause stress I take steps to control my emotions.", category: "Emotional Regulation", reverseScored: false },
+  { question: "I make a point never to express my emotions without careful thought during times of upsetness.", category: "Emotional Regulation", reverseScored: false },
+  { question: "I manage to control my emotions while fighting with others.", category: "Emotional Regulation", reverseScored: false },
+  { question: "Emotional setbacks do not linger on me for long periods of time.", category: "Emotional Regulation", reverseScored: false },
+
+  { question: "My disposition remains positive throughout all obstacles I encounter.", category: "Social Skills and Relationships", reverseScored: false },
+  { question: "The difficult experiences of others generate emotions of empathy within me.", category: "Social Skills and Relationships", reverseScored: false },
+  { question: "I easily sympathize with the emotional experiences of other people.", category: "Social Skills and Relationships", reverseScored: false },
+  { question: "I understand others' perspectives.", category: "Social Skills and Relationships", reverseScored: false },
+  { question: "I provide assistance to troubled individuals.", category: "Social Skills and Relationships", reverseScored: false },
+  { question: "Happy feelings overcome me when others reach their accomplishments.", category: "Social Skills and Relationships", reverseScored: false },
+
+  { question: "I am satisfied with everything in my life right now.", category: "Self-Motivation", reverseScored: false },
+  { question: "I manage to keep my professional and personal aspects separate.", category: "Self-Motivation", reverseScored: false },
+  { question: "I dedicate time to pursue activities, which bring happiness in my life.", category: "Self-Motivation", reverseScored: false },
+  { question: "I handle daily stresses effectively.", category: "Self-Motivation", reverseScored: false },
+  { question: "I enjoy meaningful connections with other people in my life.", category: "Self-Motivation", reverseScored: false },
+  { question: "I perform routine care for my physical wellbeing.", category: "Self-Motivation", reverseScored: false }
 ];
 
-
-
-
-
-const seedEnneagramTest = async () => {
+const seedEmotionalIntelligenceTest = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
@@ -339,17 +399,17 @@ const seedEnneagramTest = async () => {
     });
     console.log('Connected to MongoDB');
 
-    await EnneagramQuestion.deleteMany({});
-    console.log('Cleared existing Enneagram test questions');
+    await EmotionalIntelligenceQuestion.deleteMany({});
+    console.log('Cleared existing EI test questions');
 
-    await EnneagramQuestion.insertMany(enneagramQuestions);
-    console.log('Enneagram test questions seeded successfully');
+    await EmotionalIntelligenceQuestion.insertMany(emotionalIntelligenceQuestions);
+    console.log('EI test questions seeded successfully');
 
     mongoose.disconnect();
   } catch (error) {
-    console.error('Error seeding Enneagram test questions:', error);
+    console.error('Error seeding EI test questions:', error);
     process.exit(1);
   }
 };
 
-seedEnneagramTest();
+seedEmotionalIntelligenceTest();
