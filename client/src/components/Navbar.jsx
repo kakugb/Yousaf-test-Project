@@ -237,6 +237,13 @@
 // };
 
 // export default Navbar;
+
+import React, { useEffect, useState } from "react";
+import { FaChevronDown, FaChevronUp, FaBars, FaTimes } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaYoutube, FaLinkedinIn, FaPinterestP } from "react-icons/fa";
+import blogImage from "../assets/blogsImg.jpg";
+
 const testimonials = [
   {
     name: "Carlos Aslaona",
@@ -261,10 +268,42 @@ const testimonials = [
     type: "Defender - ISFJ",
     review: "This is my first review about the personality affairs website.",
     country: "🇦🇺"
+  },
+  {
+    name: "Carlos Aslaona",
+    type: "Defender - ISFJ",
+    review: "This is my first review about the personality affairs website.",
+    country: "🇩🇪"
+  },
+  {
+    name: "Carlos Aslaona",
+    type: "Defender - ISFJ",
+    review: "This is my first review about the personality affairs website.",
+    country: "🇫🇷"
   }
 ];
-import React, { useEffect, useState } from "react";
-import { FaChevronDown, FaChevronUp, FaBars, FaTimes } from "react-icons/fa";
+const blogPosts = [
+  {
+    date: "POSTED 21 FEBRUARY 2025",
+    title: "Does Your Myers-Briggs Personality Affect Job Interview Success?",
+    image: blogImage
+  },
+  {
+    date: "POSTED 21 FEBRUARY 2025",
+    title: "Does Your Myers-Briggs Personality Affect Job Interview Success?",
+    image: blogImage
+  },
+  {
+    date: "POSTED 21 FEBRUARY 2025",
+    title: "Does Your Myers-Briggs Personality Affect Job Interview Success?",
+    image: blogImage
+  },
+  {
+    date: "POSTED 21 FEBRUARY 2025",
+    title: "Does Your Myers-Briggs Personality Affect Job Interview Success?",
+    image: blogImage
+  }
+];
 
 const Navbar = () => {
 
@@ -273,13 +312,14 @@ const Navbar = () => {
   const [dropdown, setDropdown] = useState(null);
   const [mobileMenu, setMobileMenu] = useState(false);
   const [userMenu, setUserMenu] = useState(false);
-
+  const itemsPerSlide = 4;
   const toggleDropdown = (menu) => {
     setDropdown(dropdown === menu ? null : menu);
   };
+ 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % Math.ceil(testimonials.length / itemsPerSlide));
     }, 5000);
     return () => clearInterval(interval);
   }, []);
@@ -383,25 +423,25 @@ const Navbar = () => {
       )}
     </nav>
     <section className="relative w-full flex flex-col md:flex-row items-center bg-white">
-    {/* Left side - Text Content */}
-    <div className="w-full md:w-1/2 bg-blue-900 text-white p-8 md:p-16 rounded-tr-full">
-      <h1 className="text-4xl md:text-5xl font-bold">Discover Your</h1>
-      <h1 className="text-4xl md:text-5xl font-bold text-blue-300">True Self</h1>
-      <p className="mt-4 text-lg md:text-xl">
-        Reliable, in-depth personality insights for growth
-        <br /> and collaboration
-      </p>
-    </div>
-    
-    {/* Right side - Image */}
-    <div className="w-full md:w-1/2 flex justify-center items-center p-8">
-      <img src="/your-image.png" alt="Personality Test" className="max-w-full h-auto" />
-    </div>
-  </section>
-  <div className="bg-blue-300 py-12 text-center">
+        {/* Left side - Text Content */}
+        <div className="w-full md:w-1/2 bg-blue-900 text-white p-8 md:p-16 rounded-tr-full flex flex-col justify-center h-full">
+          <h1 className="text-4xl md:text-5xl font-bold">Discover Your</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-blue-300">True Self</h1>
+          <p className="mt-4 text-lg md:text-xl">
+            Reliable, in-depth personality insights for growth
+            <br /> and collaboration
+          </p>
+        </div>
+        
+        {/* Right side - Image */}
+        <div className="w-full md:w-1/2 flex justify-center items-center p-8">
+          <img src={blogImage} alt="Personality Test" className="w-80 h-64 object-cover rounded-lg" />
+        </div>
+      </section>
+  <div className="py-12 text-center">
       <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Wondering how well we know you?</h2>
       
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8 px-8 md:px-16">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8 px-8 md:px-16 bg-blue-300 py-6">
         {["16 Types Personality", "Enneagram Personality", "DISC Personality", "Career Aptitude", "16 Types Personality", "Enneagram Personality", "DISC Personality"].map((test, index) => (
           <div key={index} className="flex flex-col items-center">
             <div className="w-24 h-24 md:w-32 md:h-32 bg-white rounded-full shadow-lg"></div>
@@ -410,32 +450,34 @@ const Navbar = () => {
         ))}
       </div>
     </div>
-    <section className="bg-yellow-300 py-12 text-center">
+    <section className=" py-12 text-center">
       <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Testimonials</h2>
       <p className="text-lg text-gray-700">Hear from others like you</p>
-      
-      <div className="flex justify-center mt-8 overflow-hidden">
+      <div className="w-full bg-yellow-300 py-8 px-8">
+      <div className="overflow-hidden mt-8 ">
         <div
-          className="w-full max-w-4xl flex transition-transform duration-500 ease-in-out"
+          className="flex transition-transform duration-500 ease-in-out"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="min-w-full p-6">
-              <div className="bg-white p-6 rounded-lg shadow-lg text-center">
-                <h3 className="text-xl font-semibold text-gray-900 flex justify-center items-center gap-2">
-                  {testimonial.name} <span>{testimonial.country}</span>
-                </h3>
-                <p className="text-blue-500 font-medium">{testimonial.type}</p>
-                <p className="mt-2 text-gray-700">{testimonial.review}</p>
-              </div>
+          {Array.from({ length: Math.ceil(testimonials.length / itemsPerSlide) }, (_, i) => (
+            <div key={i} className="flex min-w-full justify-center gap-4">
+              {testimonials.slice(i * itemsPerSlide, (i + 1) * itemsPerSlide).map((testimonial, index) => (
+                <div key={index} className="bg-white p-6 rounded-lg shadow-lg text-center w-1/4">
+                  <h3 className="text-xl font-semibold text-gray-900 flex justify-center items-center gap-2">
+                    {testimonial.name} <span>{testimonial.country}</span>
+                  </h3>
+                  <p className="text-blue-500 font-medium">{testimonial.type}</p>
+                  <p className="mt-2 text-gray-700">{testimonial.review}</p>
+                </div>
+              ))}
             </div>
           ))}
         </div>
       </div>
-      
+      </div>
       {/* Slider Dots */}
       <div className="flex justify-center mt-4">
-        {testimonials.map((_, index) => (
+        {Array.from({ length: Math.ceil(testimonials.length / itemsPerSlide) }).map((_, index) => (
           <div
             key={index}
             className={`w-3 h-3 mx-1 rounded-full ${currentIndex === index ? "bg-gray-900" : "bg-gray-400"}`}
@@ -444,6 +486,65 @@ const Navbar = () => {
         ))}
       </div>
     </section>
+    <section className="py-12 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-900">What's New on Our Blog</h2>
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-8 px-8 md:px-16">
+        {blogPosts.map((post, index) => (
+          <div key={index} className="flex flex-col items-center bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src={post.image} alt="Blog Post" className="w-10/12 h-60 object-cover rounded-lg" />
+            <p className="mt-4 text-gray-500 text-sm">{post.date}</p>
+            <h3 className="mt-2 text-lg font-semibold text-blue-700 cursor-pointer flex items-center group">
+              {post.title} 
+              <FaArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-2" />
+            </h3>
+          </div>
+        ))}
+      </div>
+    </section>
+    <footer className="bg-blue-900 text-white py-8 px-6 md:px-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left">
+        {/* Subscribe Section */}
+        <div>
+          <h3 className="text-lg font-semibold">Subscribe for Updates</h3>
+          <div className="mt-2 flex justify-center md:justify-start ">
+            <input 
+              type="email" 
+              placeholder="Type your email" 
+              className="p-2 rounded-l-md text-gray-800 focus:outline-none bg-white"
+            />
+            <button className="bg-blue-400 text-white px-4 py-2 rounded-r-md font-semibold">Submit</button>
+          </div>
+        </div>
+
+        {/* Links Section */}
+        <div>
+          <h3 className="text-lg font-semibold">Blogs</h3>
+          <ul className="mt-2 space-y-2">
+            <li><a href="#" className="hover:underline">About Us</a></li>
+            <li><a href="#" className="hover:underline">Privacy Policy</a></li>
+            <li><a href="#" className="hover:underline">Contact Us</a></li>
+          </ul>
+        </div>
+
+        {/* Social Media Section */}
+        <div className="text-center md:text-right">
+          <h3 className="text-lg font-semibold">Follow Us</h3>
+          <div className="mt-2 flex justify-center md:justify-end space-x-3">
+            <a href="#" className="bg-white text-blue-900 p-2 rounded-full"><FaFacebookF /></a>
+            <a href="#" className="bg-white text-blue-900 p-2 rounded-full"><FaTwitter /></a>
+            <a href="#" className="bg-white text-blue-900 p-2 rounded-full"><FaYoutube /></a>
+            <a href="#" className="bg-white text-blue-900 p-2 rounded-full"><FaLinkedinIn /></a>
+            <a href="#" className="bg-white text-blue-900 p-2 rounded-full"><FaPinterestP /></a>
+          </div>
+        </div>
+      </div>
+      
+      {/* Copyright Section */}
+      <div className="text-center mt-6 text-sm">
+        Copyright 2025, PersonalityAffairs. All rights reserved.
+      </div>
+    </footer>
   </>
   );
 };
