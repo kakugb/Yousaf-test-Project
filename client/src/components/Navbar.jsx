@@ -343,10 +343,11 @@ const Navbar = () => {
                     <button className="bg-blue-500 text-white text-[14px] py-2 rounded-md hover:bg-blue-600 w-full font-semibold cursor-pointer">
                       INTJ – Architec
                     </button>
-
+                    <Link to="/intp-blogs">
                     <button className="bg-blue-500 text-white text-[14px] py-2 rounded-md hover:bg-blue-600 w-full font-semibold cursor-pointer">
                       INTP – Logician
                     </button>
+                    </Link>
                     <button className="bg-blue-500 text-white text-[14px] py-2 rounded-md hover:bg-blue-600 w-full font-semibold cursor-pointer">
                       ENTJ – Commander
                     </button>

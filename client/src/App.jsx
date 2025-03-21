@@ -17,6 +17,7 @@ import CareerAptitudeResultPage from './components/tests/CareerAptitudeResultPag
 import EnneagramResultPage from './components/tests/EnneagramResultPage';
 import EmotionalPersonalityTest from './components/tests/EmotionalPersonalityTest';
 import EmotionalResultPage from './components/tests/EmotionalResultPage';
+import INTPBlogs from './components/blogs/INTPBlogs';
 
 
    const App = () => {
@@ -39,6 +40,7 @@ import EmotionalResultPage from './components/tests/EmotionalResultPage';
                        <Route path="/enneagram-result" element={<EnneagramResultPage />} />
                        <Route path='/EmotionalPersonalityTest' element={<EmotionalPersonalityTest/>}/>
                        <Route path='/emotional-result' element={<EmotionalResultPage/>}/>
+                       <Route path='/intp-blogs' element={<INTPBlogs/>}/>
                    </Routes>
                </main>
            </Router>
