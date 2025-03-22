@@ -286,24 +286,92 @@ function INTPBlogs() {
           ref={(el) => (sectionRefs.current['cognitive-functions'] = el)}
           className="mb-12"
         >
-
-
-
-
-
-
-            
-          <h2 className="text-2xl font-semibold mb-4">INTP Cognitive Functions</h2>
-          <p className="text-gray-700">
-            INTPs have a unique stack of cognitive functions that shape how they think and interact with the world:
+         <h1 className="text-3xl font-semibold mb-2">
+            Personality Development Phases
+          </h1>
+          <h2 className="text-2xl font-semibold mb-4">Phase I: Early Life and Growth</h2>
+          <p className="text-black text-lg text-justify mt-6">
+          The dominant function of INTPs, Introverted Thinking (Ti), emerges and differentiates during this phase. In their early years, INTPs frequently use their Ti to concentrate on one or two activities. For example, they could utilize it to become proficient in video games,
+           learn computer programming, improve their grades, or perfect their 5K time. Ti is a Judging function, so INTPs tend to take their lives and themselves very seriously. They are capable of being self-starters from an early age, aiming for excellence in whatever piques their interest.
           </p>
-          <ul className="list-disc pl-5 text-gray-700">
-            <li>Dominant: Introverted Thinking (Ti) - Focus on internal logic and analysis.</li>
-            <li>Auxiliary: Extraverted Intuition (Ne) - Exploring possibilities and ideas.</li>
-            <li>Tertiary: Introverted Sensing (Si) - Relying on past experiences.</li>
-            <li>Inferior: Extraverted Feeling (Fe) - Struggling with emotional expression.</li>
-          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8">Phase II: From Adolescence to Adulthood (Teens to 30s)</h2>
+          <p className="text-black text-lg text-justify mt-2">
+          When their dominant Ti reaches a certain level of consciousness and differentiation, Extraverted Feeling (Fe), the inferior function of INTPs, comes into play and starts to exert more influence on the auxiliary function of extraverted intuition (Ne), which is used and
+           developed more by phase II INTPs, is also becoming more prevalent. To see and comprehend “the big picture,” INTPs frequently become more interested in intellectual and philosophical pursuits during this stage. “.
+          </p>
+
+          <p className="text-black text-lg text-justify mt-6">
+          To develop their Ne, they must open their preconceived notions to the inflow of fresh data. Ne is expansive and extraverted, so INTPs need to experiment with a variety of concepts before they feel secure in their beliefs and identities. Phase II INTPs may therefore find it simpler 
+          to recognize their disbeliefs than their beliefs. Others may suffer from cynicism or nihilism because they fear that they will never discover the whole truth. As a result, it may take INTPs decades or more to ascertain their beliefs about the world, themselves, and their role in it.
+          </p>
+
+          <h2 className="text-2xl font-semibold  mt-8">Phase III: Life’s Later Chapters: 30s, 40s, and Beyond</h2>
+          <p className="text-black text-lg text-justify mt-2">
+          INTPs experience more balance between their dominant Ti and inferior Fe functions if they are lucky enough to enter Phase III. As they learn to consistently and successfully use the strengths of their type, they find that integration and growth happen rather naturally (i.e. their Ti and Ne).
+          </p>
         </section>
+
+        <section
+          id="strengths-weaknesses"
+          ref={(el) => (sectionRefs.current['strengths-weaknesses'] = el)}
+          className="mb-12"
+        >
+          <h2 className="text-2xl font-bold mb-4">Strengths and Weaknesses</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="bg-teal-200 font-bold border-b-4">
+                  <th className="p-3 text-lg font-bold text-black text-center">
+                    Strengths
+                  </th>
+                  <th className="p-3 text-lg font-bold text-black text-center">
+                    Weaknesses
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="bg-white">
+                  <td className="p-3 text-black">Exceptional Analytical Skills</td>
+                  <td className="p-3 text-black">Tendency to Become Disconnected</td>
+                </tr>
+                <tr className="bg-teal-200">
+                  <td className="p-3 text-black">Innovative and Original Thinkers</td>
+                  <td className="p-3 text-black">Potential to Seem Insensitive</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="p-3 text-black">Receptive to New Ideas</td>
+                  <td className="p-3 text-black">Perpetual Dissatisfaction with the Status Quo</td>
+                </tr>
+                <tr className="bg-teal-200">
+                  <td className="p-3 text-black">Deeply Inquisitive</td>
+                  <td className="p-3 text-black">Prone to Analyzing Situations</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="p-3 text-black">Committed to Truth and Integrity</td>
+                  <td className="p-3 text-black">Can Exhibit Impatience</td>
+                </tr>
+                <tr className="bg-teal-200">
+                  <td className="p-3 text-black">Highly Logical and Objective</td>
+                  <td className="p-3 text-black">May Be Difficult to Get to Know</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="p-3 text-black">Proficient in Abstract Thinking</td>
+                  <td className="p-3 text-black">Susceptible to Self-Doubt</td>
+                </tr>
+                <tr className="bg-teal-200">
+                  <td className="p-3 text-black">Autonomous and Self-Reliant</td>
+                  <td className="p-3 text-black">Difficulty Adhering to Rules</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="p-3 text-black">Loyal and Affectionate with Close Relationships</td>
+                  <td className="p-3 text-black">Challenges in Expressing Emotions</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
 
         {/* Section 6: Personal Relationships with INTPs */}
         <section
@@ -311,11 +379,78 @@ function INTPBlogs() {
           ref={(el) => (sectionRefs.current['personal-relationships'] = el)}
           className="mb-12"
         >
-          <h2 className="text-2xl font-semibold mb-4">
-            Personal Relationships with INTPs
-          </h2>
-          <p className="text-gray-700">
-            INTPs value intellectual connection in relationships. They may struggle with emotional intimacy but are loyal and supportive partners when they feel understood. They often enjoy deep conversations and need space to pursue their interests.
+          <h1 className="text-3xl font-bold mb-1">
+            INTP Strengths
+          </h1>
+          <h2 className="text-2xl font-semibold mb-4">Exceptional Analytical Skills</h2>
+          <p className="text-black text-lg">
+          Logicians, or those with the INTP personality type, examine everything they encounter. Because of this, they have a talent for identifying connections and patterns 
+          that other personalities might miss.
+          </p>
+          <blockquote className="border-l-8 border-teal-500 pl-4 italic text-black font-bold text-xl py-10 mt-6 text-justify">
+          “INTPs are defined by their intuitive logic, navigating the world through a lens of abstract reasoning and conceptual analysis.” Carl Jung, 
+          Psychological Types
+          </blockquote>
+
+          <h2 className="text-2xl font-semibold mb-4 mt-6">Exceptional Analytical Skills</h2>
+          <p className="text-black text-lg">
+          These individuals can generate innovative and unconventional ideas that most people would not think of because of their relentless imagination. While not all of these concepts are realistic,
+           INTPs’ ability to think creatively can result in some amazing inventions.
+          </p>
+
+          <h2 className="text-2xl font-semibold mb-4 mt-6">Receptive to New Ideas</h2>
+          <p className="text-black text-lg">
+          Curiosity and an intense desire to learn are what motivate INTPs. They rarely hesitate to change their minds as they gain knowledge, even when it comes to political, religious, and philosophical issues. Individuals with this personality type are generally 
+          open to new concepts, provided that they are intellectually compatible.
+          </p>
+
+          <h2 className="text-2xl font-semibold mb-4 mt-6">Deeply Inquisitive</h2>
+          <p className="text-black text-lg">
+          These individuals are constantly searching for new information. They might become engrossed in geophysics one week and then lose themselves in guitar-building videos the next. When inspiration strikes, INTPs immerse themselves in their new passion and 
+          absorb as much information as they can.
+          </p>
+
+          <h2 className="text-2xl font-semibold mb-4 mt-6">Committed to Truth and Integrity</h2>
+          <p className="text-black text-lg">
+          Truth is important to INTPs. They seek to comprehend what is happening beneath the surface of things rather than finding solace in ideology or conventional wisdom. Because of this, they can be trusted to fight prejudice and false information, even when doing 
+          so is difficult, and they anticipate honesty from others.
+          </p>
+          <h1 className="text-3xl font-bold mb-4 mt-6">INTP Weaknesses</h1>
+          <h2 className="text-2xl font-semibold mb-2">Tendency to Become Disconnected</h2>
+          <p className="text-black text-lg">
+          TEven when they’re with other people, INTP personalities can lose themselves in their thoughts. When they eventually come back with something to say, they might discover that the topic has already been discussed without them. Particularly at big social events, 
+          this can make people with this personality type feel alienated from other people.
+          </p>
+
+          <h2 className="text-2xl font-semibold mb-2">Potential to Seem Insensitive</h2>
+          <p className="text-black text-lg">
+          For INTPs, the solution to a better, happier world lies in reason. They might occasionally undervalue irrational values like emotion, compassion, manners, and tradition. As a result, despite having generally good intentions, these personalities may 
+          unintentionally come across as callous or cruel.
+          </p>
+
+          <h2 className="text-2xl font-semibold mb-4 mt-6">Perpetual Dissatisfaction with the Status Quo</h2>
+          <p className="text-black text-lg">
+          This personality type is unable to stop imagining how things could be better than they are. INTPs are always searching for new challenges to tackle, subjects to learn, and methods to do things. When taken too far, this way of thinking can become debilitating,
+           with these individuals never stopping trying to come up with new ideas instead of consistently attending to their obligations and needs.
+          </p>
+
+          <h2 className="text-2xl font-semibold mb-4 mt-6">Prone to Analyzing Situations</h2>
+          <p className="text-black text-lg">
+          The minds of INTPs are constantly working, even when they are not actively thinking. Although they can occasionally benefit from their quick-witted thoughts, they can also overthink things and become victims of analysis paralysis. INTPs may find it difficult to make a choice or act when this happens
+           because they are too preoccupied with weighing every scenario or viewpoint.
+          </p>
+
+          <h2 className="text-2xl font-semibold mb-4 mt-6">Can Exhibit Impatience</h2>
+          <p className="text-black text-lg">
+          INTP personalities are proud of their expertise and are not afraid to express their opinions. They aren’t always patient, though, when it comes to explaining their reasoning. They might end the conversation with a contemptuous “never mind” if their conversation partner doesn’t follow along or show 
+          enough interest.
+          </p>
+
+          <h2 className="text-2xl font-semibold mb-4 mt-6">Communication Style</h2>
+          <p className="text-black text-lg">
+          INTPs are known for their analytical and thoughtful communication style, emphasizing clarity and logic over small talk and favoring in-depth, idea-driven conversations. Sometimes their speech comes across as unduly technical or detailed because they pick their words carefully to ensure accuracy.
+           Reflective and thoughtful, INTPs give thoughtful answers that might come across as hesitant in hurried discussions because they take their time. They enjoy discussions that push concepts and promote critical thinking, frequently challenging presumptions to gain a deeper understanding. They thrive
+            in intellectual debates. It can be difficult for them to express or deal with feelings because they prioritize logic over emotion, which can result in a communication style that occasionally comes across as aloof or reserved.
           </p>
         </section>
 
@@ -325,16 +460,26 @@ function INTPBlogs() {
           ref={(el) => (sectionRefs.current['intp-careers'] = el)}
           className="mb-12"
         >
-          <h2 className="text-2xl font-semibold mb-4">INTP Careers</h2>
-          <p className="text-gray-700">
-            INTPs thrive in careers that allow them to use their analytical and creative skills. Some suitable careers include:
+          <h1 className="text-3xl font-bold mb-2">
+          Relationships
+          </h1>
+          <h2 className="text-2xl font-bold mb-2">
+          Personal Relationships with INTPs
+          </h2>
+          <p className="text-black text-lg">
+          For the most part, INTPs, who are introverted, prefer to be by themselves. In social situations, introverts must expend energy, in contrast to extroverts who get their energy from interacting with a large number of people.
+           To refuel and regain equilibrium, INTPs may feel that they need to spend time alone after being around a lot of people. With their close family and friends, INTPs are typically gregarious and friendly, but they may be bashful around strangers.
           </p>
-          <ul className="list-disc pl-5 text-gray-700">
-            <li>Scientist</li>
-            <li>Software Developer</li>
-            <li>Philosopher</li>
-            <li>Engineer</li>
-          </ul>
+
+          <p className="text-black text-lg mt-6">
+          INTPs can come across as distant and aloof to others because they value solitude and introspection. People with this personality type occasionally tend to lose sight of the outside world and become absorbed in their thoughts. INTPs value
+           knowledge and intelligence highly and are idea-loving. INTPs are generally laid-back and tolerant in social settings. 
+          </p>
+
+          <p className="text-black text-lg mt-6">
+          They may, however, become uncompromising if their convictions or beliefs are questioned. Given their strong focus on logic, INTPs may find it challenging to refrain from correcting others when they make illogical or nonsensical arguments. 
+          It can also be very challenging to convince INTPs because they rely on their judgment. 
+          </p>
         </section>
 
         {/* Section 8: Famous INTPs */}
@@ -361,9 +506,10 @@ function INTPBlogs() {
           ref={(el) => (sectionRefs.current['tips-interacting'] = el)}
           className="mb-12"
         >
-          <h2 className="text-2xl font-semibold mb-4">
-            Tips for Interacting with INTPs
-          </h2>
+          <h1 className="text-3xl font-semibold mb-4">
+            Personality Development Phases
+          </h1>
+          <h2 className="text-2xl font-semibold mb-4">Phase I: Early Life and Growth</h2>
           <p className="text-gray-700">
             To build a good relationship with an INTP:
           </p>
