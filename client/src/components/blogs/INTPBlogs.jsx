@@ -480,6 +480,60 @@ function INTPBlogs() {
           They may, however, become uncompromising if their convictions or beliefs are questioned. Given their strong focus on logic, INTPs may find it challenging to refrain from correcting others when they make illogical or nonsensical arguments. 
           It can also be very challenging to convince INTPs because they rely on their judgment. 
           </p>
+
+          <h2 className="text-2xl font-bold mb-2 mt-6">
+          Friendships
+          </h2>
+          <p className="text-black text-lg">
+
+          People with the INTP personality type (Logicians) seek support and companionship from their friends, just like everyone else. Nevertheless, I also value intellectual depth. Not everyone will fit their ideal friend profile, but when they do,
+           a bond can form right away, surprising everyone who assumed they had this aloof personality type figured out.
+          </p>
+
+          <h2 className="text-2xl font-bold mb-2 mt-6">
+          Highly Selective
+          </h2>
+          <p className="text-black text-lg">
+          They may avoid socializing for the sake of socializing because they don’t mind the company of their thoughts. It is therefore not always simple to establish a close friendship with these individuals. However, when INTPs do open up, they can 
+          be vivacious, creative friends who never fail to say something novel or intriguing.
+          </p>
+          <p className="text-black text-lg mt-8">
+          Best friends of INTPs typically have a similar enthusiasm for novel concepts, puzzles, and solutions. This personality type does not, however, imply that they only look for friends who share their views. Individuals who are INTPs don’t mind
+           having their opinions challenged; in fact, they greatly admire those who challenge them and keep them alert.
+          </p>
+          <p className="text-black text-lg mt-8">
+          Friendships between INTPs are knowledge-based and supported by the sharing of concepts, theories, and ideas. A mind-bending conversation that lasts until the early hours of the morning is the most thrilling thing to this personality type.
+           People may feel ignored or dismissed if they can’t keep up or if their tastes are very different (don’t discuss celebrities with them). These friends only engage in conversation about subjects that are important to them or with people they already like.
+          </p>
+          <p className="text-black text-lg mt-8">
+          It’s acceptable that not everyone is a fan of INTPs’ intellectual style. The majority of people with this personality type favor having a select group of close friends.
+          </p>
+
+          <h2 className="text-2xl font-bold mb-2 mt-6">
+          The Essence of Friendship
+          </h2>
+          <p className="text-black text-lg">
+          INTPs are usually eager to assist friends who approach them with issues and conundrums. You can rely on these individuals to provide sensible solutions and logical advice, reducing even the most complex situations to a list of advantages and disadvantages. 
+          </p>
+          <p className="text-black text-lg mt-8">
+          When it comes to matters of the heart or emotional support, however, people with this personality type might feel a little out of their element. One of the most important (and challenging) lessons for INTPs to learn about friendship is that sometimes 
+          people just need someone to be there for them, without trying to solve their problems.
+          </p>
+          <p className="text-black text-lg mt-8">
+          Individuals with the INTP personality type typically think that their minds are their strongest suit. Regardless of how novel or revolutionary their ideas may be, friendship can help them see that they have more to offer the world than just their thoughts.
+          </p>
+          <p className="text-black text-lg mt-8">
+          Friends can anticipate stimulating discussions, candid honesty, and original viewpoints on a broad range of subjects when they are with INTPs. Despite their small number, they cherish and carefully cultivate their friendships. People with the INTP 
+          personality type are remarkably adept at seeing past outward manifestations of a person’s social standing or appearance and recognizing their inner potential. These people can encourage their friends to defy expectations, disregard fads, and discover their voices in a society that is fixated on fitting in.
+          </p>
+
+          <h2 className="text-2xl font-bold mb-2 mt-6">
+          Understanding INTP Friendship Dynamics
+          </h2>
+          <p className="text-black text-lg">
+          One of the best ways to make friends with an INTP is through shared interests. They can be very slow to make friends and have a tendency to place the highest value on intelligence. An INTP typically makes fewer friends as a result, but the ones they do make are usually very close. Your INTP friends
+           may not be the best at handling strong emotions, but they enjoy connecting over meaningful discussions and common interests. 
+          </p>
         </section>
 
         {/* Section 8: Famous INTPs */}
