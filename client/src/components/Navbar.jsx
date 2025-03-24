@@ -281,9 +281,9 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full bg-white shadow-md px-8 py-4 flex items-center justify-between z-50">
+      <nav className="fixed top-0 left-0 w-full bg-white shadow-md px-2 py-4 flex items-center justify-between z-50">
         {/* Logo */}
-        <div className="flex items-center">
+        <div className="flex md:items-center">
           <img src={logo} alt="Logo" className="h-16 w-56" />
         </div>
 
