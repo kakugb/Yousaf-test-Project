@@ -18,13 +18,14 @@ import EnneagramResultPage from './components/tests/EnneagramResultPage';
 import EmotionalPersonalityTest from './components/tests/EmotionalPersonalityTest';
 import EmotionalResultPage from './components/tests/EmotionalResultPage';
 import INTPBlogs from './components/blogs/INTPBlogs';
+import INFJBlogs from './components/blogs/INFJBlogs';
 
 
    const App = () => {
        return (
            <Router>
                <Navbar />
-               <main className="p-4">
+               <main className="py-4">
                    <Routes>
                        <Route path="/" element={<Home />} />
                        <Route path="/personality" element={<PersonalityType />} />
@@ -41,6 +42,7 @@ import INTPBlogs from './components/blogs/INTPBlogs';
                        <Route path='/EmotionalPersonalityTest' element={<EmotionalPersonalityTest/>}/>
                        <Route path='/emotional-result' element={<EmotionalResultPage/>}/>
                        <Route path='/intp-blogs' element={<INTPBlogs/>}/>
+                       <Route path='/infj-blogs' element={<INFJBlogs/>}/>
                    </Routes>
                </main>
            </Router>
