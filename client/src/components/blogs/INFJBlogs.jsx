@@ -158,7 +158,8 @@ function INFJBlogs() {
               {activeSection === "introduction" && (
                 <section id="introduction">
                   <h1 className="text-3xl font-bold">
-                  Understanding the INFJ: The Advocate <br />Personality (Introverted, Intuitive, Feeling, and Judging)
+                    Understanding the INFJ: The Advocate <br />
+                    Personality (Introverted, Intuitive, Feeling, and Judging)
                   </h1>
                   <p className="text-gray-700 mb-10 font-semibold text-[12px] hover:text-blue-600">
                     By:{" "}
@@ -167,171 +168,296 @@ function INFJBlogs() {
                     </span>
                   </p>
                   <p className="text-black text-lg text-justify">
-                  What if you belonged to the rarest personality type in the world? Meet the INFJ – the Advocate.
-                   The Introverted, Intuitive, Feeling, and Judging (INFJ) personality type, is driven by their values and intuition, energized by solitude, and focused on comprehending ideas and concepts.
+                    What if you belonged to the rarest personality type in the
+                    world? Meet the INFJ – the Advocate. The Introverted,
+                    Intuitive, Feeling, and Judging (INFJ) personality type, is
+                    driven by their values and intuition, energized by solitude,
+                    and focused on comprehending ideas and concepts.
                   </p>
-                
+
                   <blockquote className="border-l-8 border-teal-500 pl-4 italic text-black font-bold text-xl py-10 mt-6">
-                  “You cannot teach a man anything; you can only help him find it within himself.” (Galileo Galilei)
+                    “You cannot teach a man anything; you can only help him find
+                    it within himself.” (Galileo Galilei)
                   </blockquote>
 
-
                   <p className="text-black text-lg mt-6">
-                  They also make firm decisions. Individuals with this mix of personality traits are incredibly idealistic, genuine, and sympathetic. Their quiet, 
-                  principled form of humanism, along with their inner vision and personal values, serve as their compass in everything. Individuals with this 
-                  personality type frequently feel misinterpreted.
+                    They also make firm decisions. Individuals with this mix of
+                    personality traits are incredibly idealistic, genuine, and
+                    sympathetic. Their quiet, principled form of humanism, along
+                    with their inner vision and personal values, serve as their
+                    compass in everything. Individuals with this personality
+                    type frequently feel misinterpreted.
                   </p>
 
-
                   <p className="text-black text-lg mt-6">
-                  Maybe that’s because INFJs make up only 1 to 3 percent of the U.S. population, making them the rarest MBTI personality type. S. populace. INFJs tend to be laid-back perfectionists. INFJs cherish 
-                  close relationships and emotional intimacy with their close friends and family, even though they typically do not have a large social circle.  Because they think the world can be a better place, 
-                  INFJs focus on doing everything in their power to make it so. The INFJ personality type (Advocates) wants to stand up. They aren’t satisfied with coasting through life; they want to take action, 
-                  change the world, and be a positive influence.
+                    Maybe that’s because INFJs make up only 1 to 3 percent of
+                    the U.S. population, making them the rarest MBTI personality
+                    type. S. populace. INFJs tend to be laid-back
+                    perfectionists. INFJs cherish close relationships and
+                    emotional intimacy with their close friends and family, even
+                    though they typically do not have a large social circle.
+                    Because they think the world can be a better place, INFJs
+                    focus on doing everything in their power to make it so. The
+                    INFJ personality type (Advocates) wants to stand up. They
+                    aren’t satisfied with coasting through life; they want to
+                    take action, change the world, and be a positive influence.
                   </p>
-                  
+
                   <h2 className="text-3xl font-bold mb-4">
-                  What Does INFJ Stand For?
+                    What Does INFJ Stand For?
                   </h2>
                   <h1 className="text-3xl font-bold">Image here</h1>
                   <p className="text-black text-lg mt-6">
-                  The Myers-Briggs Type Indicator (MBTI) was developed by Katharine Briggs and Isabel Myers, who also created the sixteen personality
-                   types, including INFJ. Based on the research of psychologist C. G. Jung, each of the four letters in the INFJ code stands for a 
-                   crucial personality characteristic of this kind.
+                    The Myers-Briggs Type Indicator (MBTI) was developed by
+                    Katharine Briggs and Isabel Myers, who also created the
+                    sixteen personality types, including INFJ. Based on the
+                    research of psychologist C. G. Jung, each of the four
+                    letters in the INFJ code stands for a crucial personality
+                    characteristic of this kind.
                   </p>
 
                   <p className="text-black text-xl mt-6">
-                  <b>Introverted (I):</b> Time alone gets INFJs going.
+                    <b>Introverted (I):</b> Time alone gets INFJs going.
                   </p>
                   <p className="text-black text-xl mt-6">
-                  <b>Feeling (F):</b> INFJs care more about concepts and ideas than specifics.
+                    <b>Feeling (F):</b> INFJs care more about concepts and ideas
+                    than specifics.
                   </p>
                   <p className="text-black text-xl mt-6">
-                  <b>Judging (J):</b> INFJs like to be structured and planned, not impulsive and adaptable.<br/>INFJs can also be categorized into two subtypes:
+                    <b>Judging (J):</b> INFJs like to be structured and planned,
+                    not impulsive and adaptable.
+                    <br />
+                    INFJs can also be categorized into two subtypes:
                   </p>
                   <p className="text-black text-xl mt-6">
-                  <b>INFJ-A (Assertive Advocate):</b> Displays confidence and a relaxed demeanour.
+                    <b>INFJ-A (Assertive Advocate):</b> Displays confidence and
+                    a relaxed demeanour.
                   </p>
 
                   <p className="text-black text-xl mt-6">
-                  <b>INFJ-T (Turbulent Advocate):</b> Tends to be less confident and more easily stressed.
+                    <b>INFJ-T (Turbulent Advocate):</b> Tends to be less
+                    confident and more easily stressed.
                   </p>
-                  
+
                   <blockquote className=" bg-teal-300 p-4 italic text-black text-xl py-10 mt-6 text-justify">
-                  <b>Top Takeaways </b><br/>
-                  Discover the traits, strengths, and weaknesses associated with the INFJ personality type. Keep in mind that this information is not meant to 
-                  serve as career, psychological, or medical advice. By exploring these potential traits, you can gain deeper insights into your own tendencies and challenges.
+                    <b>Top Takeaways </b>
+                    <br />
+                    Discover the traits, strengths, and weaknesses associated
+                    with the INFJ personality type. Keep in mind that this
+                    information is not meant to serve as career, psychological,
+                    or medical advice. By exploring these potential traits, you
+                    can gain deeper insights into your own tendencies and
+                    challenges.
                   </blockquote>
 
                   <h1 className="text-3xl font-bold mt-4">
-                  Why INFJs Are Unique
+                    Why INFJs Are Unique
                   </h1>
-                  <h2 className="text-3xl font-bold mb-1 mt-4">Intuition and Insight</h2>
+                  <h2 className="text-3xl font-bold mb-1 mt-4">
+                    Intuition and Insight
+                  </h2>
                   <p className="text-black text-lg text-justify mt-4">
-                  INFJs perceive two sides in every individual. They look at the public image, the façade that is visible to others. More significantly, their dominant function, 
-                  Introverted Intuition (Ni), gives a more profound impression of individuals by piercing outward appearances and disclosing hidden intentions and motives. 
+                    INFJs perceive two sides in every individual. They look at
+                    the public image, the façade that is visible to others. More
+                    significantly, their dominant function, Introverted
+                    Intuition (Ni), gives a more profound impression of
+                    individuals by piercing outward appearances and disclosing
+                    hidden intentions and motives.
                   </p>
 
                   <p className="text-black text-lg text-justify mt-4">
-                  As a result, INFJs frequently believe they have a better understanding of others than those individuals have of themselves. INFJs (and INTJs) are known for 
-                  their intense concern for quality. They yearn to witness the physical realization of their Ni ideals (Se). Ni concentrates on deeper qualities, making sure 
-                  that things are substantial, carefully crafted, and in line with their high standards, whereas Se is more concerned with appearance. INFJs value the quality
-                   and craftsmanship of things more than their outward appearance. Their ability to see connections and patterns between seemingly unrelated pieces of information 
-                   is made possible by their Ni, which frequently results in insights that seem almost prophetic. INFJs can comprehend the world differently than others because they
-                    can synthesize subtle impressions and complex ideas. 
+                    As a result, INFJs frequently believe they have a better
+                    understanding of others than those individuals have of
+                    themselves. INFJs (and INTJs) are known for their intense
+                    concern for quality. They yearn to witness the physical
+                    realization of their Ni ideals (Se). Ni concentrates on
+                    deeper qualities, making sure that things are substantial,
+                    carefully crafted, and in line with their high standards,
+                    whereas Se is more concerned with appearance. INFJs value
+                    the quality and craftsmanship of things more than their
+                    outward appearance. Their ability to see connections and
+                    patterns between seemingly unrelated pieces of information
+                    is made possible by their Ni, which frequently results in
+                    insights that seem almost prophetic. INFJs can comprehend
+                    the world differently than others because they can
+                    synthesize subtle impressions and complex ideas.
                   </p>
 
-                  <h2 className="text-3xl font-bold mb-1 mt-4">Driven by Purpose and Compassion</h2> 
+                  <h2 className="text-3xl font-bold mb-1 mt-4">
+                    Driven by Purpose and Compassion
+                  </h2>
                   <p className="text-black text-lg text-justify mt-4">
-                  Although INFJ personalities may come across as a little reserved, they are motivated by a deep-seated internal passion. They devote their lives to seeking meaning,
-                   driven by profound, introspective thought and a great deal of empathy. Due to the rarity of their personality type, INFJs frequently feel, consciously or unconsciously, 
-                   that they are different from most people. They are not always accepted by others because of their complex inner lives and a strong desire to discover their life’s purpose. 
-                   This feeling of being out of step, though, does not lessen their dedication to improving the world. 
+                    Although INFJ personalities may come across as a little
+                    reserved, they are motivated by a deep-seated internal
+                    passion. They devote their lives to seeking meaning, driven
+                    by profound, introspective thought and a great deal of
+                    empathy. Due to the rarity of their personality type, INFJs
+                    frequently feel, consciously or unconsciously, that they are
+                    different from most people. They are not always accepted by
+                    others because of their complex inner lives and a strong
+                    desire to discover their life’s purpose. This feeling of
+                    being out of step, though, does not lessen their dedication
+                    to improving the world.
                   </p>
                   <blockquote className="border-l-8 border-teal-500 pl-4 italic text-black font-bold text-xl py-10 mt-6">
-                  “See the light in others, and treat them as if that is all you see.” (Wayne Dyer)
+                    “See the light in others, and treat them as if that is all
+                    you see.” (Wayne Dyer)
                   </blockquote>
 
                   <p className="text-black text-lg text-justify mt-4">
-                  They are often troubled by injustice, prefer altruism to self-interest, and feel compelled to use their sensitivity, imagination, and inventiveness to inspire others and foster 
-                  compassion. Making a positive difference in someone else’s life is the greatest source of inspiration for an INFJ. Helping others is a life mission for many INFJs, and they 
-                  actively seek out opportunities to step up and stand up for what is right. They also hope to address the more fundamental issues facing society, to eradicate injustice and 
-                  suffering. However, they may neglect their health as a result of their intense focus on their ideals, which can lead to stress and burnout. 
+                    They are often troubled by injustice, prefer altruism to
+                    self-interest, and feel compelled to use their sensitivity,
+                    imagination, and inventiveness to inspire others and foster
+                    compassion. Making a positive difference in someone else’s
+                    life is the greatest source of inspiration for an INFJ.
+                    Helping others is a life mission for many INFJs, and they
+                    actively seek out opportunities to step up and stand up for
+                    what is right. They also hope to address the more
+                    fundamental issues facing society, to eradicate injustice
+                    and suffering. However, they may neglect their health as a
+                    result of their intense focus on their ideals, which can
+                    lead to stress and burnout.
                   </p>
-                  <h2 className="text-3xl font-bold mb-1 mt-4">Harmonious Paradoxes</h2> 
+                  <h2 className="text-3xl font-bold mb-1 mt-4">
+                    Harmonious Paradoxes
+                  </h2>
                   <p className="text-black text-lg text-justify mt-4">
-                  They are walking and talking contradictions. INFJs tend to be laid-back perfectionists. They possess both creativity and analysis, as well as both logic and emotion. 
-                   NFJs prioritize their feelings over objective facts when making decisions. This does not imply, however, that they have an idealized perspective on the world.
-                    INFJs are aware of both the positive and negative aspects of the world and aspire to improve it. 
+                    They are walking and talking contradictions. INFJs tend to
+                    be laid-back perfectionists. They possess both creativity
+                    and analysis, as well as both logic and emotion. NFJs
+                    prioritize their feelings over objective facts when making
+                    decisions. This does not imply, however, that they have an
+                    idealized perspective on the world. INFJs are aware of both
+                    the positive and negative aspects of the world and aspire to
+                    improve it.
                   </p>
-                  <h2 className="text-3xl font-bold mb-1 mt-4">Key Characteristics</h2>
+                  <h2 className="text-3xl font-bold mb-1 mt-4">
+                    Key Characteristics
+                  </h2>
                   <h1 className="text-3xl font-bold mb-1 ">Image Here</h1>
                   <p className="text-black text-lg text-justify mt-4">
-                  INFJs are considerate nurturers who are driven to help others reach their full potential and have a strong sense of personal integrity. They are committed and creative, and they
-                   have a gift for offering others unique answers to their problems. The counsellor has a special talent for figuring out the motivations and feelings of others; they frequently 
-                   understand someone else’s feelings before they do. INFJs have great faith in their ability to read people and trust their insights. Despite their sensitivity, they choose 
-                   carefully and privately when disclosing their private thoughts and emotions. INFJs look for purpose and meaning in both their personal and external lives. They are very
-                    interested in learning about society, culture, and the cosmos in general. They naturally see how every idea or action could have important repercussions, both positive 
-                    and negative, because of their introspective and inquisitive worldview. Their interactions with others and the environment are shaped by this distinct viewpoint. In the end,
-                     INFJs aim to translate their cerebral and abstract concepts into tangible deeds that have a profound effect on other people. When they are at their best, their actions are
-                      consistent with their true values, even though they occasionally struggle with overanalyzing and acting.
+                    INFJs are considerate nurturers who are driven to help
+                    others reach their full potential and have a strong sense of
+                    personal integrity. They are committed and creative, and
+                    they have a gift for offering others unique answers to their
+                    problems. The counsellor has a special talent for figuring
+                    out the motivations and feelings of others; they frequently
+                    understand someone else’s feelings before they do. INFJs
+                    have great faith in their ability to read people and trust
+                    their insights. Despite their sensitivity, they choose
+                    carefully and privately when disclosing their private
+                    thoughts and emotions. INFJs look for purpose and meaning in
+                    both their personal and external lives. They are very
+                    interested in learning about society, culture, and the
+                    cosmos in general. They naturally see how every idea or
+                    action could have important repercussions, both positive and
+                    negative, because of their introspective and inquisitive
+                    worldview. Their interactions with others and the
+                    environment are shaped by this distinct viewpoint. In the
+                    end, INFJs aim to translate their cerebral and abstract
+                    concepts into tangible deeds that have a profound effect on
+                    other people. When they are at their best, their actions are
+                    consistent with their true values, even though they
+                    occasionally struggle with overanalyzing and acting.
                   </p>
 
-
-                  <h1 className="text-3xl font-bold mb-2">Important Qualities of INFJs</h1>
-                  <h2 className="text-2xl font-bold mb-1 mt-4">Compassionate spirit</h2>
+                  <h1 className="text-3xl font-bold mb-2">
+                    Important Qualities of INFJs
+                  </h1>
+                  <h2 className="text-2xl font-bold mb-1 mt-4">
+                    Compassionate spirit
+                  </h2>
                   <p className="text-black text-lg text-justify mt-4">
-                  INFJs are empathetic and soft-spoken due to their strong emotional understanding and intuition. This does not imply that they are being lenient, though. INFJs have strong
-                   convictions and the capacity to take decisive action to accomplish their objectives.
+                    INFJs are empathetic and soft-spoken due to their strong
+                    emotional understanding and intuition. This does not imply
+                    that they are being lenient, though. INFJs have strong
+                    convictions and the capacity to take decisive action to
+                    accomplish their objectives.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-1 mt-4">Helper</h2>
                   <p className="text-black text-lg text-justify mt-4">
-                  Although introverted by nature, INFJs can build deep, meaningful relationships with other people. They like assisting others, but they also need space and time to rest. 
+                    Although introverted by nature, INFJs can build deep,
+                    meaningful relationships with other people. They like
+                    assisting others, but they also need space and time to rest.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-1 mt-4">Idealist</h2>
                   <p className="text-black text-lg text-justify mt-4">
-                  The capacity to turn idealism into action is what distinguishes INFJs. They actively strive to change the world rather than just dreaming about it.
+                    The capacity to turn idealism into action is what
+                    distinguishes INFJs. They actively strive to change the
+                    world rather than just dreaming about it.
                   </p>
 
-                  <h2 className="text-2xl font-bold mb-1 mt-4">Well disciplined</h2>
+                  <h2 className="text-2xl font-bold mb-1 mt-4">
+                    Well disciplined
+                  </h2>
                   <p className="text-black text-lg text-justify mt-4">
-                  INFJs like to take charge by organizing, planning, and making decisions early on, which reflects their methodical and deliberate outlook on life.
+                    INFJs like to take charge by organizing, planning, and
+                    making decisions early on, which reflects their methodical
+                    and deliberate outlook on life.
                   </p>
 
-                  <h2 className="text-2xl font-bold mb-1 mt-4">Well disciplined</h2>
+                  <h2 className="text-2xl font-bold mb-1 mt-4">
+                    Well disciplined
+                  </h2>
                   <p className="text-black text-lg text-justify mt-4">
-                  INFJs like to take charge by organizing, planning, and making decisions early on, which reflects their methodical and deliberate outlook on life.
+                    INFJs like to take charge by organizing, planning, and
+                    making decisions early on, which reflects their methodical
+                    and deliberate outlook on life.
                   </p>
 
-                  <h2 className="text-2xl font-bold mb-1 mt-4">Balanced Intellect and Emotion</h2>
+                  <h2 className="text-2xl font-bold mb-1 mt-4">
+                    Balanced Intellect and Emotion
+                  </h2>
                   <p className="text-black text-lg text-justify mt-4">
-                  INFJs give their feelings and ideals precedence over impartial information when making decisions. But they don’t have a romanticized perspective on the world. Understanding 
-                  both the positive and negative aspects of the world, INFJs aspire to make it a better place.
+                    INFJs give their feelings and ideals precedence over
+                    impartial information when making decisions. But they don’t
+                    have a romanticized perspective on the world. Understanding
+                    both the positive and negative aspects of the world, INFJs
+                    aspire to make it a better place.
                   </p>
 
-
-                  <h1 className="text-3xl font-bold mb-2">INFJ Motivations and Values</h1>
+                  <h1 className="text-3xl font-bold mb-2">
+                    INFJ Motivations and Values
+                  </h1>
                   <p className="text-black text-lg text-justify mt-4">
-                  INFJs are motivated by a carefully thought-out set of personal values. They have a strong sense of optimism and can picture a better, happier future. Even though the harsh realities
-                   of the present may depress them, they are nevertheless driven and tenacious in their pursuit of constructive action. INFJs have an innate desire to improve the world in whatever way 
-                   they can. They look for a purposeful life and meaningful relationships.
+                    INFJs are motivated by a carefully thought-out set of
+                    personal values. They have a strong sense of optimism and
+                    can picture a better, happier future. Even though the harsh
+                    realities of the present may depress them, they are
+                    nevertheless driven and tenacious in their pursuit of
+                    constructive action. INFJs have an innate desire to improve
+                    the world in whatever way they can. They look for a
+                    purposeful life and meaningful relationships.
                   </p>
 
                   <p className="text-black text-lg text-justify mt-4">
-                  Despite their reluctance to open up, INFJs value emotional closeness with a chosen, dedicated few. Although their complex inner lives can occasionally give the impression that they are
-                   enigmatic or private to others, they cherish genuine relationships with those they can trust. INFJs are the epitome of idealists; they see ways to make the world and society better. They
-                    think that the only way to make progress is to concentrate on doing the right thing, regardless of the immediate repercussions. 
+                    Despite their reluctance to open up, INFJs value emotional
+                    closeness with a chosen, dedicated few. Although their
+                    complex inner lives can occasionally give the impression
+                    that they are enigmatic or private to others, they cherish
+                    genuine relationships with those they can trust. INFJs are
+                    the epitome of idealists; they see ways to make the world
+                    and society better. They think that the only way to make
+                    progress is to concentrate on doing the right thing,
+                    regardless of the immediate repercussions.
                   </p>
 
                   <p className="text-black text-lg text-justify mt-4">
-                  However, they place equal importance on harmonious relationships. INFJs are adept mediators who look for the underlying causes of disputes and try to identify points of agreement. They prefer 
-                  diplomatic communication to prevent needless strife. INFJs are very interested in learning about the mind and have a great deal of respect for human potential. They are motivated to seek 
-                  genuine self-improvement and make an effort to reach their full potential while inspiring others to follow suit. According to their idealistic perspective, “dream it and achieve it” is
-                   possible if one believes in the extraordinary.
+                    However, they place equal importance on harmonious
+                    relationships. INFJs are adept mediators who look for the
+                    underlying causes of disputes and try to identify points of
+                    agreement. They prefer diplomatic communication to prevent
+                    needless strife. INFJs are very interested in learning about
+                    the mind and have a great deal of respect for human
+                    potential. They are motivated to seek genuine
+                    self-improvement and make an effort to reach their full
+                    potential while inspiring others to follow suit. According
+                    to their idealistic perspective, “dream it and achieve it”
+                    is possible if one believes in the extraordinary.
                   </p>
-                                 </section>
+                </section>
               )}
 
               {/* Strengths and Weaknesses Section */}
@@ -340,10 +466,119 @@ function INFJBlogs() {
                   <h2 className="text-2xl font-bold mb-4">
                     Strengths and Weaknesses
                   </h2>
+
+                  <h2 className="text-3xl font-bold mb-1 mt-4">
+                    INFJ Strengths
+                  </h2>
+                  <h2 className="text-2xl font-bold mb-1 mt-4">Perceptive</h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    Advocates with the INFJ personality type are aware that
+                    outward appearances can be deceiving. They have an almost
+                    supernatural ability to comprehend people’s true needs,
+                    wants, and motivations because they work hard to see past
+                    superficiality and pursue deeper truths.
+                  </p>
+                  <h2 className="text-2xl font-bold mb-1 mt-4">Principled</h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    INFJs hold strong morals and beliefs, particularly in the
+                    area of ethics. They actively work to avoid deceit, even
+                    when it might be advantageous because they believe that
+                    lying is immoral. They are one of the least prone
+                    personality types to exploit other people.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-1 mt-4">Enthusiastic</h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    People with INFJ personalities yearn for a sense of
+                    direction in life. Instead of following the status quo or
+                    living in a bubble, they are resolute in their pursuit of
+                    their goals. INFJs welcome chances to aim for greatness
+                    because they are inspired by their future vision.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-1 mt-4">Altruistic</h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    INFJs aren’t content to achieve success at the expense of
+                    others. Being aware of how their words and deeds affect
+                    other people, they wish to use their strengths for the
+                    benefit of society. Fundamentally, INFJs want to improve the
+                    world, beginning with those in their immediate vicinity.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-1 mt-4">Creative</h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    INFJs value their creative side and are always looking for
+                    new ways to express themselves and think creatively. They
+                    stand out due to their uniqueness, which enables them to
+                    tackle problems in novel ways.
+                  </p>
+
+                  <h2 className="text-3xl font-bold mb-1 mt-4">
+                    INFJ Weaknesses
+                  </h2>
+                  <h2 className="text-2xl font-bold mb-1 mt-4">
+                    Sensitive to Criticism
+                  </h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    One of the weaknesses of the INFJ personality type is that
+                    they are sensitive to criticism. This is particularly true
+                    if they feel that someone is questioning their most valued
+                    beliefs or ideals. This personality type is prone to
+                    defensiveness, dismissiveness, or anger when it comes to
+                    matters that are important to them.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-1 mt-4">
+                    Apprehensive to Communicate
+                  </h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    INFJ personalities are private but respect truthfulness and
+                    genuineness. Being open and vulnerable about their struggles
+                    can be difficult for them because they don’t want to burden
+                    others with their problems. Sadly, they might
+                    unintentionally hinder themselves or cause a rift in their
+                    relationships if they don’t ask for assistance.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-1 mt-4">
+                    Perfectionistic
+                  </h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    Idealism comes to define these visionary personalities. The
+                    messiness of real life is sometimes left out, even though
+                    this is a great quality in many ways. If INFJs are
+                    preoccupied with flaws and question whether they should be
+                    searching for something better, they may struggle to
+                    appreciate their jobs, living arrangements, or
+                    relationships.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-1 mt-4">
+                    Avoiding the Ordinary
+                  </h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    INFJs have a strong desire to live extraordinary lives. But
+                    without breaking it down into small, manageable steps, it’s
+                    difficult to accomplish anything extraordinary. They might
+                    find it difficult to realize their lofty goals unless they
+                    convert them into daily schedules and to-do lists.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-1 mt-4">
+                    Easily Burnt Out
+                  </h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    INFJs have limited ways to release their pent-up emotions
+                    due to their reserve and perfectionism. If they don’t
+                    balance their need for self-care and relaxation with their
+                    desire to assist others, people with this personality type
+                    may become exhausted.
+                  </p>
+
                   <div className="overflow-x-auto">
                     <table className="w-full border-collapse">
                       <thead>
-                        <tr className="bg-teal-200 font-bold border-b-4">
+                        <tr className="bg-yellow-400 font-bold border-b-4">
                           <th className="p-3 text-lg font-bold text-black text-center">
                             Strengths
                           </th>
@@ -354,225 +589,490 @@ function INFJBlogs() {
                       </thead>
                       <tbody>
                         <tr className="bg-white">
+                          <td className="p-3 text-black">Reserved</td>
                           <td className="p-3 text-black">
-                            Exceptional Analytical Skills
-                          </td>
-                          <td className="p-3 text-black">
-                            Tendency to Become Disconnected
+                            Occasionally hard to get to know
                           </td>
                         </tr>
-                        <tr className="bg-teal-200">
+                        <tr className="bg-yellow-400">
                           <td className="p-3 text-black">
-                            Innovative and Original Thinkers
+                            Cherishes contemplating the meaning of life
+                          </td>
+                          <td className="p-3 text-black">Dislike conflict</td>
+                        </tr>
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                            Extremely artistic and creative
                           </td>
                           <td className="p-3 text-black">
-                            Potential to Seem Insensitive
+                            Sensitive to criticism
+                          </td>
+                        </tr>
+                        <tr className="bg-yellow-400">
+                          <td className="p-3 text-black">Future-oriented</td>
+                          <td className="p-3 text-black">Prone to burnout</td>
+                        </tr>
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                            Values intimate, meaningful relationships
+                          </td>
+                          <td className="p-3 text-black">
+                            They can be stubborn
+                          </td>
+                        </tr>
+                        <tr className="bg-yellow-400">
+                          <td className="p-3 text-black">Idealistic</td>
+                          <td className="p-3 text-black">
+                            Prone to having unrealistic expectations
                           </td>
                         </tr>
                         <tr className="bg-white">
                           <td className="p-3 text-black">
-                            Receptive to New Ideas
+                            Sensitive to others’ needs
                           </td>
                           <td className="p-3 text-black">
-                            Perpetual Dissatisfaction with the Status Quo
-                          </td>
-                        </tr>
-                        <tr className="bg-teal-200">
-                          <td className="p-3 text-black">Deeply Inquisitive</td>
-                          <td className="p-3 text-black">
-                            Prone to Analyzing Situations
-                          </td>
-                        </tr>
-                        <tr className="bg-white">
-                          <td className="p-3 text-black">
-                            Committed to Truth and Integrity
-                          </td>
-                          <td className="p-3 text-black">
-                            Can Exhibit Impatience
-                          </td>
-                        </tr>
-                        <tr className="bg-teal-200">
-                          <td className="p-3 text-black">
-                            Highly Logical and Objective
-                          </td>
-                          <td className="p-3 text-black">
-                            May Be Difficult to Get to Know
-                          </td>
-                        </tr>
-                        <tr className="bg-white">
-                          <td className="p-3 text-black">
-                            Proficient in Abstract Thinking
-                          </td>
-                          <td className="p-3 text-black">
-                            Susceptible to Self-Doubt
-                          </td>
-                        </tr>
-                        <tr className="bg-teal-200">
-                          <td className="p-3 text-black">
-                            Autonomous and Self-Reliant
-                          </td>
-                          <td className="p-3 text-black">
-                            Difficulty Adhering to Rules
-                          </td>
-                        </tr>
-                        <tr className="bg-white">
-                          <td className="p-3 text-black">
-                            Loyal and Affectionate with Close Relationships
-                          </td>
-                          <td className="p-3 text-black">
-                            Challenges in Expressing Emotions
+                            Excessively sensitive
                           </td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
 
-                  <h1 className="text-3xl font-bold mb-1">INTP Strengths</h1>
-                  <h2 className="text-2xl font-semibold mb-4">
-                    Exceptional Analytical Skills
-                  </h2>
+                  <h1 className="text-3xl font-bold mt-8 mb-2">
+                    Connecting with Others
+                  </h1>
                   <p className="text-black text-lg">
-                    Logicians, or those with the INTP personality type, examine
-                    everything they encounter. Because of this, they have a
-                    talent for identifying connections and patterns that other
-                    personalities might miss.
+                    INFJs cherish genuine, long-lasting connections with other
+                    people. Being genuinely known by someone and being known in
+                    return is one of the few things that makes these
+                    personalities happy. NFJs typically communicate in a kind
+                    and considerate manner, and they prefer deep discussions to
+                    idle chatter. People around them may be profoundly impacted
+                    by their emotional openness and wisdom.
                   </p>
                   <blockquote className="border-l-8 border-teal-500 pl-4 italic text-black font-bold text-xl py-10 mt-6 text-justify">
-                    “INTPs are defined by their intuitive logic, navigating the
-                    world through a lens of abstract reasoning and conceptual
-                    analysis.” Carl Jung, Psychological Types
+                    For INFJs, just a handful of truly authentic connections can
+                    be more than enough to fill their hearts.
                   </blockquote>
-
-                  <h2 className="text-2xl font-semibold mb-4 mt-6">
-                    Exceptional Analytical Skills
-                  </h2>
                   <p className="text-black text-lg">
-                    These individuals can generate innovative and unconventional
-                    ideas that most people would not think of because of their
-                    relentless imagination. While not all of these concepts are
-                    realistic, INTPs’ ability to think creatively can result in
-                    some amazing inventions.
-                  </p>
-
-                  <h2 className="text-2xl font-semibold mb-4 mt-6">
-                    Receptive to New Ideas
-                  </h2>
-                  <p className="text-black text-lg">
-                    Curiosity and an intense desire to learn are what motivate
-                    INTPs. They rarely hesitate to change their minds as they
-                    gain knowledge, even when it comes to political, religious,
-                    and philosophical issues. Individuals with this personality
-                    type are generally open to new concepts, provided that they
-                    are intellectually compatible.
-                  </p>
-
-                  <h2 className="text-2xl font-semibold mb-4 mt-6">
-                    Deeply Inquisitive
-                  </h2>
-                  <p className="text-black text-lg">
-                    These individuals are constantly searching for new
-                    information. They might become engrossed in geophysics one
-                    week and then lose themselves in guitar-building videos the
-                    next. When inspiration strikes, INTPs immerse themselves in
-                    their new passion and absorb as much information as they
-                    can.
-                  </p>
-
-                  <h2 className="text-2xl font-semibold mb-4 mt-6">
-                    Committed to Truth and Integrity
-                  </h2>
-                  <p className="text-black text-lg">
-                    Truth is important to INTPs. They seek to comprehend what is
-                    happening beneath the surface of things rather than finding
-                    solace in ideology or conventional wisdom. Because of this,
-                    they can be trusted to fight prejudice and false
-                    information, even when doing so is difficult, and they
-                    anticipate honesty from others.
-                  </p>
-                  <h1 className="text-3xl font-bold mb-4 mt-6">
-                    INTP Weaknesses
-                  </h1>
-                  <h2 className="text-2xl font-semibold mb-2">
-                    Tendency to Become Disconnected
-                  </h2>
-                  <p className="text-black text-lg">
-                    Even when they’re with other people, INTP personalities can
-                    lose themselves in their thoughts. When they eventually come
-                    back with something to say, they might discover that the
-                    topic has already been discussed without them. Particularly
-                    at big social events, this can make people with this
-                    personality type feel alienated from other people.
-                  </p>
-
-                  <h2 className="text-2xl font-semibold mb-2">
-                    Potential to Seem Insensitive
-                  </h2>
-                  <p className="text-black text-lg">
-                    For INTPs, the solution to a better, happier world lies in
-                    reason. They might occasionally undervalue irrational values
-                    like emotion, compassion, manners, and tradition. As a
-                    result, despite having generally good intentions, these
-                    personalities may unintentionally come across as callous or
-                    cruel.
-                  </p>
-
-                  <h2 className="text-2xl font-semibold mb-4 mt-6">
-                    Perpetual Dissatisfaction with the Status Quo
-                  </h2>
-                  <p className="text-black text-lg">
-                    This personality type is unable to stop imagining how things
-                    could be better than they are. INTPs are always searching
-                    for new challenges to tackle, subjects to learn, and methods
-                    to do things. When taken too far, this way of thinking can
-                    become debilitating, with these individuals never stopping
-                    trying to come up with new ideas instead of consistently
-                    attending to their obligations and needs.
-                  </p>
-
-                  <h2 className="text-2xl font-semibold mb-4 mt-6">
-                    Prone to Analyzing Situations
-                  </h2>
-                  <p className="text-black text-lg">
-                    The minds of INTPs are constantly working, even when they
-                    are not actively thinking. Although they can occasionally
-                    benefit from their quick-witted thoughts, they can also
-                    overthink things and become victims of analysis paralysis.
-                    INTPs may find it difficult to make a choice or act when
-                    this happens because they are too preoccupied with weighing
-                    every scenario or viewpoint.
-                  </p>
-
-                  <h2 className="text-2xl font-semibold mb-4 mt-6">
-                    Can Exhibit Impatience
-                  </h2>
-                  <p className="text-black text-lg">
-                    INTP personalities are proud of their expertise and are not
-                    afraid to express their opinions. They aren’t always
-                    patient, though, when it comes to explaining their
-                    reasoning. They might end the conversation with a
-                    contemptuous “never mind” if their conversation partner
-                    doesn’t follow along or show enough interest.
+                    INFJs can be overflowing with love from a few close
+                    relationships as long as they are sincere. INFJ
+                    personalities put a lot of effort and care into their
+                    relationships, but they are thoughtful and frequently
+                    selfless, so they don’t always feel valued in return.
+                    Individuals with this personality type typically take their
+                    time and carefully consider how their actions may affect
+                    other people before acting. They may therefore become
+                    irritated when others fail to see their good intentions.
+                    INFJs are prone to taking things personally and are
+                    extremely sensitive to criticism of any type.
                   </p>
 
                   <h2 className="text-2xl font-semibold mb-4 mt-6">
                     Communication Style
                   </h2>
                   <p className="text-black text-lg">
-                    INTPs are known for their analytical and thoughtful
-                    communication style, emphasizing clarity and logic over
-                    small talk and favoring in-depth, idea-driven conversations.
-                    Sometimes their speech comes across as unduly technical or
-                    detailed because they pick their words carefully to ensure
-                    accuracy. Reflective and thoughtful, INTPs give thoughtful
-                    answers that might come across as hesitant in hurried
-                    discussions because they take their time. They enjoy
-                    discussions that push concepts and promote critical
-                    thinking, frequently challenging presumptions to gain a
-                    deeper understanding. They thrive in intellectual debates.
-                    It can be difficult for them to express or deal with
-                    feelings because they prioritize logic over emotion, which
-                    can result in a communication style that occasionally comes
-                    across as aloof or reserved.
+                    The communication style of INFJs is deliberate and
+                    thoughtful. They are naturally able to understand the
+                    feelings and viewpoints of others, which enables them to
+                    manage complex discussions with ease. The following are the
+                    salient characteristics of their communication style.
+                  </p>
+
+                  <h2 className="text-2xl font-semibold mb-4 mt-6">
+                    Empathy and Understanding
+                  </h2>
+                  <p className="text-black text-lg">
+                    INFJs are keen listeners who frequently pick up on hidden
+                    emotions and problems. In their interactions, they place a
+                    high value on being authentic and react with sincere concern
+                    and consideration.
+                  </p>
+
+                  <h2 className="text-2xl font-semibold mb-4 mt-6">
+                    Preference for Depth
+                  </h2>
+                  <p className="text-black text-lg">
+                    For INFJs, even small talk can be draining. They prefer
+                    meaningful connections to surface-level conversation and
+                    flourish when talking about deep topics like life’s meaning,
+                    aspirations, and fundamental values.
+                  </p>
+
+                  <h2 className="text-2xl font-semibold mb-4 mt-6">
+                    Diplomatic Expression
+                  </h2>
+                  <p className="text-black text-lg">
+                    INFJs choose their words carefully in order to avoid
+                    needless conflict and to foster understanding and harmony in
+                    their conversations. They frequently communicate in a way
+                    that promotes healthy relationships.
+                  </p>
+
+                  <h2 className="text-2xl font-semibold mb-4 mt-6">
+                    Internal Processing
+                  </h2>
+                  <p className="text-black text-lg">
+                    Conversational pauses may result from their need for some
+                    time to think things through before speaking. These quiet
+                    periods are a result of their introspective nature and are
+                    not to be interpreted as a sign of indifference. INFJs’
+                    communication essentially reflects their perceptive and
+                    sympathetic nature, giving their interactions a special
+                    depth.
+                  </p>
+
+                  <h1 className="text-3xl font-bold mb-4 mt-6">
+                    How INFJs Are Viewed
+                  </h1>
+                  <p className="text-black text-lg mt-4">
+                    INFJs tend to be quiet, sensitive, and caring people who pay
+                    close attention to what other people have to say. They have
+                    a keen sense of human nature and wish to aid others in
+                    gaining comprehension. Complex personal issues don’t scare
+                    INFJs; in fact, they are highly complex individuals with a
+                    rich inner life that few people are aware of.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    They think deeply and consider ethical issues in great
+                    detail. When one of their values is threatened or
+                    questioned, counselors may surprise others with their
+                    intensity because they come across as so gentle and reserved
+                    at first. Their serene outward appearance conceals the
+                    complexity of their inner lives.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    Because INFJs are such complex individuals, they can be
+                    difficult to get to know because they may be reluctant to
+                    interact with people who might not understand or value them.
+                    Despite their desire to get along with people and help them
+                    achieve their objectives, they are fiercely devoted to their
+                    set of values and will not follow others down a path that
+                    does not feel right for them. They are likely to distance
+                    themselves when they feel that their principles are not
+                    being upheld or when their gut tells them that someone’s
+                    intentions are not honorable.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    INFJs are likely to be described by acquaintances as quiet,
+                    intelligent, serious, gentle, and perhaps a little
+                    reclusive. Although they may also observe that INFJs can
+                    occasionally be moody, distant, or even a little grumpy,
+                    others generally find them to be pleasant to be around.
+                    Overall, those who only rarely interact with INFJs are
+                    likely to view them as difficult to deal with and even a
+                    little scary.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    People who are closer to an INFJ are likely to see past
+                    their outward appearance and appreciate their depth of
+                    empathy as well as their inquisitive and perceptive
+                    personality. INFJs are always available to provide sane and
+                    beneficial advice when friends, family, or trusted coworkers
+                    require constructive criticism and a different viewpoint.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    Rather than igniting fires, INFJs prefer to put them out.
+                    When they serve on organizing committees, PTAs, city
+                    councils, work teams, non-profit boards, or task forces,
+                    others come to recognize their remarkable capacity to calm
+                    tense situations soothe wounded feelings, smooth ruffled
+                    feathers, arbitrate petty squabbles, and restore the spirit
+                    of cooperation whenever it has been compromised.
+                  </p>
+
+                  <h1 className="text-3xl font-semibold mb-2">
+                    Cognitive Functions and Personality Development Phases
+                  </h1>
+                  <h1 className="text-3xl font-semibold mb-2">image here</h1>
+
+                  <h2 className="text-2xl font-semibold mb-4 mt-6">
+                    Dominant: Introverted Intuition (Ni)
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    The primary function of INFJs, which forms the basis of
+                    their personality, is Introverted Intuition (Ni). They can
+                    see patterns and connections between seemingly unrelated
+                    pieces of information thanks to this function, which
+                    frequently results in revelations that seem almost
+                    prophetic. The process of Ni is not conscious; rather, it is
+                    a subconscious synthesis of information that leads to
+                    epiphanies.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    Because they are attuned to subconscious patterns by their
+                    relationship with Ni, INFJs frequently experience a
+                    dreamlike quality in their daily lives. This connection can
+                    occasionally make it difficult to distinguish between
+                    reality and dreams, giving their newfound understanding an
+                    air of ethereality or profound certainty.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    Together with their subordinate Extroverted Sensing (Se)
+                    function, Ni collects sensory information, which Ni then
+                    interprets and integrates to create a comprehensive
+                    understanding. Because of the special feedback loop this
+                    interaction produces, INFJs can identify connections, make
+                    intuitive leaps, and make remarkably accurate predictions.
+                    One of the main contributors to the profound perceptions and
+                    comprehension of the world that INFJs are renowned for is
+                    the relationship between Ni and Se.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    Additionally, INFJs’ dominance in introverted intuition
+                    manifests in the following ways:
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    <ul className="list-disc pl-5 text-black text-xl">
+                      <li className="mt-4 text-xl">
+                        <b>Highly Focused:</b> INFJs tend to be intensely
+                        focused on their internal insights.
+                      </li>
+                      <li className="mt-4 text-xl">
+                        <b>Single-Minded Dedication:</b> Once they have formed
+                        an intuition about something, INFJs tend to adhere to it
+                        very tightly, often becoming single-minded in their
+                        focus.
+                      </li>
+                      <li className="mt-4 text-xl">
+                        <b>Perceived Stubbornness:</b>This trait can sometimes
+                        lead others to view INFJs as stubborn and unyielding.
+                      </li>
+                    </ul>
+                  </p>
+
+                  <h2 className="text-2xl font-semibold mb-4 mt-6">
+                    Auxiliary: Extraverted Feeling (Fe)
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    INFJs’ auxiliary function, Extraverted Feeling (Fe),
+                    controls their interpersonal relationships. INFJs are
+                    extremely sympathetic and sensitive to the feelings of
+                    people around them because of this function. They can
+                    navigate social relationships and promote harmony and
+                    emotional well-being by reading others’ emotional cues. As
+                    natural caregivers, INFJs are constantly looking for ways to
+                    support and assist the people they care about.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    INFJs with Fe are excellent at detecting the emotional
+                    climate of space and figuring out how other people are
+                    feeling. This enables them to foster constructive social
+                    dynamics, but it may also cause them to prioritize the needs
+                    of others over their own emotional needs. They may
+                    occasionally feel exhausted or misinterpreted due to their
+                    desire to maintain emotional harmony.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    In intimate or one-on-one situations, where they feel
+                    comfortable enough to open up, INFJs are frequently more
+                    expressive. In smaller, more intimate settings, they can be
+                    talkative and expressive, even though they might come across
+                    as quiet or reserved in larger gatherings.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    Additionally, the auxiliary Fe function manifests in the
+                    following ways:
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    <ul className="list-disc pl-5 text-black text-xl">
+                      <li className="mt-4 text-xl">
+                        <b>Highly Aware of Others’ Emotions: </b>INFJs are
+                        highly perceptive of what others are feeling but may
+                        sometimes be less aware of their own emotions.
+                      </li>
+                      <li className="mt-4 text-xl">
+                        <b>Difficulty Saying No:</b> Because they are so attuned
+                        to others’ emotions, INFJs often struggle to say no to
+                        requests, fearing they might cause disappointment or
+                        hurt feelings.
+                      </li>
+                    </ul>
+                  </p>
+
+                  <h2 className="text-2xl font-semibold mb-4 mt-6">
+                    Tertiary: Introverted Thinking (Ti)
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    The third function for INFJs is Introverted Thinking (Ti),
+                    which is crucial for honing their judgment. Ti helps them
+                    organize and make sense of their thoughts and ideas by
+                    giving their internal world of intuitive insights (Ni) a
+                    logical framework. This function balances logical coherence
+                    with intuitive understanding by cross-checking and improving
+                    the Ni-Fe judgments. As their Ti increases, INFJs also show
+                    a greater interest in investigating their inferior function,
+                    Extraverted Sensing (Se).
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    Ti can occasionally cause internal conflict for INFJs as
+                    they attempt to strike a balance between reason and feeling.
+                    On the other hand, it improves their capacity to translate
+                    their internal insights into clarity and consistency.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    <ul className="list-disc pl-5 text-black text-xl">
+                      <li className="mt-4 text-xl">
+                        <b>Developing Theories and Ideas: </b> INFJs frequently
+                        base their decisions on the theories and ideas they come
+                        up with as a result of their observations.
+                      </li>
+                      <li className="mt-4 text-xl">
+                        <b>Alone vs. Social Decision-Making: </b>In social
+                        situations, INFJs tend to make decisions based on their
+                        Introverted Intuition (Ni) and Extraverted Feeling (Fe).
+                        But when they’re by themselves, they might rely more on
+                        their Introverted Thinking (Ti) for organization and
+                        reasoning.
+                      </li>
+                      <li className="mt-4 text-xl">
+                        <b>Stress and Decision-Making:</b> INFJs may rely more
+                        on their feelings when under pressure, particularly when
+                        they are attempting to win over others. They are more
+                        inclined to rely on instinct and reasoned analysis in
+                        less stressful situations.
+                      </li>
+                    </ul>
+                  </p>
+
+                  <h2 className="text-2xl font-semibold mb-4 mt-6">
+                    Inferior: Extraverted Sensing (Se)
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    INFJs have an inferior or “missing” function known as
+                    extraverted sensing (Se). This indicates that INFJs are less
+                    receptive to the tangible aspects of life or specific
+                    details. Introverted Intuition (Ni), their dominant
+                    function, synthesizes and experiences the sensory data that
+                    their Se collects from their environment.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    INFJs are “highly sensitive persons (HSPs),” meaning that
+                    their nervous systems are extremely permeable and
+                    stimuli-sensitive. Compared to people with other personality
+                    types, this may make them more likely to feel overstimulated
+                    or overwhelmed. Sometimes they may not recognize they are
+                    overstimulated until it is too late due to the disconnection
+                    between their intuitive (N) and sensing (S) functions.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    The influence of Se on INFJs includes the following:
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    <ul className="list-disc pl-5 text-black text-xl">
+                      <li className="mt-4 text-xl">
+                        <b>Subconscious Impact: </b>Although Se is a less
+                        developed and largely unconscious aspect of their
+                        personality, it still plays a role in shaping their
+                        experiences.
+                      </li>
+                      <li className="mt-4 text-xl">
+                        <b>Awareness of Surroundings:</b> Se helps INFJs pay
+                        attention to the world around them and stay attuned to
+                        their environment.
+                      </li>
+                      <li className="mt-4 text-xl">
+                        <b>Living in the Present:</b> This function allows INFJs
+                        to focus on the present moment instead of being consumed
+                        by thoughts of the future.
+                      </li>
+                      <li className="mt-4 text-xl">
+                        <b>Appreciating Physical Activities:</b> INFJs may find
+                        joy in activities like hiking or dancing, as Se
+                        encourages them to engage with the physical world.
+                      </li>
+                    </ul>
+                  </p>
+
+                  <h2 className="text-2xl font-semibold mb-4 mt-6">
+                    INFJ Personality Development Phases
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    According to the arrangement of their cognitive function
+                    stack, INFJs go through three general phases in the
+                    development of their personalities.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    Extraverted Feeling (Fe) emerges after Introverted Intuition
+                    (Ni), and so on. One special instance in this developmental
+                    process is the inferior function, Extraverted Sensing (Se),
+                    which attracts attention earlier than anticipated.
+                  </p>
+
+                  <h2 className="text-2xl font-semibold mb-4 mt-6">
+                    Phase I: Early Life and Growth
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    INFJs develop and heavily rely on their dominant function,
+                    Introverted Intuition (Ni), early in life. Their secondary
+                    function, extraverted feeling (FE), which serves as an
+                    extraverted tool for interacting with the outside world,
+                    also starts to develop as introversion. When combined, the
+                    Ni-Fe function pair gives INFJs the ability to make and
+                    communicate judgments, especially about individuals and
+                    their underlying motivations. Even though Ni is a perceiving
+                    function, INFJs may come across as narrow-minded or
+                    opinionated during Phase I, especially to others. Young
+                    INFJs frequently lack the discernment to know when or how to
+                    express their Ni-Fe judgments, even when they are remarkably
+                    accurate. They now rely more on their initial perceptions
+                    because their tertiary function, Introverted Thinking (Ti),
+                    has not yet matured enough to allow them to edit or revise
+                    their conclusions.
+                  </p>
+
+                  <h2 className="text-2xl font-semibold mb-4 mt-6">
+                    Phase II: From Adolescence to Adulthood (Teens to 30s)
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    Extraverted Sensing (Se), the inferior function of INFJs,
+                    enters the picture and starts to have a greater impact once
+                    the dominant function reaches a particular threshold of
+                    strength and dominance. Because it is not the function that
+                    is next in line for development in the function stack, this
+                    can be confusing. The inferior’s bipolar relationship with
+                    the dominant function is the source of its excessive
+                    influence. As I’ve mentioned previously, the main cause of
+                    poor career and interpersonal decision-making is inferior
+                    function. Regretfully, its impact peaks during Phase II of
+                    type development, which also occurs during the period when
+                    INFJs are making relationships and career decisions that
+                    will change their lives. As their inferior function becomes
+                    more prevalent and influential, INFJs also start to refine
+                    and expand their judgments through their tertiary function,
+                    Introverted Thinking (Ti). Their Ti reasoning helps them to
+                    verify and improve their Ni-Fe assessments. As their Ti
+                    increases, INFJs also show a greater interest in
+                    investigating their inferior function, Extraverted Sensing
+                    (Se).
+                  </p>
+
+                  <h2 className="text-2xl font-semibold mb-4 mt-6">
+                    Phase III: Life’s Later Chapters: 30s, 40s, and Beyond
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    Phase III is characterized by an effort to comprehend and
+                    integrate the tertiary and inferior functions, a stage that
+                    many people never reach or finish. INFJs can more clearly
+                    see their journey toward wholeness by bringing these
+                    unconscious processes into the light of consciousness. To do
+                    this, one must comprehend the nature of these functions’
+                    manifestations within their type and develop a greater
+                    awareness of one’s unconscious behavioral patterns. Healthy
+                    ideas and practices can take their place once these patterns
+                    are recognized. Making wiser and more thoughtful decisions
+                    and actions leads to a long-lasting sense of fulfillment and
+                    completeness. Investigating the nature of and difficulties
+                    related to their tertiary Ti and inferior Se in greater
+                    detail is part of Phase III personal growth for INFJs.
                   </p>
                 </section>
               )}
@@ -1341,5 +1841,4 @@ function INFJBlogs() {
   );
 }
 
-
-export default INFJBlogs
+export default INFJBlogs;
