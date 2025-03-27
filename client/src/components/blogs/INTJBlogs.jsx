@@ -524,7 +524,7 @@ function INTJBlogs() {
                         </tr>
                         <tr className="bg-yellow-400">
                           <td className="p-3 text-black">
-                            ● Keen Insight and Pattern Recognition
+                             Keen Insight and Pattern Recognition
                           </td>
                         </tr>
                       </tbody>
@@ -725,385 +725,282 @@ function INTJBlogs() {
               {/* Romantic Relationships Section */}
               {activeSection === "romantic-relationships" && (
                 <section id="romantic-relationships">
-                  <h1 className="text-3xl font-bold mb-2">Relationships</h1>
+                  <h1 className="text-3xl font-bold mb-2">Relationships with INTJ</h1>
                   <h2 className="text-2xl font-bold mb-2">
-                    Romantic Relationships
+                  Romantic relationships
                   </h2>
 
-                  <blockquote className="border-l-8 border-teal-500 pl-4 italic text-black font-bold text-xl py-10 mt-6 text-justify">
-                    “Darkness cannot drive out darkness; only light can do that.
-                    Hate cannot drive out hate; only love can do that.” (Martin
-                    Luther King Jr.)
+                  <p className="text-black text-lg mt-6">
+                  INTJs approach relationships with the same goal-orientedness and rationality that they apply to other facets of life. They prefer to find a partner who shares their intellectual interests and aspirations, and they frequently have no interest in shallow relationships.
+                  </p>
+                  <p className="text-black text-lg mt-6">
+                  NTJs emphasize honesty and a close intellectual bond in romantic relationships. They tend to be picky about who they pursue, concentrating on partners pushing and challenging them intellectually. 
+                  </p>
+                  <p className="text-black text-lg mt-6">
+                  INTJs frequently find it easier to connect with people who approach relationships with a similar emphasis on logic and independence. In contrast, they may find it challenging to form romantic relationships with those who rely heavily on emotional cues and sentiments. 
+                  </p>
+
+                  <blockquote className=" bg-teal-300 p-4 italic text-black text-xl py-10 mt-6 text-center">
+                    <b className="text-center">INTJ compatibility with other personality types </b>
+                    <br />
+                    ENFPs, ENTPs, and ESTPs are personality types that make good relationship choices because they get along well with INTJs. ISFP, ISFJ, and ESFJ personality types are generally less compatible with INTJs.
                   </blockquote>
+
+
+                  <h2 className="text-2xl font-bold mb-2">
+                  INTJ Preferences for Loyalty, Independence, and Understanding
+                  </h2>
                   <p className="text-black text-lg mt-6">
-                    Advocates who identify as INFJs look for depth and
-                    significance in relationships, and romantic relationships
-                    are no different. INFJs are known for having a vivid
-                    imagination and for idealizing their relationships by
-                    creating a “perfect” partner. When tempered with a dash of
-                    realism, this idealism can improve their romantic life even
-                    though it can occasionally result in irrational
-                    expectations. Deeply aware of their basic beliefs, INFJs
-                    look for genuine compatibility. They place a high value on
-                    sincerity, seeing past outward attraction to determine
-                    whether a partnership is consistent with their core values.
-                    Rather than attempting to alter them, they prefer partners
-                    who value and accept them for who they are because of their
-                    strong sense of integrity.
+                  In relationships, INTJs’ fundamental values are independence and loyalty. They seek a partner who supports their goals and acknowledges their privacy needs. Establishing a harmonious relationship with an INTJ requires an understanding of these preferences. 
                   </p>
                   <p className="text-black text-lg mt-6">
-                    INFJs are motivated by their strong morals and look for
-                    purpose in friendships and interpersonal relationships,
-                    among other aspects of their lives. Even though they might
-                    not know many people, the close friendships they do make are
-                    frequently incredibly strong and enduring. INFJs are great
-                    listeners who provide emotional support and connection to
-                    people they care about.
-                  </p>
-                  <p className="text-black text-lg mt-6">
-                    In romantic relationships, INFJs display warmth, empathy,
-                    sincerity, and a keen sense of understanding. They patiently
-                    dedicate themselves to uncovering the deeper emotional needs
-                    and desires of the one they love.
-                  </p>
-                  <p className="text-black text-lg mt-6">
-                    INFJs have a great deal of empathy, but because they are
-                    introverted, they are selective about who they reveal their
-                    actual selves. They prefer emotional intimacy over
-                    surface-level interactions and are more inclined to open up
-                    with a select group of people they can trust. INFJs
-                    frequently require alone time to refuel and think after
-                    spending time in social settings.
+                  INTJs are looking for a partner who appreciates independence and loyalty. They are loyal to people who respect their self-reliance and value their emphasis on intellectual development and personal objectives. 
                   </p>
 
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                    INFJ Compatibility
+                  
+                  <h2 className="text-2xl font-bold mb-2">
+                  Common Challenges in Romantic Relationships 
                   </h2>
-                  <p className="text-black text-lg">
-                    Within the MBTI framework, INFJs typically pair best with
-                    ENTPs and ENFPs. Conversely, INFJs often find the least
-                    compatibility with ISTPs and ESTPs.
+                  <p className="text-black text-lg mt-6">
+                  It can be challenging for INTJs to have emotionally charged conversations, which can result in miscommunication in romantic partnerships. They may occasionally appear judgmental or insensitive due to their emphasis on logic and progress. 
                   </p>
+                  <p className="text-black text-lg mt-6">
+                  The inability to openly express emotions is one of the problems that INTJs face in romantic relationships. Their propensity to value reason and honesty over emotion can occasionally make it difficult for their partners to feel emotionally connected. 
+                  </p>           
                 </section>
               )}
 
               {/* Friendships Section */}
               {activeSection === "friendships" && (
                 <section id="friendships">
-                  <h2 className="text-2xl font-bold mb-2 mt-6">Friendships</h2>
-                  <blockquote className="border-l-8 border-teal-500 pl-4 italic text-black font-bold text-xl py-10 mt-6 text-justify">
-                    “True friendship comes when the silence between two people
-                    is comfortable.” (David Tyson Gentry)
-                  </blockquote>
-                  <p className="text-black text-lg mt-4">
-                    People with the INFJ personality type (Advocates) are rarely
-                    content with friendships that are superficial and shallow.
-                    Casual interactions with coworkers or classmates don’t
-                    satisfy them; instead, they long for genuine, meaningful
-                    friendships that let them express their emotions, share
-                    their dreams and feel understood and accepted for who they
-                    are. In contrast to having a large network of acquaintances,
-                    INFJs are more than happy to have just one or two
-                    confidants. INFJs may appear quiet or reserved to the
-                    general public, but they are incredibly vivacious around
-                    their closest friends. Talking with someone who shares their
-                    interests, passions, and beliefs makes them happier than
-                    anything else. INFJs find it liberating to let their guard
-                    down and be fully themselves with a trusted friend, even
-                    though they prefer their own company.
+
+<h2 className="text-3xl font-bold mb-2">
+                  Friendships with INTJs 
+                  </h2>
+                  <h2 className="text-2xl font-bold mb-2">
+                  INTJs as Loyal and Selective Friends 
+                  </h2>
+                  <p className="text-black text-lg mt-6">
+                  Selecting friends who share their values and intellectual interests is a common practice for INTJs. However, they are incredibly devoted and loyal once a friendship is formed.  
                   </p>
-                  <p className="text-black text-lg mt-4">
-                    INFJs value authenticity in friendships and have high
-                    standards for them. They know that someone is not the right
-                    friend for them if they have to play down their emotions or
-                    act nice to someone. They also value friendships that grow
-                    and support one another. While enjoying each other’s company
-                    is important, INFJs look for friends who push them to grow,
-                    learn, and better themselves. For friendship, INFJs seek a
-                    soulmate who shares their beliefs and passions, not just
-                    someone to hang out with. INFJs are private and reserved,
-                    which makes them occasionally challenging to get to know.
-                    Friends who understand and support their need to withdraw
-                    and refuel are highly valued by them. A good friend can help
-                    INFJs by taking the time to understand their viewpoint and
-                    recognize their strengths, even though they may conceal
-                    their emotions when they are hurt.
+                  <p className="text-black text-lg mt-6">
+                  INTJs may have few friends but make a significant investment in close friendships. When their friends value their intelligence and hold similar beliefs, they remain faithful to them. 
                   </p>
+
+                  <h2 className="text-2xl font-bold mb-2">
+                  Preference for Deep, Intellectual Conversations 
+                  </h2>
+                  <p className="text-black text-lg mt-6">
+                  INTJs frequently favor discussions that are thought-provoking. I am drawn to friends who can interact with them on this level because they like conversations that let them delve deeply into concepts and theories.   
+                  </p>
+                  <p className="text-black text-lg mt-6">
+                  INTJs value friendships that present intellectual challenges. They enjoy in-depth discussions and significant interactions and get satisfaction from debating intricate concepts and theories with like-minded people. 
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-2">
+                  Low Tolerance for Drama and Small Talk 
+                  </h2>
+                  <p className="text-black text-lg mt-6">
+                  NTJs could be more patient with drama or pointless social interactions. They tend to steer clear of relationships that require them to chit-chat and prefer friendships free of needless conflict.    
+                  </p>
+                  <p className="text-black text-lg mt-6">
+                  Because they are straightforward, INTJs avoid people who enjoy drama and detest small talk. Their preference for directness and honesty affects their social interactions and friend selection. 
+                  </p>
+
+
+                  
                 </section>
               )}
 
               {/* Parenthood Section */}
               {activeSection === "parenthood" && (
                 <section id="parenthood">
-                  <h1 className="text-3xl font-bold mb-2">
-                    Family and Parenting Dynamics
-                  </h1>
+                  <h2 className="text-2xl font-bold mb-2">
+                  Family and Parenting Dynamics 
+                  </h2>
+                  <h2 className="text-2xl font-bold mb-2">
+                  Encouraging Independence and Self-Directed Thinking
+                  </h2>
+                  <p className="text-black text-lg mt-6">
+                  INTJ parents prioritize fostering independence and self-reliance in their children. They actively encourage intellectual curiosity and critical thinking, helping their kids develop confidence in their ability to make wise decisions and overcome challenges. By promoting self-directed thinking and personal growth, INTJs aim to raise children who are self-sufficient and capable of navigating life’s complexities.   
+                  </p>
 
-                  <p className="text-black text-lg mt-4">
-                    INFJs frequently work to foster harmony within their
-                    families and place high importance on meaningful family
-                    relationships. They are extremely sensitive to the needs of
-                    their family members due to their empathetic nature, which
-                    allows them to offer understanding and support during trying
-                    times.
+
+                  <h2 className="text-2xl font-bold mb-2">
+                  High Expectations for Growth and Self-Sufficiency
+                  </h2>
+                  <p className="text-black text-lg mt-6">
+                  INTJs hold their children to high standards and emphasize the importance of striving for excellence. They provide their kids with the tools and support needed to succeed, encouraging both academic and personal development. With a focus on self-improvement, INTJ parents aim to instill a sense of responsibility and independence in their children, ensuring they are well-prepared for the future.   
                   </p>
-                  <p className="text-black text-lg mt-4">
-                    As parents, INFJs are excellent at emotionally understanding
-                    and relating to their kids. They strive to keep strong, deep
-                    relationships with their kids and are very sympathetic. To
-                    raise kids who are kind, considerate, and compassionate,
-                    INFJs have high standards and frequently have explicit
-                    behavioral expectations. To create an atmosphere where each
-                    child can reach their full potential, INFJs encourage their
-                    kids to follow their interests and skills.
+
+
+                  <h2 className="text-2xl font-bold mb-2">
+                  Balancing Intellectual and Emotional Needs
+                  </h2>
+                  <p className="text-black text-lg mt-6">
+                  While INTJs are deeply committed to their children’s welfare, they may find it challenging to express affection openly. Their parenting style often prioritizes intellectual growth over emotional displays, which can sometimes create a perception of emotional distance. However, their unwavering dedication to their kids’ development demonstrates their love and care, even if it is not always shown through traditional warmth. 
                   </p>
-                  <p className="text-black text-lg mt-4">
-                    Steeped in idealism, INFJ parents are driven to foster
-                    humanitarian values in their children. They long to raise
-                    empathetic, emotionally astute individuals who will work
-                    toward the greater good.
-                  </p>
-                </section>
+
+
+                                 </section>
               )}
 
               {/* Career Paths Section */}
               {activeSection === "careers" && (
                 <section id="careers">
-                  <h1 className="text-3xl font-bold mb-2 mt-6">Career Paths</h1>
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Suitable Careers
-                  </h2>
-                  <p className="text-black text-lg mt-4">
-                    INFJs frequently choose occupations that enable them to
-                    significantly impact others’ lives. They flourish in
-                    positions that call for imagination, compassion, and an
-                    emphasis on one’s development.
+                  <h2 className="text-2xl font-bold mb-2">
+                  Career Preferences for INTJs
+                  </h2> 
+                  <p className="text-black text-lg mt-6">
+                  Careers requiring deep analysis and intellectual work are inherently appealing to INTJs; they frequently choose STEM and other fields. Their aptitude for rationality and problem-solving makes them ideal for professions like science, engineering, law, research, and project management, which offer the intellectual challenges that INTJs are drawn to.  
                   </p>
-                  <blockquote className="border-l-8 border-teal-500 pl-4 italic text-black font-bold text-xl py-10 mt-6">
-                    “I can accept failure, everyone fails at something. But I
-                    can’t accept not trying.” (Michael Jordan)
-                  </blockquote>
-
-                  <ul className="list-disc pl-5 text-black text-xl">
-                    <li className="mt-4 text-xl font-bold">
-                      Psychology and counseling
-                    </li>
-                    <p className="text-black text-lg mt-4">
-                      INFJs frequently pursue careers in psychology and
-                      counseling, which allow them to use their innate empathy
-                      and wisdom to assist others.
-                    </p>
-
-                    <li className="mt-4 text-xl font-bold">Teaching</li>
-                    <p className="text-black text-lg mt-4">
-                      Imparting information and providing others with purposeful
-                      direction. The arts, such as writing, which allows them to
-                      express their imagination and idealistic views.
-                    </p>
-
-                    <li className="mt-4 text-xl font-bold">
-                      Non-Profit Sector
-                    </li>
-                    <p className="text-black text-lg mt-4">
-                      Focusing on changing the world and coordinating their work
-                      with their values. INFJs are especially drawn to
-                      professions that allow them to positively influence people
-                      and society at large while also integrating their work
-                      with their values.
-                    </p>
-                  </ul>
-
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Popular INFJ Careers
+                  <h2 className="text-2xl font-bold mb-2">
+                  Popular INTJ Careers
                   </h2>
-                  <p className="text-black text-lg mt-4">
-                    Popular careers for INFJs often overlap with their values
-                    and creative inclinations. These include:
-                  </p>
                   <ul className="list-disc pl-5 text-black text-xl">
-                    <li className="mt-4 font-bold text-xl">Artist</li>
-                    <li className="mt-4 font-bold text-xl">Actor</li>
-                    <li className="mt-4 font-bold text-xl">Entrepreneur</li>
-                    <li className="mt-4 font-bold text-xl">Religious Worker</li>
-                    <li className="mt-4 font-bold text-xl">Musician</li>
-                    <li className="mt-4 font-bold text-xl">Librarian</li>
-                    <li className="mt-4 font-bold text-xl">Counselor</li>
-                    <li className="mt-4 font-bold text-xl">Psychologist</li>
-                    <li className="mt-4 font-bold text-xl">Writer</li>
+                    <li className="mt-4 font-bold text-xl">Scientist</li>
+                    <li className="mt-4 font-bold text-xl">Mathematician</li>
+                    <li className="mt-4 font-bold text-xl">Engineer</li>
+                    <li className="mt-4 font-bold text-xl">Dentist</li>
+                    <li className="mt-4 font-bold text-xl">Doctor</li>
                     <li className="mt-4 font-bold text-xl">Teacher</li>
-                    <li className="mt-4 font-bold text-xl">Photographer</li>
+                    <li className="mt-4 font-bold text-xl">Judge</li>
+                    <li className="mt-4 font-bold text-xl">Lawyer</li>
                   </ul>
+
+                  <p className="text-black text-lg mt-6">
+                  These occupations are ideally suited to their skill set since they flourish in positions that require accuracy, systematic thought, and creative problem-solving.  
+                  </p>
+                
                   <blockquote className="border-l-8 border-teal-500 pl-4 italic text-black font-bold text-xl py-10 mt-6">
-                    INFJs can be both nurturing counselors and insightful
-                    visionaries, balancing compassion with a drive for meaning.”
-                    <p className="text-gray-400 text-xl mt-4">
-                      Drenth, A.J. “INFJ Personality Profile.” Personality
-                      Junkie, 2012.
-                    </p>
+                  INTJs are adept at obtaining, evaluating, and drawing new conclusions from information they observe in the outside world. This personality type tends to be highly logical and analytical.
                   </blockquote>
 
-                  <blockquote className="border-l-8 border-teal-500 pl-4 italic text-black font-bold text-xl py-10 mt-6">
-                    Reserved but visionary, INFJs often see creative
-                    possibilities and future potentials long before others do.”
-                    <p className="text-gray-400 text-xl mt-4">
-                      Myers, Isabel Briggs, and Peter B. Myers. Gifts Differing:
-                      Understanding Personality Type. Davies-Black Publishing,
-                      1980.
-                    </p>
+                  
+                  <p className="text-black text-lg mt-4">
+                  INTJs (often referred to as architects) prefer to work independently, regardless of their professional stage. They are naturally adept at solving problems and hold themselves to very high standards, constantly looking for more effective and efficient ways to complete tasks. They are, in many respects, perfect employees and coworkers because of this. However, INTJs can be direct or contemptuous to coworkers they don't like, and regrettably, it's not always simple to gain their respect. Teamwork can occasionally be difficult for them in settings where people value socializing over creativity or convenience over creativity.
+                  </p>
+                  <blockquote className=" bg-teal-300 p-4 italic text-black text-xl py-10 mt-6 text-center">
+                  For INTJs, completing a task is not enough. Individuals with this personality type are extremely valuable assets in increasing operational efficiency in organizations because they go above and beyond and constantly consider ways to improve it.
                   </blockquote>
 
-                  <blockquote className="border-l-8 border-teal-500 pl-4 italic text-black font-bold text-xl py-10 mt-6">
-                    INFJs are idealists who want nothing more than to see the
-                    world live up to their deeply held values.”
-                    <p className="text-gray-400 text-xl mt-4">
-                      Keirsey, David. Please Understand Me II: Temperament,
-                      Character, Intelligence. Prometheus Nemesis Book Company,
-                      1998.
-                    </p>
-                  </blockquote>
 
-                  <h1 className="text-3xl font-bold mb-2 mt-6">
-                    Famous INFJs: Historical and Modern Figures
-                  </h1>
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Famous INFJs Include
+                 
+
+                  <h2 className="text-2xl font-bold mb-2">
+                  INTJs as subordinates
                   </h2>
-                  <ul className="list-disc pl-5 text-black text-xl">
-                    <li className="mt-4 font-bold text-xl">Mohandas Gandhi</li>
-                    <li className="mt-4 font-bold text-xl">
-                      Eleanor Roosevelt
-                    </li>
-                    <li className="mt-4 font-bold text-xl">Emily Brontë</li>
-                    <li className="mt-4 font-bold text-xl">Jane Goodall</li>
-                    <li className="mt-4 font-bold text-xl">Carl Jung</li>
-                    <li className="mt-4 font-bold text-xl">
-                      Fyodor Dostoevsky
-                    </li>
-                    <li className="mt-4 font-bold text-xl">
-                      Florence Nightingale
-                    </li>
-                    <li className="mt-4 font-bold text-xl">Shirley MacLaine</li>
-                    <li className="mt-4 font-bold text-xl">Jimmy Carter</li>
-                    <li className="mt-4 font-bold text-xl">Brené Brown</li>
-                    <li className="mt-4 font-bold text-xl">Edward Snowden</li>
+                  <p className="text-black text-lg mt-4">
+                  Due to their strong sense of independence, INTJs are not afraid to take the initiative, correct errors, or improve even the most minor aspects of a project. There is nothing that irritates them more than a boss who micromanages, especially if the boss wastes their time with pointless meetings, enforces meaningless rules, or judges employees more on their likeability than their ability.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                  INTJs are resistant to any attempts to restrict their autonomy, even in entry-level roles. They have little regard for job titles, and they frequently find it difficult to respect a manager who they perceive to be less capable than they are. Their candor may even cause them to criticize their supervisor, a behavior that can either be welcomed or completely backfire depending on the person in charge. In actuality, not all managers are as logical and efficient as INTJs.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                  That does not imply, however, that they should allow a challenging boss to hinder them. Even in less-than-ideal work environments, INTJs can find ways to increase their responsibilities and advance their expertise by utilizing their creativity and problem-solving abilities. To achieve this, they might have to concentrate on developing a positive and professional relationship with their manager, despite any flaws in that individual.
+                  </p>
 
-                    <li className="mt-4 font-bold text-xl">J.K. Rowling</li>
-                    <li className="mt-4 font-bold text-xl">
-                      Marianne Williamson
-                    </li>
-                    <li className="mt-4 font-bold text-xl">
-                      Oprah Winfrey,{" "}
-                      <span className="font-normal">
-                        television personality
-                      </span>
-                    </li>
-                    <li className="mt-4 font-bold text-xl">
-                      Martin Luther King, Jr.{" "}
-                      <span className="font-normal">civil rights leader</span>
-                    </li>
-                    <li className="mt-4 font-bold text-xl">
-                      Taylor Swift <span className="font-normal">musician</span>
-                    </li>
-                  </ul>
-
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Fictional Characters
+                  <h2 className="text-2xl font-bold mb-2">
+                  INTJs as Colleagues
                   </h2>
-                  <ul className="list-disc pl-5 text-black text-xl">
-                    <li className="mt-4 font-bold text-xl">
-                      Luke Skywalker{" "}
-                      <span className="font-normal">from Star Wars</span>
-                    </li>
-                    <li className="mt-4 font-bold text-xl">
-                      Lisa Simpson{" "}
-                      <span className="font-normal">from The Simpsons</span>
-                    </li>
-                    <li className="mt-4 font-bold text-xl">
-                      Albus Dumbledore{" "}
-                      <span className="font-normal"> from Harry Potter</span>
-                    </li>
+                  <p className="text-black text-lg mt-4">
+                  Careers requiring continuous social interaction or teamwork are rarely pursued by INTJs. They find most team-building activities and group meetings to be pointless, and they are not very patient with office politics or gossip. Even brainstorming, which they usually find enjoyable, can quickly turn into a frustrating process if it is unfocused or does not yield useful outcomes.
+                  </p>
 
-                    <li className="mt-4 font-bold text-xl">
-                      Atticus Finch
-                      <span className="font-normal">
-                        {" "}
-                        from To Kill a Mockingbird
-                      </span>
-                    </li>
-                    <li className="mt-4 font-bold text-xl">
-                      Melisandre{" "}
-                      <span className="font-normal"> from Game of Thrones</span>
-                    </li>
-                    <li className="mt-4 font-bold text-xl">
-                      Elsa <span className="font-normal"> from Frozen</span>
-                    </li>
-                    <li className="mt-4 font-bold text-xl">
-                      The Tin Man{" "}
-                      <span className="font-normal">
-                        {" "}
-                        from The Wizard of Oz
-                      </span>
-                    </li>
-                    <li className="mt-4 font-bold text-xl">
-                      Sam Winchester{" "}
-                      <span className="font-normal"> from Supernatural</span>
-                    </li>
-                    <li className="mt-4 font-bold text-xl">
-                      Lady Galadriel{" "}
-                      <span className="font-normal">
-                        {" "}
-                        from The Lord of the Rings
-                      </span>
-                    </li>
-                  </ul>
+                  <p className="text-black text-lg mt-4">
+                  Instead of being slowed down by a well-intentioned but distracted colleague, INTJs prefer to work alone. Fortunately, they can be extremely productive even in the absence of much teamwork due to their keen focus and tenacity. However, working with others is something that INTJs are more than capable of doing, and it may even lead to some of their greatest successes. Despite their aversion to working with just anybody, they frequently discover that many of their coworkers are more capable and perceptive than they initially thought. The correct individuals can make their brainstorming sessions even livelier and produce creative and practical answers.
+                  </p>
 
-                  <div className="overflow-x-auto">
-                    <table className="w-full border-collapse">
-                      <thead>
-                        <tr className="bg-yellow-400 font-bold border-b-4">
-                          <th className="p-3 text-lg font-bold text-black text-center">
-                            Famous INFJs
-                          </th>
-                          <th className="p-3 text-lg font-bold text-black text-center">
-                            Fictional Characters
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr className="bg-white">
-                          <td className="p-3 text-black font-bold">
-                            Eleanor Roosevelt celebrated her advocacy for human
-                            rights and her ability to inspire and connect with
-                            others on a deep emotional level.
-                          </td>
-                          <td className="p-3 text-black">
-                            <b>Atticus Finch</b> from To Kill a Mockingbird
-                            embodies integrity, empathy, and a strong commitment
-                            to justice.
-                          </td>
-                        </tr>
-                        <tr className="bg-yellow-400">
-                          <td className="p-3 text-black">
-                            <b> Albus Dumbledore</b> from Harry Potter
-                            exemplifies wisdom, foresight, and a deep sense of
-                            moral responsibility.
-                          </td>
-                          <td className="p-3 text-black">
-                            <b>Atticus Finch</b> from To Kill a
-                            MockingbirdEmbodies integrity, empathy, and a strong
-                            commitment to justice.t
-                          </td>
-                        </tr>
-                        <tr className="bg-white">
-                          <td className="p-3 text-black font-bold">
-                            Carl JungPioneer of analytical psychology, whose
-                            introspective and visionary ideas reflect typical
-                            INFJ characteristics.
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                  <h2 className="text-2xl font-bold mb-2">
+                  INTJ as managers
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                  Despite not always considering themselves to be born leaders, INTJs possess all the traits of a great leader. They are excellent at planning and carrying out projects with precision and strategic thinking. In contrast to certain managers who exercise power merely for the sake of exercising it, INTJs prioritize fostering creativity and increasing productivity, even if doing so means questioning established hierarchies.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                  For them, success is far more important than approval, so they don't care to be flattering or catered to. Instead of micromanaging daily tasks, INTJs prefer to focus on big-picture strategies and treat their staff as intellectual equals. They expect to be informed and will not be afraid to delve into the specifics when needed, so they are by no means disengaged.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                  INTJs assign tasks to people who show excellent problem-solving abilities and reward proactive, independent thinkers. However, this independence is expected rather than merely a benefit. Workers who require continual guidance or who use charm to cover up subpar work may find it difficult to work under an INTJ manager because these leaders can spot fallacious justifications and hold their staff to extraordinarily high standards.
+                  </p>
+
+
+                  
+                  <h2 className="text-2xl font-bold mb-2">
+                  How INTJ are perceived by others
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                  INTJs appear to be serious, reserved, and extremely perceptive. They constantly try to comprehend the underlying ideas of what they see because they are inherently curious. They take their time to consider a question before providing a thoughtful answer. They frequently identify ways to increase productivity and concentrate on broad strategies, occasionally ignoring the specifics, and are renowned for their critical thinking.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                  Despite not being the friendliest or most gregarious, INTJs radiate confidence in their intelligence. They thrive in intellectually stimulating environments and anticipate that others will see the logic in their ideas. Their straightforward style and perfectionist tendencies can occasionally come across as blunt, particularly when questioning ideas that aren't supported by evidence.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-2">
+                  How Rare Is the INTJ Personality Type?
+                  </h2>
+                  <p className="text-black text-lg text-bold mt-4">
+                  INTJs are one of the rarest types in the population. INTJs make up:
+                  </p>
+                  <p className="text-black text-lg mt-2">
+                  2.6% of the general population
+                  </p>
+                  <p className="text-black text-lg mt-2">
+                  3% of men
+                  </p>
+                  <p className="text-black text-lg mt-2">
+                  2.2% of women
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                  According to psychologist David Keirsey, developer of the Keirsey Temperament Sorter, approximately 1% to 4% of the population has an INTJ personality type. (The rarest personality type is INFJ.)
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-2">
+                  Famous INTJ Personalities
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                  INTJs have significantly impacted various fields, such as science, literature, politics, and technology. INTJs are recognized for their logical approach and innovative contributions to shaping the world. They are known for their analytical mindset, strategic thinking, and visionary outlook.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                  <b>Jane Austen:</b> a celebrated author known for her keen insights into social structures and influential novels.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                  <b>Stephen Hawking: </b> Theoretical physicist famous for his cosmology and quantum mechanics contributions.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                  <b>Hillary Clinton:  </b> a political leader who applied her analytical skills in public service roles, exemplifying the INTJ’s strategic approach.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                  
+                  <p className="text-black text-lg mt-4">
+                  <b>Bill Gates:   </b> Co-founder of Microsoft, who demonstrates the INTJ’s drive for innovation and forward-thinking in technology.
+                  </p>
+                  <b>Thomas Jefferson:   </b> Jefferson is a key figure in American history, known for his strategic vision and role in shaping foundational policies.
+                  </p>
+
+                  <blockquote className=" bg-teal-300 p-4 italic text-black text-xl py-10 mt-6 text-center">
+                  <p className="text-black text-lg mt-4 font-bold">
+                  "INTJs are often seen as masterminds, able to see complex patterns and long-term outcomes that others overlook."
+                  </p>
+
+                  <p className="text-black text-lg mt-2">
+                  Dr. A.J. Drenth, author of My True Type
+                  </p>
+                  <p className="text-black text-lg mt-4 font-bold">
+                  "The independent, analytical mind of the INTJ seeks understanding and depth in all things, often leading them to unconventional paths."
+                  </p>
+                  <p className="text-black text-lg mt-2">
+                  Paul D. Tieger & Barbara Barron-Tieger, Do What You Are
+                  </p>
+                  <p className="text-black text-lg mt-4 font-bold">
+                  "INTJs are known for their unyielding vision, paired with a tenacious will to turn it into reality. They are seldom content with the status quo."
+                  </p>
+                  <p className="text-black text-lg mt-2">
+                  Otto Kroeger, Type Talk
+                  </p>
+                  </blockquote>
                 </section>
               )}
 
@@ -1111,365 +1008,108 @@ function INTJBlogs() {
               {activeSection === "workplace-habits" && (
                 <section id="workplace-habits">
                   <h1 className="text-3xl font-bold mb-2 mt-6">
-                    Workplace Habits and Preferences
+                  Hobbies and Interests
                   </h1>
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Workplace Habits
+                  Cognitive Engagement and Independent Pursuits
                   </h2>
 
                   <p className="text-black text-lg mt-4">
-                    In the workplace, INFJs respect collaboration, tact, and
-                    genuineness. They work best in settings that support
-                    equality and justice, but they can get annoyed by office
-                    politics, strict regulations, or repetitive, inflexible
-                    procedures, which can deplete their motivation and leave
-                    them feeling unfulfilled. For INFJs, the most fulfilling
-                    work enables them to support others while simultaneously
-                    promoting their development.
-                  </p>
-
-                  <p className="text-black text-lg mt-4">
-                    For INFJs, alignment with personal values is a crucial
-                    component of job satisfaction. Office politics, dishonest
-                    coworkers, pointless regulations, and an overabundance of
-                    bureaucracy can all seriously demotivate them. INFJs favor
-                    environments at work where cooperation, decency, and equity
-                    are valued. Because they value an egalitarian approach to
-                    working relationships regardless of their position on the
-                    job ladder, they generally avoid seeing themselves as
-                    superior to or inferior to others.
+                  INTJs are naturally drawn to hobbies that promote intellectual stimulation and independent thought. They often favor solitary activities such as reading, which allows them to explore intricate subjects at their own pace, and video games that challenge their strategic and problem-solving abilities. Individual sports like swimming, cycling, and running also appeal to their drive for self-improvement and personal focus.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    INFJ as Managers
+                  Appreciation for Art and Lifelong Learning
                   </h2>
-
                   <p className="text-black text-lg mt-4">
-                    As managers, INFJs tend to think of everyone as equals,
-                    regardless of titles or positions, and they frequently
-                    detest using their power. Instead of micromanaging their
-                    subordinates, INFJs work to give them the freedom to think
-                    and act for themselves. They constantly exhibit integrity
-                    and dedication, encourage others, foster an environment of
-                    respect for one another, and set an example. Fair and
-                    caring, INFJ managers take pride in recognizing the
-                    individual strengths of their staff members and supporting
-                    their development.
-                  </p>
-                  <p className="text-black text-lg mt-4">
-                    On the other hand, this does not imply that they have low
-                    standards; on the contrary. Because INFJs value honesty,
-                    rigor, motivation, and dependability in their staff, they
-                    expect their team members to meet the high standards they
-                    set for themselves. Managers who are INFJ are not very
-                    tolerant of unethical or unreliable behavior. They can be
-                    extremely harsh if they witness someone acting in a way that
-                    they believe to be immoral. However, INFJ managers put in a
-                    lot of effort to make sure their team feels appreciated,
-                    content, and successful when their workers share their good
-                    intentions and values.
+                  INTJs value cultural enrichment and intellectual growth, often seeking out art and cultural activities that broaden their horizons. They enjoy visiting museums, attending lectures, and participating in intellectually stimulating events that expose them to diverse perspectives. Their love for continuous learning extends beyond formal education, driving them to engage in activities that expand their knowledge and understanding of the world.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    INFJ as Subordinates
+                  Fascination with Technology and Practical Exploration
                   </h2>
-
                   <p className="text-black text-lg mt-4">
-                    INFJs appreciate independence, sensitivity, and teamwork in
-                    the workplace. They perform best as employees when their
-                    managers are receptive to their opinions and have an open
-                    mind. Having a manager who listens to INFJs can greatly
-                    boost their morale because they can be especially frustrated
-                    when they feel ignored. While INFJs are inclined to follow
-                    their convictions and strive for excellence, their morale is
-                    particularly susceptible to criticism, especially if it
-                    seems unjustified.
-                  </p>
-                  <p className="text-black text-lg mt-4">
-                    They may also become demotivated by routine tasks, rigid
-                    structures, stringent rules, and requests to redo work for
-                    reasons they believe are unjustified. INFJs prefer managers
-                    who support and encourage them and whose values coincide
-                    with their own. But in less-than-ideal work settings, INFJs
-                    might have to rely on their inner fortitude and look for
-                    assistance from other mentors. Thankfully, working with a
-                    challenging manager is just one of the challenges that INFJs
-                    can easily handle at work.
-                  </p>
-
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                    INFJ as Colleagues
-                  </h2>
-
-                  <p className="text-black text-lg mt-4">
-                    INFJs put integrity first and are industrious, careful
-                    workers who focus on doing the right thing. They can
-                    continuously produce high-quality work because they have a
-                    strong sense of personal accountability for the tasks
-                    assigned to them. Because of their diligence, they gain the
-                    respect and trust of their colleagues, which opens the door
-                    to productive teamwork and mutual success. As coworkers,
-                    INFJs are frequently regarded as capable, articulate, and
-                    helpful. They are gifted at seeing the motivations of others
-                    and figuring out the underlying reasons for conflict before
-                    anyone else does. They contribute significantly to team
-                    dynamics because of this ability.
-                  </p>
-                  <p className="text-black text-lg mt-4">
-                    INFJs frequently place a higher value on teamwork and
-                    supporting colleagues than on sheer productivity. This is
-                    advantageous, but there is a chance that others will take
-                    advantage of their readiness to assist. At the expense of
-                    their vitality and well-being, they might have to take on
-                    the responsibilities of less committed colleagues. INFJs are
-                    still introverted even though they are generally liked by
-                    their coworkers. They might occasionally need to take a step
-                    back and work alone, concentrating on their objectives in
-                    their own manner. This is not an indication of bitterness
-                    but rather of their need to strike a balance between taking
-                    care of themselves and helping others.
+                  Alongside their scholarly interests, INTJs have a keen fascination with technology, often exploring advancements in computer science and related fields. They pair this interest with hands-on pursuits like marathon running or backpacking, which allow them to set personal goals and work toward success in their unique way. This combination of intellectual curiosity and practical application reflects their multifaceted approach to hobbies.
                   </p>
 
                   <h1 className="text-3xl font-bold mb-2 mt-6">
-                    Growth and Challenges
+                  Interaction tips For Friends
                   </h1>
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    INFJ Perfectionism
+                  Patience and Depth in Friendships with INTJs:
                   </h2>
-
                   <p className="text-black text-lg mt-4">
-                    One characteristic that distinguishes INFJs is their ability
-                    to envision a better world. Receiving fresh impressions and
-                    visions is a defining feature of their personality (Ni). But
-                    when they get too attached to the ideals’ perfect
-                    realization (Se), their perfectionism frequently shows.
-                    INFJs may be extremely picky about their jobs or belongings
-                    due to their desire to see their intuitive ideas fully
-                    realized.
-                  </p>
-                  <p className="text-black text-lg mt-4">
-                    In severe situations, INFJs might put their health at risk
-                    to make sure their vision is carried out flawlessly. It can
-                    be devastating to deviate from their ideal. Their
-                    self-expectations also exhibit this perfectionism. INFJs
-                    frequently treat themselves much harsher than they do other
-                    people. They struggle to extend the same grace to
-                    themselves, believing that their moral or idealistic
-                    insights should make them impervious to failure, even though
-                    their Extraverted Feeling (Fe) allows them to forgive the
-                    shortcomings of others.
-                  </p>
-                  <p className="text-black text-lg mt-4">
-                    The perfectionism of INFJs affects their daily lives as
-                    well. Their idealistic focus may prevent them from
-                    appreciating the realities of their relationships,
-                    employment, or living arrangements. It’s possible for them
-                    to become obsessed with flaws and question whether they
-                    ought to look for something better. The messiness of real
-                    life is not given much space by this tendency.
+                  INTJs cherish deep and enduring friendships with individuals who can appreciate their complexity and depth of thought. Establishing a friendship with an INTJ takes perseverance and a shared dedication to sincere and thought-provoking conversations frequently.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Balancing Idealism and Self-Care
+                  Avoidance of Small Talk and Value of Intellectual Bonding: 
                   </h2>
 
                   <p className="text-black text-lg mt-4">
-                    INFJs frequently have fewer options for relaxation or stress
-                    relief because of their perfectionism and reserved demeanor.
-                    They run the risk of wearing themselves out in their desire
-                    to serve others and follow their ideals if they don’t take
-                    care of themselves and maintain balance. Their well-being
-                    depends on them taking the time to rest and embracing life’s
-                    flaws.
+                  Small talk tends to bore INTJs, who are more interested in intellectually stimulating conversations. They value friends who actively seek out contentious debates and contribute interesting viewpoints to their discussions.
                   </p>
 
+
+                  <h1 className="text-3xl font-bold mb-2 mt-6">
+                  For partners
+                  </h1>
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Coping with Stress and Burnout
+                  Encouragement for Clear, Direct Communication with INTJ Partners:
                   </h2>
-
                   <p className="text-black text-lg mt-4">
-                    INFJs frequently have limited ways to vent because of their
-                    meticulousness and reserved demeanor. If they don’t strike a
-                    balance between their need for self-care and rest and their
-                    desire to assist others, they risk burning out. Sometimes
-                    INFJs can be so focused on their principles that they
-                    neglect their health, which can result in stress and
-                    burnout. They must not forget to take care of themselves
-                    while they are busy tending to everyone else.
+                  INTJs value partners who are direct and honest in their communication. INTJs benefit from clear communication because it eliminates the ambiguity that can be frustrating and helps them understand their partner’s needs and intentions.
                   </p>
-
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    The balance between Helping Others and Self-Care
+                  Importance of Independence and Loyalty in Partnerships:
                   </h2>
-
                   <p className="text-black text-lg mt-4">
-                    INFJs are passionate about improving the world and assisting
-                    others. Their introverted personality, however, means that
-                    they are selective about revealing their “true selves” and
-                    require time to recover from social engagements.
-                  </p>
-
-                  <p className="text-black text-lg mt-4">
-                    INFJs must strike a balance between the need for self-care
-                    and their strong desire to assist others. They frequently
-                    take on too much, which is detrimental to their own
-                    emotional and mental well-being. They can continue to pursue
-                    their objectives of assisting others and making a
-                    significant contribution to the world while maintaining
-                    their well-being when they can strike this balance.
+                  INTJs appreciate independence in relationships and anticipate that their partners will respect their need for privacy and autonomy. Since they prefer meaningful and long-lasting relationships to fleeting ones, loyalty and respect for one another are essential for INTJs.
                   </p>
 
                   <h1 className="text-3xl font-bold mb-2 mt-6">
-                    Debunking Myths
+                  Workplace tips
                   </h1>
-
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                  Respect for INTJs Analytical Abilities and Independent Work Style:
+                  </h2>
                   <p className="text-black text-lg mt-4">
-                    Like all personality types, INFJs are frequently subjected
-                    to false beliefs that may cause them to misinterpret who
-                    they are. Some common misconceptions about INFJs are listed
-                    below, along with the truth about them.
+                  INTJs flourish in work settings when their analytical prowess and need for independence are acknowledged. They appreciate jobs where they can apply their problem-solving skills and prefer working independently.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Myth 1: INFJs Are Always Gentle and PassiveReality
+                  Approaches for Effective Collaboration with INTJs:
                   </h2>
-
-                  <p className="text-black text-lg ">
-                    Although INFJs are renowned for their composure and empathy
-                    when their deeply held beliefs are questioned, they can
-                    become extremely fervent and assertive. They have a strong
-                    sense of determination due to their Judging trait, and they
-                    are more than capable of standing up for their beliefs even
-                    if it means defying the crowd.
+                  <p className="text-black text-lg mt-4">
+                  Being direct and rational when working with INTJs works well because they value precise goals and doable tactics. They react favorably to reasonable, constructive criticism that respects their level of expertise.
                   </p>
 
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Myth 2: INFJs Are PsychicReality
-                  </h2>
-                  <p className="text-black text-lg">
-                    INFJs frequently appear to possess an almost supernatural
-                    aptitude for making predictions or deciphering the
-                    intentions of others. This is a result of their primary
-                    function, Introverted Intuition (Ni), not any mystical
-                    power. They appear to have foresight because of this
-                    function, which enables them to combine patterns and draw
-                    perceptive connections that others might miss.
-                  </p>
-
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Myth 3: INFJs Are Always Introverted and ReservedReality
-                  </h2>
-                  <p className="text-black text-lg">
-                    Although introverted and in need of solitude to refuel,
-                    INFJs can also be gregarious, gregarious, and very engaging
-                    when given the proper circumstances. Although they favor
-                    quality over quantity in their social interactions, they
-                    frequently enjoy emotionally connecting with people and
-                    thrive in in-depth, meaningful conversations.
-                  </p>
-
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Myth 4: INFJs Are Perfect and UnflawedReality
-                  </h2>
-                  <p className="text-black text-lg">
-                    People tend to think INFJs have it all figured out because
-                    they are idealists. In actuality, because of their high
-                    expectations of both themselves and other people, INFJs are
-                    prone to self-doubt, perfectionism, and burnout. They may
-                    feel overburdened or unable to make decisions because of
-                    their propensity to overanalyze.
-                  </p>
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Myth 5: INFJs Are Too Sensitive to Function Reality
-                  </h2>
-                  <p className="text-black text-lg">
-                    The truth is that INFJs are not inherently weak or overly
-                    sentimental, despite their considerable empathy and
-                    emotional sensitivity. They strike a balance between their
-                    sensitivity and resilience and a strong sense of purpose,
-                    frequently using their emotional intelligence to uplift and
-                    empower others.
-                  </p>
-
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Myth 6: INFJs Are Rare and Therefore Superior Reality
-                  </h2>
-                  <p className="text-black text-lg">
-                    In actuality, INFJs are among the rarest personality types;
-                    however, this does not mean that they are better than other
-                    people. Every personality type has special qualities and
-                    contributions of its own. INFJs are not superior or inferior
-                    to other people; rather, their rarity emphasizes how unique
-                    their characteristics are.
-                  </p>
-
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Myth 7: INFJs Are Always Altruistic Reality
-                  </h2>
-                  <p className="text-black text-lg">
-                    Despite having a strong sense of compassion and frequently
-                    being driven by a desire to assist others, INFJs
-                    occasionally experience selfishness or frustration. When
-                    they feel misunderstood or that their efforts are not
-                    valued, they may become agitated or withdrawn. Demystifying
-                    these fallacies helps us grasp the genuine depth and
-                    intricacy of the INFJ personality type. INFJs are
-                    multi-dimensional people who merge sensitivity, insight and
-                    resolve, creating a significant influence for beneficial
-                    transformation in the world. Recognizing and appreciating
-                    their subtleties is crucial for cultivating genuine ties
-                    with them.
-                  </p>
 
                   <h1 className="text-3xl font-bold mb-2 mt-6">
-                    Interaction tips
+                  Tips for Personal Growth 
                   </h1>
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Tips for friends
+                  Embracing Personal Strengths While Managing Weaknesses
                   </h2>
                   <p className="text-black text-lg mt-4">
-                    INFJs can be reticent and private, which makes it
-                    challenging to get to know them. They cherish intimate,
-                    meaningful relationships and are sensitive to hurt, though
-                    they frequently keep these emotions to themselves. To be a
-                    good friend to an INFJ, you must recognize and respect their
-                    need to rest and rejuvenate. Sometimes, INFJs feel
-                    misinterpreted. By spending time getting to know their
-                    viewpoint and recognizing their positive traits, you can
-                    improve your friendship.
-                  </p>
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Tips for Partners
-                  </h2>
-                  <p className="text-black text-lg mt-4">
-                    Romantic relationships with individuals who share their
-                    values are the most fulfilling for INFJs. They thrive on
-                    emotional closeness and have an innate capacity to
-                    comprehend their partner’s emotions. Giving INFJs the
-                    support, sincerity, honesty, and authenticity they seek is
-                    crucial to building a strong relationship with them. These
-                    qualities build trust in the relationship and are greatly
-                    valued.
+                  Managing Weaknesses While Embracing Personal Strengths INTJs are frequently urged to acknowledge and value their innate strengths, including independence, strategic thinking, and logical thinking. However, it is equally important that they continue to be aware of areas that might need attention, like interpersonal issues brought on by their direct communication style. INTJs can strengthen their personal and professional relationships by emphasizing their strengths and trying to temper them with awareness and empathy. A deeper understanding of oneself and more fruitful interactions can result from acknowledging and balancing one’s strengths and shortcomings.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Tips for colleagues
+                  Balance Between Rationality and Emotional Awareness
                   </h2>
                   <p className="text-black text-lg mt-4">
-                    As coworkers, INFJs are dependable, hardworking, and
-                    popular. Well-known for their diligence and moral character,
-                    they flourish in settings that value collaboration, equity,
-                    equality, and genuineness. However, because of their
-                    introverted personality, they might occasionally require
-                    solitude to regroup and refocus.
+                  INTJs may occasionally need help to balance their need for emotional awareness and their preference for reason and logic, particularly in social or private settings. Although they frequently place a higher value on making objective decisions, INTJs can also grow personally by becoming more emotionally intelligent. By addressing their feelings and those of others, they can establish deeper connections with friends, family, and coworkers. His equilibrium improves their capacity to react intelligently in social situations and cultivates more meaningful connections.
                   </p>
+
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                  Continuous Learning and Adapting to Social Challenges
+                  </h2>
                   <p className="text-black text-lg mt-4">
-                    Working with an INFJ requires respecting their values,
-                    hearing what they have to say, and creating an environment
-                    of openness and justice. Even though they work best in group
-                    environments, strict procedures, office politics, or
-                    situations that go against their values can irritate them.
-                  </p>
+                  INTJs are inherently motivated to expand their knowledge and deepen their understanding of the world, for they are lifelong learners. However, for INTJs, developing their interpersonal skills and adjusting to social challenges are also important aspects of personal growth. They might benefit from practicing tolerance for diverse viewpoints and concentrating on small talk or informal interactions, which can be awkward but are frequently required in various social situations. INTJs can enhance their social presence and adaptability in multiple contexts by learning new things constantly and making minor adjustments to improve their social interactions.
+                                    </p>
+
+
                 </section>
               )}
 
@@ -1477,48 +1117,8 @@ function INTJBlogs() {
               {activeSection === "conclusion" && (
                 <section id="conclusion">
                   <h2 className="text-2xl font-bold mb-2 mt-6">Conclusion</h2>
-                  <p className="text-black text-lg mt-6">
-                    One of the rarest and most complex personality types, INFJs
-                    are renowned for their idealism, inventiveness, and
-                    kindness. Their path to personal development entails
-                    comprehending and integrating their cognitive processes,
-                    with extraverted feeling (Fe) emerging after introverted
-                    intuition (Ni). Later stages of development entail bringing
-                    these less conscious processes into the light of awareness
-                    by investigating their inferior Extraverted Sensing (Se) and
-                    tertiary Introverted Thinking (Ti). Through this process,
-                    INFJs can swap out unhealthy thought and behaviour patterns
-                    for more constructive ones, leading to a greater sense of
-                    fulfillment and completeness.
-                  </p>
-                  <p className="text-black text-lg mt-8">
-                    Individuals with the Advocate personality find fulfillment
-                    in utilizing their traits, such as idealism, persistence,
-                    and the capacity to envision a more prosperous future, to
-                    create significant impacts on the globe. INFJs are not
-                    satisfied with merely comprehending their capabilities;
-                    rather, they are deeply dedicated to utilizing them to serve
-                    a higher cause. Through the practice of introspection, INFJs
-                    unlock their remarkable abilities, thereby avoiding the
-                    chance of leading a life misaligned with their distinctive
-                    vision and beliefs.
-                  </p>
-                  <p className="text-black text-lg mt-8">
-                    Understanding the characteristics of their personality type,
-                    including its advantages and disadvantages, is the first
-                    step toward personal development for INFJs. In addition to
-                    being fascinating, this self-awareness is crucial to
-                    ensuring they realize their greatest potential. INFJs can
-                    get over the persistent fear of not living up to their ideal
-                    life by valuing their inventiveness, passion, and dedication
-                    to doing the right thing. Rather, they can use their talents
-                    to improve themselves, form deep relationships, and shape a
-                    future that is consistent with their values. Our journey
-                    asINFJsJ starts with applying what you’ve learned to
-                    develop, learn, and live a genuine life. Are you prepared to
-                    realize the full potential of your strengths?
-                  </p>
-                </section>
+                 
+                                </section>
               )}
             </div>
 
