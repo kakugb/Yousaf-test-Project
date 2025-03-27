@@ -20,6 +20,7 @@ import EmotionalResultPage from './components/tests/EmotionalResultPage';
 import INTPBlogs from './components/blogs/INTPBlogs';
 import INFJBlogs from './components/blogs/INFJBlogs';
 import INTJBlogs from './components/blogs/INTJBlogs';
+import ISTJBlogs from './components/blogs/ISTJBlogs';
 
 
    const App = () => {
@@ -45,6 +46,7 @@ import INTJBlogs from './components/blogs/INTJBlogs';
                        <Route path='/intp-blogs' element={<INTPBlogs/>}/>
                        <Route path='/infj-blogs' element={<INFJBlogs/>}/>
                        <Route path='/intj-blogs' element={<INTJBlogs/>}/>
+                       <Route path='/istj-blogs' element={<ISTJBlogs/>}/>
                    </Routes>
                </main>
            </Router>

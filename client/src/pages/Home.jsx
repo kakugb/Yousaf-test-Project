@@ -91,7 +91,7 @@ function Home() {
     }, []);
   return (
     <>
-    <section className="relative w-full flex flex-col md:flex-row items-center bg-white">
+    <section className="relative w-full flex flex-col md:flex-row items-center bg-white pt-20">
         {/* Left side - Text Content */}
         <div className="w-full md:w-1/2 bg-blue-900 text-white p-8 md:p-16 rounded-tr-full flex flex-col justify-center h-full">
           <h1 className="text-4xl md:text-5xl font-bold">Discover Your</h1>

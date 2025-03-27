@@ -386,9 +386,11 @@ const Navbar = () => {
 
                   <div className="py-1 font-bold text-gray-800 mt-4">Sentinels</div>
                   <div className="grid grid-cols-4 gap-2">
+                  <Link to='/istj-blogs'>
                     <button className="bg-yellow-500 text-white text-[14px] py-2 rounded-md hover:bg-yellow-600 w-full font-semibold cursor-pointer">
                       ISTJ – Logistician
                     </button>
+                    </Link>
                     <button className="bg-yellow-500 text-white text-[14px] py-2 rounded-md hover:bg-yellow-600 w-full font-semibold cursor-pointer">
                       ISFJ – Defender
                     </button>
@@ -548,9 +550,11 @@ const Navbar = () => {
 
                 <div className="py-1 font-bold text-gray-800 mt-4">Sentinels</div>
                 <div className="grid grid-cols-4 gap-2">
+                  <Link to='/istj-blogs'>
                   <button className="bg-yellow-500 text-white py-3 rounded-md hover:bg-yellow-600 w-full font-semibold text-[10px]">
                     ISTJ – Logistician
                   </button>
+                  </Link>
                   <button className="bg-yellow-500 text-white py-3 rounded-md hover:bg-yellow-600 w-full font-semibold text-[10px]">
                     ISFJ – Defender
                   </button>

@@ -86,6 +86,7 @@ const DISCPersonalityTest = () => {
     return (
       <div className="flex items-center justify-center min-h-screen">
         <div className="text-center">
+          
           {/* Customize your loader/spinner as needed */}
           <div className="loader mb-4">
             <svg
@@ -118,7 +119,8 @@ const DISCPersonalityTest = () => {
   }
 
   return (
-    <div className="max-w-3xl mx-auto p-6  min-h-screen">
+    <div className="max-w-3xl mx-auto p-6  min-h-screen  pt-20">
+      
       <div className="bg-yellow-600 text-white text-center py-3 font-bold uppercase">
         <span className="px-4">Inaccurate</span>
         <span className="px-4">• Neutral •</span>

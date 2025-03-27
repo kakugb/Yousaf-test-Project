@@ -524,7 +524,7 @@ function INTJBlogs() {
                         </tr>
                         <tr className="bg-yellow-400">
                           <td className="p-3 text-black">
-                             Keen Insight and Pattern Recognition
+                            Keen Insight and Pattern Recognition
                           </td>
                         </tr>
                       </tbody>
@@ -725,90 +725,135 @@ function INTJBlogs() {
               {/* Romantic Relationships Section */}
               {activeSection === "romantic-relationships" && (
                 <section id="romantic-relationships">
-                  <h1 className="text-3xl font-bold mb-2">Relationships with INTJ</h1>
+                  <h1 className="text-3xl font-bold mb-2">
+                    Relationships with INTJ
+                  </h1>
                   <h2 className="text-2xl font-bold mb-2">
-                  Romantic relationships
+                    Romantic relationships
                   </h2>
 
                   <p className="text-black text-lg mt-6">
-                  INTJs approach relationships with the same goal-orientedness and rationality that they apply to other facets of life. They prefer to find a partner who shares their intellectual interests and aspirations, and they frequently have no interest in shallow relationships.
+                    INTJs approach relationships with the same goal-orientedness
+                    and rationality that they apply to other facets of life.
+                    They prefer to find a partner who shares their intellectual
+                    interests and aspirations, and they frequently have no
+                    interest in shallow relationships.
                   </p>
                   <p className="text-black text-lg mt-6">
-                  NTJs emphasize honesty and a close intellectual bond in romantic relationships. They tend to be picky about who they pursue, concentrating on partners pushing and challenging them intellectually. 
+                    NTJs emphasize honesty and a close intellectual bond in
+                    romantic relationships. They tend to be picky about who they
+                    pursue, concentrating on partners pushing and challenging
+                    them intellectually.
                   </p>
                   <p className="text-black text-lg mt-6">
-                  INTJs frequently find it easier to connect with people who approach relationships with a similar emphasis on logic and independence. In contrast, they may find it challenging to form romantic relationships with those who rely heavily on emotional cues and sentiments. 
+                    INTJs frequently find it easier to connect with people who
+                    approach relationships with a similar emphasis on logic and
+                    independence. In contrast, they may find it challenging to
+                    form romantic relationships with those who rely heavily on
+                    emotional cues and sentiments.
                   </p>
 
                   <blockquote className=" bg-teal-300 p-4 italic text-black text-xl py-10 mt-6 text-center">
-                    <b className="text-center">INTJ compatibility with other personality types </b>
+                    <b className="text-center">
+                      INTJ compatibility with other personality types{" "}
+                    </b>
                     <br />
-                    ENFPs, ENTPs, and ESTPs are personality types that make good relationship choices because they get along well with INTJs. ISFP, ISFJ, and ESFJ personality types are generally less compatible with INTJs.
+                    ENFPs, ENTPs, and ESTPs are personality types that make good
+                    relationship choices because they get along well with INTJs.
+                    ISFP, ISFJ, and ESFJ personality types are generally less
+                    compatible with INTJs.
                   </blockquote>
 
-
                   <h2 className="text-2xl font-bold mb-2">
-                  INTJ Preferences for Loyalty, Independence, and Understanding
+                    INTJ Preferences for Loyalty, Independence, and
+                    Understanding
                   </h2>
                   <p className="text-black text-lg mt-6">
-                  In relationships, INTJs’ fundamental values are independence and loyalty. They seek a partner who supports their goals and acknowledges their privacy needs. Establishing a harmonious relationship with an INTJ requires an understanding of these preferences. 
+                    In relationships, INTJs’ fundamental values are independence
+                    and loyalty. They seek a partner who supports their goals
+                    and acknowledges their privacy needs. Establishing a
+                    harmonious relationship with an INTJ requires an
+                    understanding of these preferences.
                   </p>
                   <p className="text-black text-lg mt-6">
-                  INTJs are looking for a partner who appreciates independence and loyalty. They are loyal to people who respect their self-reliance and value their emphasis on intellectual development and personal objectives. 
+                    INTJs are looking for a partner who appreciates independence
+                    and loyalty. They are loyal to people who respect their
+                    self-reliance and value their emphasis on intellectual
+                    development and personal objectives.
                   </p>
 
-                  
                   <h2 className="text-2xl font-bold mb-2">
-                  Common Challenges in Romantic Relationships 
+                    Common Challenges in Romantic Relationships
                   </h2>
                   <p className="text-black text-lg mt-6">
-                  It can be challenging for INTJs to have emotionally charged conversations, which can result in miscommunication in romantic partnerships. They may occasionally appear judgmental or insensitive due to their emphasis on logic and progress. 
+                    It can be challenging for INTJs to have emotionally charged
+                    conversations, which can result in miscommunication in
+                    romantic partnerships. They may occasionally appear
+                    judgmental or insensitive due to their emphasis on logic and
+                    progress.
                   </p>
                   <p className="text-black text-lg mt-6">
-                  The inability to openly express emotions is one of the problems that INTJs face in romantic relationships. Their propensity to value reason and honesty over emotion can occasionally make it difficult for their partners to feel emotionally connected. 
-                  </p>           
+                    The inability to openly express emotions is one of the
+                    problems that INTJs face in romantic relationships. Their
+                    propensity to value reason and honesty over emotion can
+                    occasionally make it difficult for their partners to feel
+                    emotionally connected.
+                  </p>
                 </section>
               )}
 
               {/* Friendships Section */}
               {activeSection === "friendships" && (
                 <section id="friendships">
-
-<h2 className="text-3xl font-bold mb-2">
-                  Friendships with INTJs 
+                  <h2 className="text-3xl font-bold mb-2">
+                    Friendships with INTJs
                   </h2>
                   <h2 className="text-2xl font-bold mb-2">
-                  INTJs as Loyal and Selective Friends 
+                    INTJs as Loyal and Selective Friends
                   </h2>
                   <p className="text-black text-lg mt-6">
-                  Selecting friends who share their values and intellectual interests is a common practice for INTJs. However, they are incredibly devoted and loyal once a friendship is formed.  
+                    Selecting friends who share their values and intellectual
+                    interests is a common practice for INTJs. However, they are
+                    incredibly devoted and loyal once a friendship is formed.
                   </p>
                   <p className="text-black text-lg mt-6">
-                  INTJs may have few friends but make a significant investment in close friendships. When their friends value their intelligence and hold similar beliefs, they remain faithful to them. 
-                  </p>
-
-                  <h2 className="text-2xl font-bold mb-2">
-                  Preference for Deep, Intellectual Conversations 
-                  </h2>
-                  <p className="text-black text-lg mt-6">
-                  INTJs frequently favor discussions that are thought-provoking. I am drawn to friends who can interact with them on this level because they like conversations that let them delve deeply into concepts and theories.   
-                  </p>
-                  <p className="text-black text-lg mt-6">
-                  INTJs value friendships that present intellectual challenges. They enjoy in-depth discussions and significant interactions and get satisfaction from debating intricate concepts and theories with like-minded people. 
+                    INTJs may have few friends but make a significant investment
+                    in close friendships. When their friends value their
+                    intelligence and hold similar beliefs, they remain faithful
+                    to them.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2">
-                  Low Tolerance for Drama and Small Talk 
+                    Preference for Deep, Intellectual Conversations
                   </h2>
                   <p className="text-black text-lg mt-6">
-                  NTJs could be more patient with drama or pointless social interactions. They tend to steer clear of relationships that require them to chit-chat and prefer friendships free of needless conflict.    
+                    INTJs frequently favor discussions that are
+                    thought-provoking. I am drawn to friends who can interact
+                    with them on this level because they like conversations that
+                    let them delve deeply into concepts and theories.
                   </p>
                   <p className="text-black text-lg mt-6">
-                  Because they are straightforward, INTJs avoid people who enjoy drama and detest small talk. Their preference for directness and honesty affects their social interactions and friend selection. 
+                    INTJs value friendships that present intellectual
+                    challenges. They enjoy in-depth discussions and significant
+                    interactions and get satisfaction from debating intricate
+                    concepts and theories with like-minded people.
                   </p>
 
-
-                  
+                  <h2 className="text-2xl font-bold mb-2">
+                    Low Tolerance for Drama and Small Talk
+                  </h2>
+                  <p className="text-black text-lg mt-6">
+                    NTJs could be more patient with drama or pointless social
+                    interactions. They tend to steer clear of relationships that
+                    require them to chit-chat and prefer friendships free of
+                    needless conflict.
+                  </p>
+                  <p className="text-black text-lg mt-6">
+                    Because they are straightforward, INTJs avoid people who
+                    enjoy drama and detest small talk. Their preference for
+                    directness and honesty affects their social interactions and
+                    friend selection.
+                  </p>
                 </section>
               )}
 
@@ -816,46 +861,68 @@ function INTJBlogs() {
               {activeSection === "parenthood" && (
                 <section id="parenthood">
                   <h2 className="text-2xl font-bold mb-2">
-                  Family and Parenting Dynamics 
+                    Family and Parenting Dynamics
                   </h2>
                   <h2 className="text-2xl font-bold mb-2">
-                  Encouraging Independence and Self-Directed Thinking
+                    Encouraging Independence and Self-Directed Thinking
                   </h2>
                   <p className="text-black text-lg mt-6">
-                  INTJ parents prioritize fostering independence and self-reliance in their children. They actively encourage intellectual curiosity and critical thinking, helping their kids develop confidence in their ability to make wise decisions and overcome challenges. By promoting self-directed thinking and personal growth, INTJs aim to raise children who are self-sufficient and capable of navigating life’s complexities.   
+                    INTJ parents prioritize fostering independence and
+                    self-reliance in their children. They actively encourage
+                    intellectual curiosity and critical thinking, helping their
+                    kids develop confidence in their ability to make wise
+                    decisions and overcome challenges. By promoting
+                    self-directed thinking and personal growth, INTJs aim to
+                    raise children who are self-sufficient and capable of
+                    navigating life’s complexities.
                   </p>
-
 
                   <h2 className="text-2xl font-bold mb-2">
-                  High Expectations for Growth and Self-Sufficiency
+                    High Expectations for Growth and Self-Sufficiency
                   </h2>
                   <p className="text-black text-lg mt-6">
-                  INTJs hold their children to high standards and emphasize the importance of striving for excellence. They provide their kids with the tools and support needed to succeed, encouraging both academic and personal development. With a focus on self-improvement, INTJ parents aim to instill a sense of responsibility and independence in their children, ensuring they are well-prepared for the future.   
+                    INTJs hold their children to high standards and emphasize
+                    the importance of striving for excellence. They provide
+                    their kids with the tools and support needed to succeed,
+                    encouraging both academic and personal development. With a
+                    focus on self-improvement, INTJ parents aim to instill a
+                    sense of responsibility and independence in their children,
+                    ensuring they are well-prepared for the future.
                   </p>
-
 
                   <h2 className="text-2xl font-bold mb-2">
-                  Balancing Intellectual and Emotional Needs
+                    Balancing Intellectual and Emotional Needs
                   </h2>
                   <p className="text-black text-lg mt-6">
-                  While INTJs are deeply committed to their children’s welfare, they may find it challenging to express affection openly. Their parenting style often prioritizes intellectual growth over emotional displays, which can sometimes create a perception of emotional distance. However, their unwavering dedication to their kids’ development demonstrates their love and care, even if it is not always shown through traditional warmth. 
+                    While INTJs are deeply committed to their children’s
+                    welfare, they may find it challenging to express affection
+                    openly. Their parenting style often prioritizes intellectual
+                    growth over emotional displays, which can sometimes create a
+                    perception of emotional distance. However, their unwavering
+                    dedication to their kids’ development demonstrates their
+                    love and care, even if it is not always shown through
+                    traditional warmth.
                   </p>
-
-
-                                 </section>
+                </section>
               )}
 
               {/* Career Paths Section */}
               {activeSection === "careers" && (
                 <section id="careers">
                   <h2 className="text-2xl font-bold mb-2">
-                  Career Preferences for INTJs
-                  </h2> 
+                    Career Preferences for INTJs
+                  </h2>
                   <p className="text-black text-lg mt-6">
-                  Careers requiring deep analysis and intellectual work are inherently appealing to INTJs; they frequently choose STEM and other fields. Their aptitude for rationality and problem-solving makes them ideal for professions like science, engineering, law, research, and project management, which offer the intellectual challenges that INTJs are drawn to.  
+                    Careers requiring deep analysis and intellectual work are
+                    inherently appealing to INTJs; they frequently choose STEM
+                    and other fields. Their aptitude for rationality and
+                    problem-solving makes them ideal for professions like
+                    science, engineering, law, research, and project management,
+                    which offer the intellectual challenges that INTJs are drawn
+                    to.
                   </p>
                   <h2 className="text-2xl font-bold mb-2">
-                  Popular INTJ Careers
+                    Popular INTJ Careers
                   </h2>
                   <ul className="list-disc pl-5 text-black text-xl">
                     <li className="mt-4 font-bold text-xl">Scientist</li>
@@ -869,137 +936,236 @@ function INTJBlogs() {
                   </ul>
 
                   <p className="text-black text-lg mt-6">
-                  These occupations are ideally suited to their skill set since they flourish in positions that require accuracy, systematic thought, and creative problem-solving.  
+                    These occupations are ideally suited to their skill set
+                    since they flourish in positions that require accuracy,
+                    systematic thought, and creative problem-solving.
                   </p>
-                
+
                   <blockquote className="border-l-8 border-teal-500 pl-4 italic text-black font-bold text-xl py-10 mt-6">
-                  INTJs are adept at obtaining, evaluating, and drawing new conclusions from information they observe in the outside world. This personality type tends to be highly logical and analytical.
+                    INTJs are adept at obtaining, evaluating, and drawing new
+                    conclusions from information they observe in the outside
+                    world. This personality type tends to be highly logical and
+                    analytical.
                   </blockquote>
 
-                  
                   <p className="text-black text-lg mt-4">
-                  INTJs (often referred to as architects) prefer to work independently, regardless of their professional stage. They are naturally adept at solving problems and hold themselves to very high standards, constantly looking for more effective and efficient ways to complete tasks. They are, in many respects, perfect employees and coworkers because of this. However, INTJs can be direct or contemptuous to coworkers they don't like, and regrettably, it's not always simple to gain their respect. Teamwork can occasionally be difficult for them in settings where people value socializing over creativity or convenience over creativity.
+                    INTJs (often referred to as architects) prefer to work
+                    independently, regardless of their professional stage. They
+                    are naturally adept at solving problems and hold themselves
+                    to very high standards, constantly looking for more
+                    effective and efficient ways to complete tasks. They are, in
+                    many respects, perfect employees and coworkers because of
+                    this. However, INTJs can be direct or contemptuous to
+                    coworkers they don't like, and regrettably, it's not always
+                    simple to gain their respect. Teamwork can occasionally be
+                    difficult for them in settings where people value
+                    socializing over creativity or convenience over creativity.
                   </p>
                   <blockquote className=" bg-teal-300 p-4 italic text-black text-xl py-10 mt-6 text-center">
-                  For INTJs, completing a task is not enough. Individuals with this personality type are extremely valuable assets in increasing operational efficiency in organizations because they go above and beyond and constantly consider ways to improve it.
+                    For INTJs, completing a task is not enough. Individuals with
+                    this personality type are extremely valuable assets in
+                    increasing operational efficiency in organizations because
+                    they go above and beyond and constantly consider ways to
+                    improve it.
                   </blockquote>
 
-
-                 
-
                   <h2 className="text-2xl font-bold mb-2">
-                  INTJs as subordinates
+                    INTJs as subordinates
                   </h2>
                   <p className="text-black text-lg mt-4">
-                  Due to their strong sense of independence, INTJs are not afraid to take the initiative, correct errors, or improve even the most minor aspects of a project. There is nothing that irritates them more than a boss who micromanages, especially if the boss wastes their time with pointless meetings, enforces meaningless rules, or judges employees more on their likeability than their ability.
+                    Due to their strong sense of independence, INTJs are not
+                    afraid to take the initiative, correct errors, or improve
+                    even the most minor aspects of a project. There is nothing
+                    that irritates them more than a boss who micromanages,
+                    especially if the boss wastes their time with pointless
+                    meetings, enforces meaningless rules, or judges employees
+                    more on their likeability than their ability.
                   </p>
                   <p className="text-black text-lg mt-4">
-                  INTJs are resistant to any attempts to restrict their autonomy, even in entry-level roles. They have little regard for job titles, and they frequently find it difficult to respect a manager who they perceive to be less capable than they are. Their candor may even cause them to criticize their supervisor, a behavior that can either be welcomed or completely backfire depending on the person in charge. In actuality, not all managers are as logical and efficient as INTJs.
+                    INTJs are resistant to any attempts to restrict their
+                    autonomy, even in entry-level roles. They have little regard
+                    for job titles, and they frequently find it difficult to
+                    respect a manager who they perceive to be less capable than
+                    they are. Their candor may even cause them to criticize
+                    their supervisor, a behavior that can either be welcomed or
+                    completely backfire depending on the person in charge. In
+                    actuality, not all managers are as logical and efficient as
+                    INTJs.
                   </p>
                   <p className="text-black text-lg mt-4">
-                  That does not imply, however, that they should allow a challenging boss to hinder them. Even in less-than-ideal work environments, INTJs can find ways to increase their responsibilities and advance their expertise by utilizing their creativity and problem-solving abilities. To achieve this, they might have to concentrate on developing a positive and professional relationship with their manager, despite any flaws in that individual.
+                    That does not imply, however, that they should allow a
+                    challenging boss to hinder them. Even in less-than-ideal
+                    work environments, INTJs can find ways to increase their
+                    responsibilities and advance their expertise by utilizing
+                    their creativity and problem-solving abilities. To achieve
+                    this, they might have to concentrate on developing a
+                    positive and professional relationship with their manager,
+                    despite any flaws in that individual.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2">
-                  INTJs as Colleagues
+                    INTJs as Colleagues
                   </h2>
                   <p className="text-black text-lg mt-4">
-                  Careers requiring continuous social interaction or teamwork are rarely pursued by INTJs. They find most team-building activities and group meetings to be pointless, and they are not very patient with office politics or gossip. Even brainstorming, which they usually find enjoyable, can quickly turn into a frustrating process if it is unfocused or does not yield useful outcomes.
+                    Careers requiring continuous social interaction or teamwork
+                    are rarely pursued by INTJs. They find most team-building
+                    activities and group meetings to be pointless, and they are
+                    not very patient with office politics or gossip. Even
+                    brainstorming, which they usually find enjoyable, can
+                    quickly turn into a frustrating process if it is unfocused
+                    or does not yield useful outcomes.
                   </p>
 
                   <p className="text-black text-lg mt-4">
-                  Instead of being slowed down by a well-intentioned but distracted colleague, INTJs prefer to work alone. Fortunately, they can be extremely productive even in the absence of much teamwork due to their keen focus and tenacity. However, working with others is something that INTJs are more than capable of doing, and it may even lead to some of their greatest successes. Despite their aversion to working with just anybody, they frequently discover that many of their coworkers are more capable and perceptive than they initially thought. The correct individuals can make their brainstorming sessions even livelier and produce creative and practical answers.
+                    Instead of being slowed down by a well-intentioned but
+                    distracted colleague, INTJs prefer to work alone.
+                    Fortunately, they can be extremely productive even in the
+                    absence of much teamwork due to their keen focus and
+                    tenacity. However, working with others is something that
+                    INTJs are more than capable of doing, and it may even lead
+                    to some of their greatest successes. Despite their aversion
+                    to working with just anybody, they frequently discover that
+                    many of their coworkers are more capable and perceptive than
+                    they initially thought. The correct individuals can make
+                    their brainstorming sessions even livelier and produce
+                    creative and practical answers.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-2">INTJ as managers</h2>
+                  <p className="text-black text-lg mt-4">
+                    Despite not always considering themselves to be born
+                    leaders, INTJs possess all the traits of a great leader.
+                    They are excellent at planning and carrying out projects
+                    with precision and strategic thinking. In contrast to
+                    certain managers who exercise power merely for the sake of
+                    exercising it, INTJs prioritize fostering creativity and
+                    increasing productivity, even if doing so means questioning
+                    established hierarchies.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    For them, success is far more important than approval, so
+                    they don't care to be flattering or catered to. Instead of
+                    micromanaging daily tasks, INTJs prefer to focus on
+                    big-picture strategies and treat their staff as intellectual
+                    equals. They expect to be informed and will not be afraid to
+                    delve into the specifics when needed, so they are by no
+                    means disengaged.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    INTJs assign tasks to people who show excellent
+                    problem-solving abilities and reward proactive, independent
+                    thinkers. However, this independence is expected rather than
+                    merely a benefit. Workers who require continual guidance or
+                    who use charm to cover up subpar work may find it difficult
+                    to work under an INTJ manager because these leaders can spot
+                    fallacious justifications and hold their staff to
+                    extraordinarily high standards.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2">
-                  INTJ as managers
+                    How INTJ are perceived by others
                   </h2>
                   <p className="text-black text-lg mt-4">
-                  Despite not always considering themselves to be born leaders, INTJs possess all the traits of a great leader. They are excellent at planning and carrying out projects with precision and strategic thinking. In contrast to certain managers who exercise power merely for the sake of exercising it, INTJs prioritize fostering creativity and increasing productivity, even if doing so means questioning established hierarchies.
+                    INTJs appear to be serious, reserved, and extremely
+                    perceptive. They constantly try to comprehend the underlying
+                    ideas of what they see because they are inherently curious.
+                    They take their time to consider a question before providing
+                    a thoughtful answer. They frequently identify ways to
+                    increase productivity and concentrate on broad strategies,
+                    occasionally ignoring the specifics, and are renowned for
+                    their critical thinking.
                   </p>
                   <p className="text-black text-lg mt-4">
-                  For them, success is far more important than approval, so they don't care to be flattering or catered to. Instead of micromanaging daily tasks, INTJs prefer to focus on big-picture strategies and treat their staff as intellectual equals. They expect to be informed and will not be afraid to delve into the specifics when needed, so they are by no means disengaged.
-                  </p>
-                  <p className="text-black text-lg mt-4">
-                  INTJs assign tasks to people who show excellent problem-solving abilities and reward proactive, independent thinkers. However, this independence is expected rather than merely a benefit. Workers who require continual guidance or who use charm to cover up subpar work may find it difficult to work under an INTJ manager because these leaders can spot fallacious justifications and hold their staff to extraordinarily high standards.
-                  </p>
-
-
-                  
-                  <h2 className="text-2xl font-bold mb-2">
-                  How INTJ are perceived by others
-                  </h2>
-                  <p className="text-black text-lg mt-4">
-                  INTJs appear to be serious, reserved, and extremely perceptive. They constantly try to comprehend the underlying ideas of what they see because they are inherently curious. They take their time to consider a question before providing a thoughtful answer. They frequently identify ways to increase productivity and concentrate on broad strategies, occasionally ignoring the specifics, and are renowned for their critical thinking.
-                  </p>
-                  <p className="text-black text-lg mt-4">
-                  Despite not being the friendliest or most gregarious, INTJs radiate confidence in their intelligence. They thrive in intellectually stimulating environments and anticipate that others will see the logic in their ideas. Their straightforward style and perfectionist tendencies can occasionally come across as blunt, particularly when questioning ideas that aren't supported by evidence.
+                    Despite not being the friendliest or most gregarious, INTJs
+                    radiate confidence in their intelligence. They thrive in
+                    intellectually stimulating environments and anticipate that
+                    others will see the logic in their ideas. Their
+                    straightforward style and perfectionist tendencies can
+                    occasionally come across as blunt, particularly when
+                    questioning ideas that aren't supported by evidence.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2">
-                  How Rare Is the INTJ Personality Type?
+                    How Rare Is the INTJ Personality Type?
                   </h2>
                   <p className="text-black text-lg text-bold mt-4">
-                  INTJs are one of the rarest types in the population. INTJs make up:
+                    INTJs are one of the rarest types in the population. INTJs
+                    make up:
                   </p>
                   <p className="text-black text-lg mt-2">
-                  2.6% of the general population
+                    2.6% of the general population
                   </p>
-                  <p className="text-black text-lg mt-2">
-                  3% of men
-                  </p>
-                  <p className="text-black text-lg mt-2">
-                  2.2% of women
-                  </p>
+                  <p className="text-black text-lg mt-2">3% of men</p>
+                  <p className="text-black text-lg mt-2">2.2% of women</p>
 
                   <p className="text-black text-lg mt-4">
-                  According to psychologist David Keirsey, developer of the Keirsey Temperament Sorter, approximately 1% to 4% of the population has an INTJ personality type. (The rarest personality type is INFJ.)
+                    According to psychologist David Keirsey, developer of the
+                    Keirsey Temperament Sorter, approximately 1% to 4% of the
+                    population has an INTJ personality type. (The rarest
+                    personality type is INFJ.)
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2">
-                  Famous INTJ Personalities
+                    Famous INTJ Personalities
                   </h2>
                   <p className="text-black text-lg mt-4">
-                  INTJs have significantly impacted various fields, such as science, literature, politics, and technology. INTJs are recognized for their logical approach and innovative contributions to shaping the world. They are known for their analytical mindset, strategic thinking, and visionary outlook.
+                    INTJs have significantly impacted various fields, such as
+                    science, literature, politics, and technology. INTJs are
+                    recognized for their logical approach and innovative
+                    contributions to shaping the world. They are known for their
+                    analytical mindset, strategic thinking, and visionary
+                    outlook.
                   </p>
                   <p className="text-black text-lg mt-4">
-                  <b>Jane Austen:</b> a celebrated author known for her keen insights into social structures and influential novels.
+                    <b>Jane Austen:</b> a celebrated author known for her keen
+                    insights into social structures and influential novels.
                   </p>
                   <p className="text-black text-lg mt-4">
-                  <b>Stephen Hawking: </b> Theoretical physicist famous for his cosmology and quantum mechanics contributions.
+                    <b>Stephen Hawking: </b> Theoretical physicist famous for
+                    his cosmology and quantum mechanics contributions.
                   </p>
 
                   <p className="text-black text-lg mt-4">
-                  <b>Hillary Clinton:  </b> a political leader who applied her analytical skills in public service roles, exemplifying the INTJ’s strategic approach.
+                    <b>Hillary Clinton: </b> a political leader who applied her
+                    analytical skills in public service roles, exemplifying the
+                    INTJ’s strategic approach.
                   </p>
                   <p className="text-black text-lg mt-4">
-                  
-                  <p className="text-black text-lg mt-4">
-                  <b>Bill Gates:   </b> Co-founder of Microsoft, who demonstrates the INTJ’s drive for innovation and forward-thinking in technology.
-                  </p>
-                  <b>Thomas Jefferson:   </b> Jefferson is a key figure in American history, known for his strategic vision and role in shaping foundational policies.
+                    <p className="text-black text-lg mt-4">
+                      <b>Bill Gates: </b> Co-founder of Microsoft, who
+                      demonstrates the INTJ’s drive for innovation and
+                      forward-thinking in technology.
+                    </p>
+                    <b>Thomas Jefferson: </b> Jefferson is a key figure in
+                    American history, known for his strategic vision and role in
+                    shaping foundational policies.
                   </p>
 
                   <blockquote className=" bg-teal-300 p-4 italic text-black text-xl py-10 mt-6 text-center">
-                  <p className="text-black text-lg mt-4 font-bold">
-                  "INTJs are often seen as masterminds, able to see complex patterns and long-term outcomes that others overlook."
-                  </p>
+                    <p className="text-black text-lg mt-4 font-bold">
+                      "INTJs are often seen as masterminds, able to see complex
+                      patterns and long-term outcomes that others overlook."
+                    </p>
 
-                  <p className="text-black text-lg mt-2">
-                  Dr. A.J. Drenth, author of My True Type
-                  </p>
-                  <p className="text-black text-lg mt-4 font-bold">
-                  "The independent, analytical mind of the INTJ seeks understanding and depth in all things, often leading them to unconventional paths."
-                  </p>
-                  <p className="text-black text-lg mt-2">
-                  Paul D. Tieger & Barbara Barron-Tieger, Do What You Are
-                  </p>
-                  <p className="text-black text-lg mt-4 font-bold">
-                  "INTJs are known for their unyielding vision, paired with a tenacious will to turn it into reality. They are seldom content with the status quo."
-                  </p>
-                  <p className="text-black text-lg mt-2">
-                  Otto Kroeger, Type Talk
-                  </p>
+                    <p className="text-black text-lg mt-2">
+                      Dr. A.J. Drenth, author of My True Type
+                    </p>
+                    <p className="text-black text-lg mt-4 font-bold">
+                      "The independent, analytical mind of the INTJ seeks
+                      understanding and depth in all things, often leading them
+                      to unconventional paths."
+                    </p>
+                    <p className="text-black text-lg mt-2">
+                      Paul D. Tieger & Barbara Barron-Tieger, Do What You Are
+                    </p>
+                    <p className="text-black text-lg mt-4 font-bold">
+                      "INTJs are known for their unyielding vision, paired with
+                      a tenacious will to turn it into reality. They are seldom
+                      content with the status quo."
+                    </p>
+                    <p className="text-black text-lg mt-2">
+                      Otto Kroeger, Type Talk
+                    </p>
                   </blockquote>
                 </section>
               )}
@@ -1008,108 +1174,177 @@ function INTJBlogs() {
               {activeSection === "workplace-habits" && (
                 <section id="workplace-habits">
                   <h1 className="text-3xl font-bold mb-2 mt-6">
-                  Hobbies and Interests
+                    Hobbies and Interests
                   </h1>
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                  Cognitive Engagement and Independent Pursuits
+                    Cognitive Engagement and Independent Pursuits
                   </h2>
 
                   <p className="text-black text-lg mt-4">
-                  INTJs are naturally drawn to hobbies that promote intellectual stimulation and independent thought. They often favor solitary activities such as reading, which allows them to explore intricate subjects at their own pace, and video games that challenge their strategic and problem-solving abilities. Individual sports like swimming, cycling, and running also appeal to their drive for self-improvement and personal focus.
+                    INTJs are naturally drawn to hobbies that promote
+                    intellectual stimulation and independent thought. They often
+                    favor solitary activities such as reading, which allows them
+                    to explore intricate subjects at their own pace, and video
+                    games that challenge their strategic and problem-solving
+                    abilities. Individual sports like swimming, cycling, and
+                    running also appeal to their drive for self-improvement and
+                    personal focus.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                  Appreciation for Art and Lifelong Learning
+                    Appreciation for Art and Lifelong Learning
                   </h2>
                   <p className="text-black text-lg mt-4">
-                  INTJs value cultural enrichment and intellectual growth, often seeking out art and cultural activities that broaden their horizons. They enjoy visiting museums, attending lectures, and participating in intellectually stimulating events that expose them to diverse perspectives. Their love for continuous learning extends beyond formal education, driving them to engage in activities that expand their knowledge and understanding of the world.
+                    INTJs value cultural enrichment and intellectual growth,
+                    often seeking out art and cultural activities that broaden
+                    their horizons. They enjoy visiting museums, attending
+                    lectures, and participating in intellectually stimulating
+                    events that expose them to diverse perspectives. Their love
+                    for continuous learning extends beyond formal education,
+                    driving them to engage in activities that expand their
+                    knowledge and understanding of the world.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                  Fascination with Technology and Practical Exploration
+                    Fascination with Technology and Practical Exploration
                   </h2>
                   <p className="text-black text-lg mt-4">
-                  Alongside their scholarly interests, INTJs have a keen fascination with technology, often exploring advancements in computer science and related fields. They pair this interest with hands-on pursuits like marathon running or backpacking, which allow them to set personal goals and work toward success in their unique way. This combination of intellectual curiosity and practical application reflects their multifaceted approach to hobbies.
+                    Alongside their scholarly interests, INTJs have a keen
+                    fascination with technology, often exploring advancements in
+                    computer science and related fields. They pair this interest
+                    with hands-on pursuits like marathon running or backpacking,
+                    which allow them to set personal goals and work toward
+                    success in their unique way. This combination of
+                    intellectual curiosity and practical application reflects
+                    their multifaceted approach to hobbies.
                   </p>
 
                   <h1 className="text-3xl font-bold mb-2 mt-6">
-                  Interaction tips For Friends
+                    Interaction tips For Friends
                   </h1>
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                  Patience and Depth in Friendships with INTJs:
+                    Patience and Depth in Friendships with INTJs:
                   </h2>
                   <p className="text-black text-lg mt-4">
-                  INTJs cherish deep and enduring friendships with individuals who can appreciate their complexity and depth of thought. Establishing a friendship with an INTJ takes perseverance and a shared dedication to sincere and thought-provoking conversations frequently.
+                    INTJs cherish deep and enduring friendships with individuals
+                    who can appreciate their complexity and depth of thought.
+                    Establishing a friendship with an INTJ takes perseverance
+                    and a shared dedication to sincere and thought-provoking
+                    conversations frequently.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                  Avoidance of Small Talk and Value of Intellectual Bonding: 
+                    Avoidance of Small Talk and Value of Intellectual Bonding:
                   </h2>
 
                   <p className="text-black text-lg mt-4">
-                  Small talk tends to bore INTJs, who are more interested in intellectually stimulating conversations. They value friends who actively seek out contentious debates and contribute interesting viewpoints to their discussions.
+                    Small talk tends to bore INTJs, who are more interested in
+                    intellectually stimulating conversations. They value friends
+                    who actively seek out contentious debates and contribute
+                    interesting viewpoints to their discussions.
                   </p>
 
+                  <h1 className="text-3xl font-bold mb-2 mt-6">For partners</h1>
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                    Encouragement for Clear, Direct Communication with INTJ
+                    Partners:
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    INTJs value partners who are direct and honest in their
+                    communication. INTJs benefit from clear communication
+                    because it eliminates the ambiguity that can be frustrating
+                    and helps them understand their partner’s needs and
+                    intentions.
+                  </p>
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                    Importance of Independence and Loyalty in Partnerships:
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    INTJs appreciate independence in relationships and
+                    anticipate that their partners will respect their need for
+                    privacy and autonomy. Since they prefer meaningful and
+                    long-lasting relationships to fleeting ones, loyalty and
+                    respect for one another are essential for INTJs.
+                  </p>
 
                   <h1 className="text-3xl font-bold mb-2 mt-6">
-                  For partners
+                    Workplace tips
                   </h1>
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                  Encouragement for Clear, Direct Communication with INTJ Partners:
+                    Respect for INTJs Analytical Abilities and Independent Work
+                    Style:
                   </h2>
                   <p className="text-black text-lg mt-4">
-                  INTJs value partners who are direct and honest in their communication. INTJs benefit from clear communication because it eliminates the ambiguity that can be frustrating and helps them understand their partner’s needs and intentions.
+                    INTJs flourish in work settings when their analytical
+                    prowess and need for independence are acknowledged. They
+                    appreciate jobs where they can apply their problem-solving
+                    skills and prefer working independently.
                   </p>
+
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                  Importance of Independence and Loyalty in Partnerships:
+                    Approaches for Effective Collaboration with INTJs:
                   </h2>
                   <p className="text-black text-lg mt-4">
-                  INTJs appreciate independence in relationships and anticipate that their partners will respect their need for privacy and autonomy. Since they prefer meaningful and long-lasting relationships to fleeting ones, loyalty and respect for one another are essential for INTJs.
+                    Being direct and rational when working with INTJs works well
+                    because they value precise goals and doable tactics. They
+                    react favorably to reasonable, constructive criticism that
+                    respects their level of expertise.
                   </p>
 
                   <h1 className="text-3xl font-bold mb-2 mt-6">
-                  Workplace tips
+                    Tips for Personal Growth
                   </h1>
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                  Respect for INTJs Analytical Abilities and Independent Work Style:
+                    Embracing Personal Strengths While Managing Weaknesses
                   </h2>
                   <p className="text-black text-lg mt-4">
-                  INTJs flourish in work settings when their analytical prowess and need for independence are acknowledged. They appreciate jobs where they can apply their problem-solving skills and prefer working independently.
+                    Managing Weaknesses While Embracing Personal Strengths INTJs
+                    are frequently urged to acknowledge and value their innate
+                    strengths, including independence, strategic thinking, and
+                    logical thinking. However, it is equally important that they
+                    continue to be aware of areas that might need attention,
+                    like interpersonal issues brought on by their direct
+                    communication style. INTJs can strengthen their personal and
+                    professional relationships by emphasizing their strengths
+                    and trying to temper them with awareness and empathy. A
+                    deeper understanding of oneself and more fruitful
+                    interactions can result from acknowledging and balancing
+                    one’s strengths and shortcomings.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                  Approaches for Effective Collaboration with INTJs:
+                    Balance Between Rationality and Emotional Awareness
                   </h2>
                   <p className="text-black text-lg mt-4">
-                  Being direct and rational when working with INTJs works well because they value precise goals and doable tactics. They react favorably to reasonable, constructive criticism that respects their level of expertise.
-                  </p>
-
-
-                  <h1 className="text-3xl font-bold mb-2 mt-6">
-                  Tips for Personal Growth 
-                  </h1>
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                  Embracing Personal Strengths While Managing Weaknesses
-                  </h2>
-                  <p className="text-black text-lg mt-4">
-                  Managing Weaknesses While Embracing Personal Strengths INTJs are frequently urged to acknowledge and value their innate strengths, including independence, strategic thinking, and logical thinking. However, it is equally important that they continue to be aware of areas that might need attention, like interpersonal issues brought on by their direct communication style. INTJs can strengthen their personal and professional relationships by emphasizing their strengths and trying to temper them with awareness and empathy. A deeper understanding of oneself and more fruitful interactions can result from acknowledging and balancing one’s strengths and shortcomings.
-                  </p>
-
-                  <h2 className="text-2xl font-bold mb-2 mt-6">
-                  Balance Between Rationality and Emotional Awareness
-                  </h2>
-                  <p className="text-black text-lg mt-4">
-                  INTJs may occasionally need help to balance their need for emotional awareness and their preference for reason and logic, particularly in social or private settings. Although they frequently place a higher value on making objective decisions, INTJs can also grow personally by becoming more emotionally intelligent. By addressing their feelings and those of others, they can establish deeper connections with friends, family, and coworkers. His equilibrium improves their capacity to react intelligently in social situations and cultivates more meaningful connections.
+                    INTJs may occasionally need help to balance their need for
+                    emotional awareness and their preference for reason and
+                    logic, particularly in social or private settings. Although
+                    they frequently place a higher value on making objective
+                    decisions, INTJs can also grow personally by becoming more
+                    emotionally intelligent. By addressing their feelings and
+                    those of others, they can establish deeper connections with
+                    friends, family, and coworkers. His equilibrium improves
+                    their capacity to react intelligently in social situations
+                    and cultivates more meaningful connections.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                  Continuous Learning and Adapting to Social Challenges
+                    Continuous Learning and Adapting to Social Challenges
                   </h2>
                   <p className="text-black text-lg mt-4">
-                  INTJs are inherently motivated to expand their knowledge and deepen their understanding of the world, for they are lifelong learners. However, for INTJs, developing their interpersonal skills and adjusting to social challenges are also important aspects of personal growth. They might benefit from practicing tolerance for diverse viewpoints and concentrating on small talk or informal interactions, which can be awkward but are frequently required in various social situations. INTJs can enhance their social presence and adaptability in multiple contexts by learning new things constantly and making minor adjustments to improve their social interactions.
-                                    </p>
-
-
+                    INTJs are inherently motivated to expand their knowledge and
+                    deepen their understanding of the world, for they are
+                    lifelong learners. However, for INTJs, developing their
+                    interpersonal skills and adjusting to social challenges are
+                    also important aspects of personal growth. They might
+                    benefit from practicing tolerance for diverse viewpoints and
+                    concentrating on small talk or informal interactions, which
+                    can be awkward but are frequently required in various social
+                    situations. INTJs can enhance their social presence and
+                    adaptability in multiple contexts by learning new things
+                    constantly and making minor adjustments to improve their
+                    social interactions.
+                  </p>
                 </section>
               )}
 
@@ -1117,8 +1352,7 @@ function INTJBlogs() {
               {activeSection === "conclusion" && (
                 <section id="conclusion">
                   <h2 className="text-2xl font-bold mb-2 mt-6">Conclusion</h2>
-                 
-                                </section>
+                </section>
               )}
             </div>
 
