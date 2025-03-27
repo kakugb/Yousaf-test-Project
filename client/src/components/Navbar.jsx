@@ -348,9 +348,11 @@ const Navbar = () => {
                 <div className="py-2">
                   <div className="py-1 font-bold text-gray-800">Analysts</div>
                   <div className="grid grid-cols-4 gap-2">
+                    <Link to="/intj-blogs">
                     <button className="bg-blue-500 text-white text-[14px] py-2 rounded-md hover:bg-blue-600 w-full font-semibold cursor-pointer">
                       INTJ – Architect
                     </button>
+                    </Link>
                     <Link to="/intp-blogs">
                       <button className="bg-blue-500 text-white text-[14px] py-2 rounded-md hover:bg-blue-600 w-full font-semibold cursor-pointer">
                         INTP – Logician
@@ -510,9 +512,11 @@ const Navbar = () => {
               <div className="py-2">
                 <div className="py-1 font-bold text-gray-800">Analysts</div>
                 <div className="grid grid-cols-4 gap-2">
+                  <link to="/intj-blogs">
                   <button className="bg-blue-500 text-white rounded-md hover:bg-blue-600 w-full text-[10px] font-semibold px-1 py-2">
                     INTJ – Architect
                   </button>
+                  </link>
                   <button className="bg-blue-500 text-white rounded-md hover:bg-blue-600 w-full text-[10px] font-semibold px-1 py-2">
                     INTP – Logician
                   </button>
