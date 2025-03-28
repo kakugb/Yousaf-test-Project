@@ -21,6 +21,7 @@ import INTPBlogs from './components/blogs/INTPBlogs';
 import INFJBlogs from './components/blogs/INFJBlogs';
 import INTJBlogs from './components/blogs/INTJBlogs';
 import ISTJBlogs from './components/blogs/ISTJBlogs';
+import ENFPBlogs from './components/blogs/ENFPBlogs';
 
 
    const App = () => {
@@ -47,6 +48,7 @@ import ISTJBlogs from './components/blogs/ISTJBlogs';
                        <Route path='/infj-blogs' element={<INFJBlogs/>}/>
                        <Route path='/intj-blogs' element={<INTJBlogs/>}/>
                        <Route path='/istj-blogs' element={<ISTJBlogs/>}/>
+                       <Route path='/enfp-blogs' element={<ENFPBlogs/>}/>
                    </Routes>
                </main>
            </Router>
