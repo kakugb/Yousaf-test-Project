@@ -110,10 +110,10 @@ const Navbar = () => {
                 <div className="py-2">
                   <div className="py-1 font-bold text-gray-800">Analysts</div>
                   <div className="grid grid-cols-4 gap-2">
-                    <Link to="/intj-blogs">
+                    <Link to="/intj-blogs" >
                     <button className="bg-blue-500 text-white text-[14px] py-2 rounded-md hover:bg-blue-600 w-full font-semibold cursor-pointer">
                       INTJ – Architect
-                    </button>
+                      </button>
                     </Link>
                     <Link to="/intp-blogs">
                       <button className="bg-blue-500 text-white text-[14px] py-2 rounded-md hover:bg-blue-600 w-full font-semibold cursor-pointer">
