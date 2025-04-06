@@ -123,9 +123,11 @@ const Navbar = () => {
                     <button className="bg-blue-500 text-white text-[14px] py-2 rounded-md hover:bg-blue-600 w-full font-semibold cursor-pointer">
                       ENTJ – Commander
                     </button>
+                    <Link to='/entp-blogs'>
                     <button className="bg-blue-500 text-white text-[14px] py-2 rounded-md hover:bg-blue-600 w-full font-semibold cursor-pointer">
                       ENTP – Debater
                     </button>
+                    </Link>
                   </div>
 
                   <div className="py-1 font-bold text-gray-800 mt-4">Diplomats</div>
@@ -289,9 +291,11 @@ const Navbar = () => {
                   <button className="bg-blue-500 text-white rounded-md hover:bg-blue-600 w-full text-[10px] font-semibold px-1 py-2">
                     ENTJ – Commander
                   </button>
+                  <Link to='/entp-blogs'>
                   <button className="bg-blue-500 text-white rounded-md hover:bg-blue-600 w-full text-[10px] font-semibold px-1 py-2">
                     ENTP – Debater
                   </button>
+                  </Link>
                 </div>
 
                 <div className="py-1 font-bold text-gray-800 mt-4">Diplomats</div>
