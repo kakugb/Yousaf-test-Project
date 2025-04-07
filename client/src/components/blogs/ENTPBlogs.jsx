@@ -158,176 +158,556 @@ function ENTPBlogs() {
               {activeSection === "introduction" && (
                 <section id="introduction">
                   <h1 className="text-3xl font-bold">
-                    Understanding the ENFP: The Campaigner
-                    <br /> Personality (Extraverted, Intuitive, Feeling, and
+                    Understanding the ENTP: The Debater
+                    <br /> Personality (Extraverted, Intuitive, Thinking, and
                     Perceiving)
                   </h1>
 
                   <p className="text-black text-lg text-justify mt-4">
-                    The extraverted, intuitive, feeling, and perceiving traits
-                    that define the ENFP (Campaigner) personality type. These
-                    people embrace lofty ideals and deeds that demonstrate their
-                    optimism and humaneness. ENFPs are recognizable in any crowd
-                    due to their vibrant, positive outlook on life. They are
-                    gregarious, tolerant, and open-minded individuals who
-                    flourish when they form deep, emotional bonds with other
-                    people. Warm, enthusiastic, and full of energy, ENFPs are
-                    always willing to assist others in discovering their own
-                    creative potential. With a contagious enthusiasm for new
-                    concepts, people, and activities, they are people-centered
-                    creators. Although they are great communicators who inspire
-                    others, they may have trouble focusing and frequently ignore
-                    important details in favor of the larger, more creative
-                    picture.
+                    The debater, an ENTP personality type, is distinguished by
+                    a special fusion of audacity,
+                    inventiveness, and flexibility. ENTPs get their energy from
+                    interacting with people, do well in hectic settings, and
+                    are motivated to find creative solutions to issues. They are
+                    quick-witted, self-assured, and endearing visionaries who
+                    frequently take on tasks that others would consider
+                    insurmountable. Although ENTPs challenge convention
+                    and trust their gut feelings, they can occasionally come
+                    across as impatient or unpractical.
                   </p>
 
                   <h2 className="text-3xl font-bold mt-4 mb-4">
-                    What is an ENFP Personality Type?
+                    What Is an ENTP Personality Type?
                   </h2>
 
                   <p className="text-black text-lg mt-4">
-                    The Myers-Briggs Type Indicator (MBTI) detects 16
-                    personality types, and ENFP stands for Extraverted,
-                    Intuitive, Feeling, and Perceiving. Those who identify as
-                    ENFPs are said to be independent, vivacious, charming, and
-                    enthusiastic. Because of their creative nature, they perform
-                    well in settings that permit innovation.
+                    Katharine Briggs and Isabel Myers identified sixteen
+                    personality types, including ENTP, which stands for
+                    Extraverted, Intuitive, Thinking, and Perceiving.
+                    These people are driven by social
+                    interactions, give logic precedence over details when making
+                    decisions, embrace spontaneity over strict plans, and
+                    concentrate on big-picture concepts. Since
+                    they are passionate about innovation and
+                    creative problem-solving, ENTPs are frequently referred to
+                    as "Visionary" personalities.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    ENTPs, who are renowned for their audacity and
+                    mental dexterity, love coming up with new ideas and breaking
+                    down concepts to reassemble them in novel and unusual ways.
+                    They are frequently referred to as "devil's advocates"
+                    because they are born debaters who love to refute
+                    presumptions, including their own. Because of their
+                    curiosity and desire to learn about other viewpoints, they
+                    have a contrarian streak and are adept at seeing
+                    opportunities that others might miss. ENTPs, on the other
+                    hand, tend to shy away from repetitive tasks in favor of
+                    concentrating on abstract concepts rather than
+                    the specifics.
+                  </p>
+
+                  <blockquote className="border-l-8 border-teal-500 pl-4 italic text-black text-xl py-10 mt-6">
+                    Follow the path of the unsafe, independent thinker. Expose
+                    your ideas to the dangers of controversy.
+                    <span className="font-bold">— Thomas J. Watson</span>
+                  </blockquote>
+
+                  <h2 className="text-3xl font-bold mt-6 mb-4">
+                    Rebellious Streak and Innovation
+                  </h2>
+
+                  <p className="text-black text-lg mt-4">
+                    ENTPs are known for their
+                    rebellious nature, which fuels their unrelenting quest for
+                    change and innovation. They believe that no principle is too
+                    fundamental to examine, no belief is too sacred
+                    to challenge, and no rule is too significant to put to
+                    the test. Their propensity to question conventions is not a
+                    result of disobedience, but rather
+                    of their natural curiosity and drive to push boundaries
+                    in creative, unorthodox ways. 
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    ENTPs enjoy challenging the dominant
+                    ways of thinking and finding hidden value in underdogs
+                    or underappreciated ideas rather than mindlessly following
+                    social pressures or traditions. They find opportunities
+                    to reconsider what others take for granted
+                    because their active minds are always reimagining
+                    possibilities. But turning their intellectual energy
+                    into observable, practical accomplishments is one of their
+                    biggest obstacles.
+                  </p>
+
+                  <h2 className="text-3xl font-bold mt-6 mb-4">
+                    Challenges with Follow-Through
+                  </h2>
+
+                  <p className="text-black text-lg mt-4">
+                    ENTPs enjoy brainstorming and big-picture thinking, but they
+                    frequently shun the "grunt work" of making their
+                    ideas a reality. They might find it difficult to set
+                    priorities and complete their tasks when there are so
+                    many ideas and recommendations vying for their attention.
+                    They may not be able to reach their full potential because
+                    of this tendency unless they become more
+                    disciplined and willing to see their ideas through
+                    to completion.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    Despite their legendary love of debate and questioning,
+                    ENTPs aren't always beneficial. Openly disagreeing
+                    with their boss or analyzing a partner's remarks during a
+                    meeting could come across as supporting reason and logic.
+                    These contrarian tendencies, however, may inadvertently
+                    undermine their prospects for prosperity and contentment,
+                    particularly if it comes at the expense of other people's
+                    patience or sentiments.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    The innate tendency of ENTPs to challenge beliefs or ignore
+                    feelings is not always advantageous. This conduct could
+                    eventually cause rifts and make it more difficult for
+                    them to form lasting bonds. They are respected for
+                    their humor, vision, and self-assurance, but maintaining
+                    both personal and professional success requires developing
+                    sensitivity and knowing when to control their contrarian
+                    tendencies.
+                  </p>
+
+                  <h2 className="text-3xl font-bold mt-6 mb-4">
+                    Balancing Contrarianism with Compassion
+                  </h2>
+
+                  <p className="text-black text-lg mt-4">
+                    Many ENTPs learn that developing and sustaining healthy
+                    relationships requires a more compassionate approach.
+                    Their natural tendency is to "win" arguments and promote
+                    reason, but they eventually realize that doing so can turn
+                    off the people they need to get what they want.
+                    Understanding the value of others in their ideal life,
+                    ENTPs discover that their nonconformist edge can coexist
+                    with consideration and compromise.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    By using their cognitive flexibility, ENTPs can investigate
+                    different viewpoints while striking a balance between their
+                    emotional sensitivity and their drive for advancement. They
+                    are still able to stay true to their innovative and
+                    visionary nature while making meaningful connections thanks
+                    to this change. Despite their propensity for coming up with
+                    grand theories and ideas, ENTPs frequently find it
+                    difficult to put them into practice. Further highlighting
+                    the need to strike a balance between creativity and
+                    pragmatism, their emphasis on possibilities rather than
+                    specifics can result in a cycle of brainstorming
+                    without action.
+                  </p>
+
+                  <h2 className="text-3xl font-bold mt-6 mb-4">
+                    Boundless Energy and Restlessness
+                  </h2>
+
+                  <p className="text-black text-lg mt-4">
+                    ENTPs are adaptable and tolerant people who are constantly
+                    seeking out new concepts and opportunities due to
+                    their restless energy. They enjoy novelty and are easily
+                    bored. They frequently balance an endless number
+                    of interests and investigate several areas of interest
+                    simultaneously. They have fast-paced minds that
+                    produce ideas and connections at breakneck speed. This
+                    mental activity can cause anxiety, restlessness, and
+                    even irregular sleep patterns. 
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    Additionally, ENTPs take pleasure in exchanging ideas and
+                    forming imaginative connections with others.
+                    However, their propensity to be distracted can also make
+                    them seem disorganized, erratic, or unfocused, which can
+                    lead to incorrect diagnoses of ADHD or ADD. Open-Minded
+                    Skepticism
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    Incoming information is not meticulously screened and
+                    filtered by ENTPs, in contrast to ENTJs or other types with
+                    a dominant Judging function. They are genuinely one of the
+                    most receptive groups when it comes to taking in ideas
+                    from other people. They are not necessarily quick to accept
+                    new information as true, though, just because they
+                    are receptive to it. Even though they do so in a rather
+                    passive manner, ENTPs gradually develop their theories about
+                    the world and human nature as they absorb ideas over time.
+                    Their skepticism and criticism of the majority's opinions
+                    increase when these theories don't align with
+                    conventional wisdom, which is frequently the case.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    Incoming information is not meticulously screened and
+                    filtered by ENTPs, in contrast to ENTJs or other types with
+                    a dominant Judging function. They are genuinely one of the
+                    most receptive groups when it comes to taking in ideas
+                    from other people. They are not necessarily quick to accept
+                    new information as true, though, just because they
+                    are receptive to it. Even though they do so in a rather
+                    passive manner, ENTPs gradually develop their theories about
+                    the world and human nature as they absorb ideas over time.
+                    Their skepticism and criticism of the majority's opinions
+                    increase when these theories don't align with
+                    conventional wisdom, which is frequently the case.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    Despite being extraverted by nature, ENTPs can share traits
+                    with INT types, such as skepticism and
+                    unconventional thinking. ENTPs are not particularly
+                    intentional or agenda-driven when they are concentrating on
+                    their primary function, Extraverted Intuition (Ne); in fact,
+                    their only objective may be to prevent boredom. They may
+                    therefore lack the INTP's purposeful motivation or fixation
+                    on uncovering the truth. 
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                    Many ENTPs, particularly those who have developed their
+                    auxiliary function, Introverted Thinking (Ti), are aware of
+                    their propensity to philosophize. They enjoy exploring
+                    broad metaphysical theories and reoccurring patterns, just
+                    like INTPs do. Despite these inclinations, they seem less
+                    likely to become solely focused on intellectual endeavors,
+                    opting instead to allocate their
+                    energies across a range of hobbies and interests.
+                  </p>
+                  <h2 className="text-3xl font-bold mt-6 mb-4">
+                    ENTP-T and ENTP-A Subtypes
+                  </h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    ENTPs can be further categorized into two groups: ENTP-T and
+                    ENTP-A.
+                  </p>
+
+                  <ul className="list-disc pl-5 text-black text-xl">
+                    <li className="mt-4">
+                      <span className="font-bold">
+                        ENTP-T’s (Turbulent debaters):
+                      </span>{" "}
+                      They are frequently enraged, envious, or in need
+                      of attention, approval, and agreement. Compared to
+                      ENTP-A’s, they exhibit more emotionally motivated
+                      behavior.
+                    </li>
+                    <li className="mt-8">
+                      <span className="font-bold">
+                        ENTP-A’s (Assertive debaters):
+                      </span>{" "}
+                      Compared to ENTP-T’s, ENTP-A’s are more
+                      self-assured, assume that others accept them, and are
+                      less interested in talking
+                      about their emotions. They typically
+                      exhibit less emotional reactivity.
+                    </li>
+                  </ul>
+
+                  <h2 className="text-2xl font-bold mt-6 mb-4">
+                    Cognitive Functions and Development Phases
+                  </h2>
+
+                  <p className="text-black text-lg mt-4">
+                    According to Jung's original eight functions, each
+                    personality type favors using four of them. All four of
+                    these operations make up its "function stack.".
+                    Dominant, auxiliary, tertiary, and inferior are the four
+                    functions that are arranged according to the relative
+                    strength of preference. In that order, ENTPs prefer Ne
+                    over Ti, Fe, and Si. This is demonstrated by the way
+                    their function stack is organized.
                   </p>
 
                   <h2 className="text-3xl font-bold mt-4 mb-4">
-                    ENFP Subtypes (ENFP-A and ENFP-T)
+                    ENTP Function Stack
                   </h2>
-                  <h2 className="text-2xl font-bold mt-4 mb-4">
-                    Assertive Campaigner: ENFP-A
-                  </h2>
-
-                  <p className="text-black text-lg mt-4">
-                    An "Assertive Campaigner" is another term for an ENFP-A. In
-                    their relationships, this ENFP subtype is more likely to be
-                    self-assured and emotionally in control.
-                  </p>
-
-                  <h2 className="text-2xl font-bold mt-4 mb-4">
-                    Turbulent Campaigner: ENFP-T
-                  </h2>
-                  <p className="text-black text-lg mt-4">
-                    Often referred to as "Turbulent Campaigners," ENFP-Ts are
-                    less confident and emotionally stable, and they also feel
-                    more anxious when faced with daily stress.
-                  </p>
-
-                  <h2 className="text-3xl font-bold mt-4 mb-6">
-                    Cognitive Functions of ENFP
-                  </h2>
-                  <h2 className="text-2xl font-bold mt-4 mb-4">
+                  <p className="text-black text-lg text-justify mt-4">
                     Dominant: Extraverted Intuition (Ne)
-                  </h2>
-                  <p className="text-black text-lg mt-4">
-                    Future-focused concepts, abstract thought, and possibilities
-                    are the main focuses of ENFPs. They are very good at
-                    spotting relationships, connections, and patterns. They can
-                    explore several ideas out loud before coming to a decision
-                    thanks to their Ne function. In contrast to Se, which
-                    collects information directly from the senses, Ne explores
-                    potentials, hidden patterns, and abstract insights. Because
-                    of their receptiveness to new concepts, ENFPs are passionate
-                    explorers who pursue knowledge via reading, the arts, and
-                    conversations. They maintain a sense of anticipation because
-                    they are constantly curious about what will happen next.
                   </p>
-
-                  <h2 className="text-2xl font-bold mt-4 mb-4">
-                    Auxiliary: Introverted Feeling (Fi)
-                  </h2>
-                  <p className="text-black text-lg mt-4">
-                    Fi is relied upon by ENFPs to make choices based on feelings
-                    and personal values rather than impartial reasoning. They
-                    look for genuineness and work to make sure that their
-                    actions and values line up. Regardless of social
-                    conventions, Fi encourages the formation of a distinct
-                    worldview. Fi is used by ENFPs to assess artistic and moral
-                    issues rather than logical correctness. In contrast to
-                    INFPs, who begin with an internal judgment and then test it
-                    with Ne, ENFPs use Fi to hone their insights after
-                    exploring.
+                  <p className="text-black text-lg text-justify mt-4">
+                    Auxiliary: Introverted Thinking (Ti)
                   </p>
-
-                  <h2 className="text-2xl font-bold mt-4 mb-4">
-                    Tertiary: Extraverted Thinking (Te)
-                  </h2>
-                  <p className="text-black text-lg mt-4">
-                    Te supports logical thought organization and logical
-                    judgment expression in ENFPs. Self-actualized ENFPs employ
-                    Te for assertiveness, leadership, and organized
-                    decision-making, whereas ENFPs tend to keep judgments
-                    internal (Fi). By cultivating Te, they can improve
-                    relationships through direct communication and boldly voice
-                    their opinions. Undeveloped Te, however, can result in
-                    passive-aggressive behaviors. By adopting Te, ENFPs can
-                    become more effective communicators and assume leadership
-                    positions.
+                  <p className="text-black text-lg text-justify mt-4">
+                    Tertiary: Extraverted Feeling (Fe)
                   </p>
-                  <h2 className="text-2xl font-bold mt-4 mb-4">
+                  <p className="text-black text-lg text-justify mt-4">
                     Inferior: Introverted Sensing (Si)
-                  </h2>
-                  <p className="text-black text-lg mt-4">
-                    Si makes it possible for ENFPs to contrast memories from the
-                    past with current experiences. It raises awareness of
-                    customs, physical experiences, and historical backgrounds.
-                    There is a conflict for ENFPs between their Si-rooted
-                    adherence to cherished customs and their Ne-driven openness.
-                    Their Si can evoke nostalgia, but their Ne is drawn to
-                    novelty. Si also increases body awareness, which can
-                    occasionally result in hypersensitivity to bodily
-                    sensations. Later in life, ENFPs learn to strike a balance
-                    between the grounding effects of Si and their adventurous
-                    Ne.
-                  </p>
-
-                  <h2 className="text-3xl font-bold mt-4 mb-6">
-                    Personality Development Phases
-                  </h2>
-                  <h2 className="text-2xl font-bold mt-4 mb-4">
-                    Phase I: Dominant Ne Development
-                  </h2>
-                  <p className="text-black text-lg mt-4">
-                    Early childhood and adolescence are times when ENFPs hone
-                    and polish their Ne. During this stage, there is a great
-                    deal of curiosity and open-minded exploration. Reading,
-                    travel, art, and social interactions are just a few of the
-                    varied experiences that ENFPs use to absorb information.
-                    Without significant obligations, they are free to establish
-                    relationships and associations, which broadens their body of
-                    knowledge. They might be in their twenties at this point.
                   </p>
 
                   <h2 className="text-2xl font-bold mt-4 mb-4">
-                    Phase II: Influence of Inferior Si and Auxiliary Fi
+                    ENTPs’ Dominant Function: Extraverted Intuition (Ne)
                   </h2>
                   <p className="text-black text-lg mt-4">
-                    ENFPs start to feel the effects of their inferior Si as Ne
-                    matures, which frequently causes confusion. Their identity,
-                    values, and beliefs are refined as they simultaneously
-                    develop their auxiliary Fi. In this stage, both outer (Ne)
-                    and inner (Fi) exploration are done. As their values become
-                    clearer, ENFPs become more serious, focused, and
-                    aspirational. Their personal development is guided by their
-                    Fi, which assists them in balancing the demands of their
-                    inferior Si and dominant Ne.
+                    ENTPs are motivated to explore concepts, relationships, and
+                    opportunities rather than novel experiences or material
+                    objects because of a novelty-seeking function called
+                    extraverted intuition (Ne). Ne's verbal
+                    expression is comparable to "brainstorming aloud," and it
+                    possesses both expressive and perceptual functioning
+                    abilities. ". ENTPs are renowned for their ability to switch
+                    between ideas quickly, which they commonly employ to make
+                    decisions after weighing several options. Others may not
+                    trust Ne's seemingly random nature, but ENTPs cherish it
+                    and think it will lead them to truth or wisdom. Many ENTPs
+                    make their expressions even simpler by using their tertiary
+                    function, Extraverted Feeling (Fe).
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    Ne is receptive, obtaining information beyond sensory data
+                    and identifying potentials and hidden patterns.
+                    Through reading, watching movies, and having conversations,
+                    ENTPs use this aspect of their personalities. Ne multiplies
+                    possibilities rather than condensing them to a single
+                    solution, in contrast to Introverted Intuition (Ni), which
+                    is intensive and convergent. Convergence is possible for
+                    ENTPs with the aid of their auxiliary Introverted
+                    Thinking (Ti).
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    Additionally, Ne encourages open-mindedness, which
+                    helps ENTPs see the truth on both sides of a
+                    debate without drawing hasty judgments. It helps them
+                    resist excessive external structuring, which
+                    they perceive as an infringement on their autonomy, and to
+                    appreciate alternative lifestyles. Since they
+                    thrive in dynamic environments, they may become bored and
+                    frustrated by static or sterile surroundings.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    For ENTPs, Ne presents difficulties despite its advantages.
+                    They may become indecisive as a result, and they may find it
+                    difficult to remain composed or reach firm decisions. Even
+                    so, they value the openness, wonder, and adventure that
+                    Ne offers despite navigating its complexities.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    The dominant function of ENTPs, according to the
+                    Myers-Briggs framework, is Extroverted Intuition. Their
+                    ability to quickly gather information, identify hidden
+                    connections, and concentrate on possibilities is a result of
+                    this. Their innovative ideas are what drive
+                    their entrepreneurial minds, which
+                    makes them adept at spotting connections that others
+                    might miss.
                   </p>
 
                   <h2 className="text-2xl font-bold mt-4 mb-4">
-                    Phase III: Integration of Tertiary Te and Inferior Si
+                    ENTPs’ Auxiliary Function: Introverted Thinking (Ti)
                   </h2>
                   <p className="text-black text-lg mt-4">
-                    Phase III, which entails consciously integrating tertiary Te
-                    and inferior Si, is never fully reached by many people. In
-                    order to achieve self-mastery at this point, ENFPs cultivate
-                    their Te for assertiveness and logical organization while
-                    striking a healthy balance between their nostalgic Si and
-                    exploratory Ne. By accepting all of their cognitive
-                    abilities, they progress toward fulfillment and personal
-                    wholeness.
+                    Because they are dominant perceivers, ENTPs tend to
+                    be passive and stay in an open mode of perception until they
+                    are asked to use their auxiliary judging function,
+                    Introverted Thinking (Ti). ENTPs exhibit intense,
+                    inward-focused behavior when forced to use their Ti, which
+                    is similar to how INTPs normally behave. However,
+                    this logical side of the ENTP might go unnoticed by others
+                    because Ti is introverted.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    It entails using reason and logic to comprehend a
+                    system, issue, or circumstance. It gives ENTPs a strong
+                    sense of inner control by structuring their inner world. By
+                    using their Ti, ENTPs investigate the sources of their
+                    ideas to make sure they make sense. They are
+                    excellent at seeing contradictions or speculating about
+                    situations in which a theory might fail. ENTPs are better at
+                    asserting the untruth than they are at boldly stating the
+                    truth.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    ENTPs and INTPs differ primarily in where Ti is located in
+                    their function stack. Ti is dominant in INTPs, which
+                    makes them more quick to make internal judgments. Ne
+                    is their auxiliary for additional investigation. ENTPs have
+                    the opposite order. They examine concepts through Ne's new
+                    perspective before using Ti
+                    to hone and clarify these impressions.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    Compared to INTPs, ENTPs are more receptive to ambiguity and
+                    playful exploration because of their dominant Ne. For
+                    instance, ENTPs rank "having fun" as a top value and
+                    frequently place a high priority on enjoyment and adventure.
+                    The dominant Ti of INTPs, on the other hand, forces them to
+                    take life more seriously. A further characteristic that sets
+                    ENTPs apart from INTPs is their increased interest
+                    in the arts and culture. The difference between Ti and Fi
+                    (Introverted Feeling) emphasizes their rational focus even
+                    more. Fi types are adept at making moral judgments and
+                    evaluating things according to their goodness, badness,
+                    hate, and love. On the other hand, TPs assess situations as
+                    logical or illogical, placing a higher value on sound
+                    reasoning and paying less attention to morality up front.
+                    It may be difficult for ENTPs to discern between logical (T)
+                    and emotional (F) considerations at an early age because Ti
+                    and Fe are adjacent in their function stack.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    The information obtained by their dominant Ne is processed
+                    by ENTPs when they activate their Ti. They can make sense
+                    of a variety of concepts and data thanks to
+                    the logic and order this function imposes. The "why" and
+                    "how" behind something's operation is of greater interest to
+                    ENTPs than simply knowing that it works.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mt-4 mb-4">
+                    ENTPs’ Tertiary Function: Extraverted Feeling (Fe)
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    Extraverted Feeling (Fe), the most interpersonal of all the
+                    functions, is the tertiary function of ENTPs and aims to
+                    promote harmony, understanding, and peace.  Fe entails
+                    paying attention to both what is said and how it is
+                    said. Even though they might not be as sensitive to outside
+                    conflict as some other types, ENTPs nevertheless make an
+                    effort to foster positive emotions in their surroundings,
+                    even if unintentionally.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    ENTPs are more at ease internalizing judgments (Ti) than
+                    extroverting them (Fe), despite Fe being their preferred
+                    extraverted Judging function and occupying
+                    a lower position in their function stack. This may cause
+                    them to routinely submit to the desires of others instead of
+                    expressing their own, as is the case with other Perceiving
+                    types. But because of their sharp minds, they might become
+                    internally resentful of people who they believe are
+                    attempting to manipulate them. Even though ENTPs tend to
+                    be more self-assertive than IPs, their discomfort with
+                    using Fe can still cause problems in their relationships.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    Fe, when fully developed, enables ENTPs to
+                    become gregarious charmers who get along with people. In
+                    contrast, when this facet of their personality is less
+                    strong, ENTPs could come across as distant or cruel, which
+                    could cause others to misinterpret their motivations.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mt-4 mb-4">
+                    ENTPs’ Inferior Function: Introverted Sensing (Si)
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    ENTPs may not realize how much their inferior function,
+                    Introverted Sensing (Si), affects their choices and actions,
+                    just like other types do. For ENTPs looking to better
+                    understand themselves and their personalities, it is crucial
+                    to comprehend how Si shows up in their personalities.
+                    The opposite of Extraverted Intuition (Ne), Introverted
+                    Sensing is concerned
+                    with past preservation and precedent-based limit
+                    recognition.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    Si is meticulous and cautious, whereas Ne
+                    is broad-minded and forward-thinking. Although ENTPs
+                    consciously embrace Ne's creative nature, they may
+                    experience internal conflict as a result of their
+                    subconscious Si's pull toward tradition and structure.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    In everyday life, this conflict is apparent: ENTPs may put
+                    off doing menial chores like exercising or paying their
+                    bills, but when they are intensely focused on a project,
+                    they may become perfectionistic. Moreover, Si affects
+                    body awareness, which can occasionally result
+                    in overcompensation and psychosomatic issues.
+                    Furthermore, ENTPs are skilled in professions like politics
+                    or journalism because they frequently combine their
+                    visionary Ne with their historical interests (driven by Si).
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    To avoid being limited by Si, ENTPs must rely on their
+                    strengths in Ne and Ti to maintain equilibrium in this
+                    dynamic. Si offers useful insights, but it can also present
+                    problems, like forgetting details or holding onto
+                    out-of-date patterns. ENTPs
+                    can encourage personal development and creative exploration
+                    by fusing Ne's vision with Si's respect for the past.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mt-4 mb-4">
+                    Development Phases
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    The type development of ENTPs is divided into three stages.
+                    Generally speaking, these stages match the function stack's
+                    ordering, with Ne blossoming first, Ti second, and so forth.
+                    The inferior function, however, is a unique situation that
+                    demands ENTPs' attention earlier than might be anticipated,
+                    as we shall see.
+                  </p>
+                  <h2 className="text-2xl font-bold mt-4 mb-4">
+                    Phase I: Early Life and Growth
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    Phase I, which spans from childhood to early adulthood, is
+                    when the dominant function of ENTPs, Extraverted
+                    Intuition (Ne), emerges and differentiates. This is
+                    particularly noticeable during this stage of development,
+                    even though ENTPs are naturally
+                    inquisitive and tolerant throughout their lives. Phase I
+                    ENTPs are free to relax and take in the world
+                    without excessive worry or concern, aside from the demands
+                    of education. This enables their Ne to form a
+                    variety of associations and connections that may ultimately
+                    come together to form a cohesive worldview.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mt-4 mb-4">
+                    Phase II: From Adolescence to Adulthood (Teens to 30s)
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    Introverted Sensing (Si), the inferior function of ENTPs,
+                    takes over and starts to play a more significant and cunning
+                    role once the dominant function reaches
+                    a particular threshold of strength and dominance.
+                    Although the inferior function is not the next in line for
+                    development in the function stack, its bipolar relationship
+                    with the dominant function gives it undue influence, which
+                    can be confusing. Regretfully, Phase II of type development
+                    is when the inferior's influence peaks and this is also
+                    when people are
+                    making crucial decisions regarding their relationships and careers.
+                    Issues about inferior function in ENTPs are covered later in
+                    this profile.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    Phase II ENTPs are also developing their auxiliary function,
+                    Introverted Thinking (Ti), in addition to the growing
+                    influence and presence of Si. Ti gives the thoughts,
+                    identity, and worldview of ENTPs more
+                    structure and clarity. As ENTPs grow and apply their Ti,
+                    they might also become more driven, serious, and focused.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mt-4 mb-4">
+                    Phase III: Life’s Later Chapters: 30s, 40s, and Beyond
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    ENTPs grow more conscious of the sneaky ways of their
+                    inferior Si if they are lucky enough to enter Phase III.
+                    They experience more balance between their Ne and Si as they
+                    grow more conscious of their inferiority and learn
+                    to act more like ENTPs. They find that as they authentically
+                    use their Ne and Ti, integrating their Si occurs
+                    organically and indirectly. Their sense of peace, wholeness,
+                    and contentment increases as they create environments that
+                    enhance their innate strengths.
                   </p>
                 </section>
               )}
