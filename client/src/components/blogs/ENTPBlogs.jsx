@@ -1349,111 +1349,323 @@ function ENTPBlogs() {
               {activeSection === "careers" && (
                 <section id="careers">
                   <h1 className="text-3xl font-bold mb-2 mt-6">
-                    Career Preferences for ENFPs
+                  Suitable Career Options for ENTPs
                   </h1>
 
+                  <blockquote className="border-l-8 border-teal-500 pl-4 italic text-black text-xl py-10 mt-6">
+                  "ENTPs tend to be independent, analytical, and impersonal in their relations with people, and they are more apt to consider how others may affect their projects than how their projects may affect others."
+                    <span className="font-bold">- Isabel Briggs Myers, Gifts Differing</span>
+                  </blockquote>
+
+
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                  Top Career Fields for ENTPs
+                  </h2>
                   <p className="text-black text-lg mt-4">
-                    ENFPs look for work that reflects their values and are
-                    frequently inspired by their support of humanitarian causes.
-                    They have a special interest in assisting others in their
-                    personal growth. They are particularly drawn to occupations
-                    that enable them to pursue the goals of artistic expression
-                    and personal development.
+                  As long as the work is interesting and stimulating, ENTPs are adaptable people who can thrive in a variety of professions. They are well-suited for a variety of fields due to their special blend of creativity, leadership, and reason. Examples of occupations that play to ENTPs' strengths are provided below;
+                  </p>
+
+                  <div className="overflow-x-auto">
+                    <table className="w-full border-collapse">
+                      <thead>
+                        <tr className=" font-bold border-b-4">
+                          <th className="p-3 text-lg font-bold text-black text-center">
+                          Category
+                          </th>
+                          <th className="p-3 text-lg font-bold text-black text-center">
+                          Examples
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                          Business & Finance
+                            </td>
+                          <td className="p-3 text-black">
+                          Financial Analyst, Management Consultant, Advertising Manager, Operations Research Analyst
+                          </td>
+                        </tr>
+
+
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                          Creative Arts
+                            </td>
+                          <td className="p-3 text-black">
+                          Actor, Comedian, Graphic Designer, Playwright, Photographer, Creative Writer, Public Relations Specialist
+                          </td>
+                        </tr>
+
+
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                          Law & Advocacy
+                            </td>
+                          <td className="p-3 text-black">
+                          Lawyer, Mediator, Public Advocate
+                          </td>
+                        </tr>
+
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                          Science & Technology
+                            </td>
+                          <td className="p-3 text-black">
+                          Environmental Scientist, Software Developer, Architect, Mechanical Engineer, Information Research Scientist
+                          </td>
+                        </tr>
+
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                          Social Sciences
+                            </td>
+                          <td className="p-3 text-black">
+                          Psychologist, Sociologist, Political Scientist, Historian, College Professor
+                          </td>
+                        </tr>
+
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                          Media & Communication
+                            </td>
+                          <td className="p-3 text-black">
+                          Journalist, Editor, Translator, Radio Host, Podcaster
+                          </td>
+                        </tr>
+                       
+                      </tbody>
+                    </table>
+                  </div>                 
+
+
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                  Challenges in Career Development
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                  ENTPs frequently struggle to focus their career interests. Their curiosity and wide range of interests are fueled by their dominant Extraverted Intuition (Ne), which makes it difficult for them to focus on just one area. They experience restlessness in structured roles because, like other NP types, they feel obligated to consider every possibility before committing. 
                   </p>
 
                   <p className="text-black text-lg mt-4">
-                    They excel at speaking and writing, and they are
-                    well-represented in journalism. Because they enjoy
-                    identifying and developing others' potential, many ENFPs are
-                    drawn to careers in teaching, counseling, or ministry. While
-                    some people prefer to work primarily with ideas, others like
-                    to mix this with adventure and action.
-                  </p>
-
-                  <p className="text-black text-lg mt-4">
-                    The scientific and technical domains where ENFPs can make a
-                    difference, like environmental science and human health, may
-                    also appeal to them. Additionally, they can balance
-                    creativity and a sense of human connection by working in
-                    communications and social media.
+                  It might take some time and trial and error to find their niche. s they attempt to strike a balance between intellectual engagement and creative freedom, many ENTPs struggle with job satisfaction well into their twenties or thirties. Furthermore, ENTPs frequently find rigid structures and bureaucracy oppressive, and they favor positions that provide them flexibility and autonomy.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Flexibility and Creativity in the Workplace
+                  ENTP Careers to Avoid
                   </h2>
-                  <p className="text-black text-lg mt-4">
-                    Open-ended, flexible work settings that encourage innovation
-                    and teamwork are ideal for ENFPs. They enjoy asking
-                    questions and are drawn to variety. When they are forced to
-                    devote all of their energy to a single project or topic for
-                    an extended period of time, they often become distracted.
-                  </p>
 
                   <p className="text-black text-lg mt-4">
-                    They may become discouraged by repetition and
-                    predictability. They particularly dislike routine work that
-                    involves a lot of rules or uninteresting details because
-                    they prefer dynamic and demanding assignments.
+                  Even though ENTPs can excel in any field, some occupations require thought and behavior patterns that can be stressful or unattractive. The following professions frequently call for routine or structured methods, which are at odds with ENTPs' innate preferences;
                   </p>
 
-                  <p className="text-black text-lg mt-4">
-                    However, when immersed in a creative project, ENFPs can
-                    become perfectionistic and obsessive over details, even
-                    though they frequently struggle with managing everyday life
-                    details like paying bills, eating a balanced diet, or
-                    exercising regularly.
-                  </p>
+                  <div className="overflow-x-auto">
+                    <table className="w-full border-collapse">
+                      <thead>
+                        <tr className=" font-bold border-b-4">
+                          <th className="p-3 text-lg font-bold text-black text-center">
+                          Category
+                          </th>
+                          <th className="p-3 text-lg font-bold text-black text-center">
+                          Examples
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                          Medical Fields
+                            </td>
+                          <td className="p-3 text-black">
+                          Nurse’s Aide, Dentist, Medical Records Technician, Family Physician
+                          </td>
+                        </tr>
+
+
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                          Administrative Roles
+                            </td>
+                          <td className="p-3 text-black">
+                          Administrative Assistant, Bank Teller, Receptionist
+                           </td>
+                        </tr>
+
+
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                          Education
+                            </td>
+                          <td className="p-3 text-black">
+                          Preschool or Elementary Teacher
+                          </td>
+                        </tr>
+
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                          Routine-Based Jobs
+                            </td>
+                          <td className="p-3 text-black">
+                          Factory Supervisor, Machinist, Airline Pilot
+                          </td>
+                        </tr>
+                       
+                      </tbody>
+                    </table>
+                  </div> 
+
+
+
+
+
+
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    ENFP Career Statistics
+                  Workplace habits
                   </h2>
+                  <p className="text-black text-lg mt-4">
+                  In the workplace, people with the ENTP personality type (Debaters) have clear expectations, but they can be challenging to meet. Strong proponents of meritocracy, ENTP personalities demand that people they manage present fresh ideas and solutions regardless of their positions, expect their opinions to be heard by those in higher positions, and actively seek out lively peer debate. Even though this isn't always how things work out, they are aware of what to look for and can stay away from rigidly hierarchical institutions, which they would otherwise find difficult.
+                  </p>
 
+
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                  As Subordinates
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                  Since ENTP subordinates are at ease questioning their managers' opinions and have a strong (and well-articulated) distaste for constrictive rules and regulations, a meritocratic preference is most evident to them. This unconventional behavior is supported by ENTP personalities' sharp minds and curiosity, and they are equally adept at implementing novel strategies as they are at advocating for others to do so. It's that simple: if something can be done better, it can be done. As long as the criticism is reasonable and focused on performance, they will gladly accept it.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                  In lower-level roles, ENTPs frequently find themselves performing repetitive or detail-oriented tasks, which completely contradicts their innate preferences. They become bored doing the same things over and over again and detest routine work. They are happiest when they can work on a range of projects and solve complex problems, so managers should take advantage of this by providing them with challenges that encourage creativity and keep things fresh.
+                  </p>
+
+
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                  As Colleagues
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                  ENTPs can be very inconsistent as coworkers. Their passion for ideation, argumentation, and overanalysis can irritate more realistic, task-oriented coworkers. But it can also inspire people who appreciate originality and new viewpoints. There is nothing more annoying to ENTPs than leaving a meeting where everyone has agreed on a plan right away, only to hear them later complain that they "didn't want to rock the boat.". ENTPs have such a strong desire for candid, open, and direct feedback that they frequently come across as rude or patronizing.
+                  </p>
+
+                  <blockquote className=" bg-teal-300 p-4 italic text-black text-xl py-10 mt-6 text-justify">
+                  ENTPs infuse interactions at work with a vibrant, vivacious vibe. They frequently participate the most actively in team meetings and brainstorming sessions, taking pleasure in the lively discussion and quick flow of ideas.
+                  </blockquote>
+
+                  <p className="text-black text-lg mt-4">
+                  Thankfully, ENTPs are also adept at relaxing. They easily make new friends because of their quick wit, amiable disposition, and sense of humor. They enjoy sharing their knowledge, so conversing with them is entertaining and educational. Because of this, people turn to them for help with challenging issues that others are unable to solve.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                  As Managers
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                  ENTPs are often best suited for managerial roles, even though it isn't always their primary goal. Without having to execute every aspect of the plan themselves, it enables them to test out various concepts and come up with fresh approaches to issues. ENTP managers are adaptable and open-minded. They allow the same latitude to their team as they do, which occasionally results in misunderstandings and conflicting opinions. On the other hand, ENTPs are also adept at determining which idea has the best chance of succeeding objectively.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                  Since being popular isn't their primary objective, they don't always make friends easily. ENTPs prefer to be valued for their skills and intelligence. They are ardent supporters of their teams and excellent debaters, regardless of whether people like them or not. Maintaining focus is their biggest obstacle. They frequently leave the remaining details to their teams as they hop from project to project in search of something fresh and interesting.
+                  </p>
+
+
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                  How ENTP is perceived by others
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                  The warm personalities of ENTPs often attract others who view them as amiable and charming. Additionally, people frequently observe how eager ENTPs are to be seen as intelligent, which is evident in their sharp humor and quick wit. An additional characteristic that makes them stand out to others is their curiosity about how everything operates.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                   ENTPs are often perceived by observers as viewing rules as challenges rather than limitations. ENTPs enjoy breaking the rules and searching for weaknesses because they feel that they can be restrictive, not harmful. On the surface, it's obvious that they believe there's typically a more interesting or effective approach to solving a problem that no one has yet thought of.
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                   The entrepreneurial nature of the ENTP is immediately apparent to many. They are confident and creative, and they are quick to pitch new inventions or business ideas. ENTPs frequently encourage others to join in on their creative plans and projects because of their infectious enthusiasm. 
+                  </p>
+
+                  <p className="text-black text-lg mt-4">
+                   People who watch ENTPs over time, however, might notice that they tend to ignore minor details because they are more concerned with the big picture. When they don't follow through on their numerous ideas, others may view them as unreliable because they are frequently more enthusiastic about brainstorming than carrying them out. Nevertheless, people around them are greatly impacted by their general enthusiasm and inventiveness.
+                  </p>
+
+                  <blockquote className=" bg-teal-300 p-4 italic text-black text-xl py-10 mt-6 text-justify">
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                  Rarity and Representation
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                  ENTP is one of the rarer types in the population. ENTPs makeup:
+                  </p>
                   <ul className="list-disc pl-5 text-black text-xl">
-                    <li className="mt-4text-lg">
-                      <b>Gender Wage Gap:</b> Female ENFPs only make 72% of what
-                      male ENFPs make, making them one of the groups with the
-                      biggest gender wage gaps.{" "}
-                    </li>
-                    <li className="mt-4text-lg">
-                      <b>Self-Employment vs. Standard Job Income</b>{" "}
-                      Self-employed ENFPs typically make $60,000, which is
-                      higher than the $48,000 they would make in a regular job.{" "}
-                    </li>
+                    <li className="mt-4 font-bold text-xl">4.3% of the general population</li>
+                    <li className="mt-4 font-bold text-xl">	5.1% of men</li>
+                    <li className="mt-4 font-bold text-xl">	3.6% of women</li>
+                  </ul>
+                  </blockquote>
+                 
+
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                  Famous ENTPs
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                  ENTPs are known for their wit, creativity, and innovative thinking. Here are some notable ENTPs from various fields:
+                  </p>
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                  Inventors and Visionaries
+                  </h2>
+                  <ul className="list-disc pl-5 text-black text-xl">
+                    <li className="mt-4 text-xl">Steve Jobs</li>
+                    <li className="mt-4 text-xl">	Walt Disney</li>
+                    <li className="mt-4 text-xl">	Thomas Edison</li>
+                    <li className="mt-4 text-xl">	Benjamin Franklin</li>
+                    <li className="mt-4 text-xl">	Leonardo da Vinci</li>
                   </ul>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Popular Careers for ENFPs
+                  Inventors and Visionaries
                   </h2>
                   <ul className="list-disc pl-5 text-black text-xl">
-                    <li className="mt-4  text-lg">
-                      Counseling & Psychology (Counselor, Therapist, Social
-                      Worker)
-                    </li>
-
-                    <li className="mt-4  text-lg">
-                      Teaching & Education (Teacher, Professor, Educational
-                      Consultant)
-                    </li>
-                    <li className="mt-4  text-lg">
-                      Arts & Creativity (Writer, Journalist, Actor, Musician,
-                      Graphic Designer)
-                    </li>
-                    <li className="mt-4  text-lg">
-                      Communication & Media (Public Relations Specialist, Social
-                      Media Manager, Marketing Specialist)
-                    </li>
-                    <li className="mt-4  text-lg">
-                      Science & Environment (Human Health Researcher,
-                      Environmental Scientist)
-                    </li>
-                    <li className="mt-4  text-lg">
-                      Entrepreneurship & Business (Startup Founder, Business
-                      Consultant, Life Coach)
-                    </li>
-                    <li className="mt-4  text-lg">
-                      Ministry & Nonprofit Work (Clergy Member, NGO Worker,
-                      Community Organizer)
-                    </li>
+                    <li className="mt-4 text-xl">Robin Williams</li>
+                    <li className="mt-4 text-xl">	Steve Martin</li>
+                    <li className="mt-4 text-xl">	Jim Carrey</li>
+                    <li className="mt-4 text-xl">	Sacha Baron Cohen</li>
+                    <li className="mt-4 text-xl">	Jack Black</li>
+                    <li className="mt-4 text-xl">	Amy Poehler</li>
+                    <li className="mt-4 text-xl">	Kate McKinnon</li>
+                    <li className="mt-4 text-xl">	Joan Rivers</li>
+                    <li className="mt-4 text-xl">	Conan O’Brien</li>
+                    <li className="mt-4 text-xl">	“Weird Al” Yankovic</li>
                   </ul>
+
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </section>
               )}
 
