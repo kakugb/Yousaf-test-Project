@@ -715,229 +715,313 @@ function ENTPBlogs() {
               {/* Strengths and Weaknesses Section */}
               {activeSection === "strengths-weaknesses" && (
                 <section id="strengths-weaknesses">
-                  <h2 className="text-2xl font-bold mb-4">ENFP Strengths</h2>
+                  <h2 className="text-2xl font-bold mb-4">
+                    Strengths and Weaknesses
+                  </h2>
 
+                  <div className="overflow-x-auto">
+                    <table className="w-full border-collapse">
+                      <thead>
+                        <tr className="bg-yellow-400 font-bold border-b-4">
+                          <th className="p-3 text-lg font-bold text-black text-center">
+                            ENTP Strengths
+                          </th>
+                          <th className="p-3 text-lg font-bold text-black text-center">
+                            ENTP Weaknesses
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">Bold and Fearless</td>
+                          <td className="p-3 text-black">
+                            Struggling with Focus and Commitment
+                          </td>
+                        </tr>
+                        <tr className="bg-yellow-400">
+                          <td className="p-3 text-black">
+                            Creative Innovators
+                          </td>
+                          <td className="p-3 text-black">
+                            Neglect of Practical Responsibilities
+                          </td>
+                        </tr>
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                            Flexible and Adaptable
+                          </td>
+                          <td className="p-3 text-black">
+                            Resistance to Conformity
+                          </td>
+                        </tr>
+                        <tr className="bg-yellow-400">
+                          <td className="p-3 text-black">
+                            {" "}
+                            Self-Assured and Resilient
+                          </td>
+                          <td className="p-3 text-black">
+                            Challenges with Time Management
+                          </td>
+                        </tr>
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                            Curious and Knowledge-Seeking
+                          </td>
+                          <td className="p-3 text-black">
+                            Overly Argumentative
+                          </td>
+                        </tr>
+                        <tr className="bg-yellow-400">
+                          <td className="p-3 text-black">
+                            Fast and Agile Thinkers
+                          </td>
+                          <td className="p-3 text-black">
+                            Lack of Emotional Awareness
+                          </td>
+                        </tr>
+
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                            Exceptional Problem Solvers
+                          </td>
+                          <td className="p-3 text-black">
+                            Difficulty Tolerating Differing Opinions
+                          </td>
+                        </tr>
+
+                        <tr className="bg-yellow-400">
+                          <td className="p-3 text-black">
+                            Magnetic Communicators
+                          </td>
+                        </tr>
+                        <tr className="bg-white">
+                          <td className="p-3 text-black">
+                            Highly Energetic and Driven
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <h2 className="text-3xl font-bold mb-1 mt-4">
+                    ENTP Strengths
+                  </h2>
                   <h2 className="text-2xl font-bold mb-1 mt-4">
-                    Excellent Communicators
+                    Bold and Fearless
                   </h2>
 
                   <p className="text-black text-lg text-justify mt-4">
-                    Communication skills are exceptional, and ENFPs know how to
-                    use them. At any time, they will strike up a conversation
-                    with anyone, and they are skilled at attracting others in a
-                    way that maintains the flow of the conversation. ENFPs are
-                    the engine that keeps the conversation going, whether it's
-                    taking place informally or in the workplace. Though they are
-                    full of things to say, people with the ENFP personality type
-                    can also listen with compassion. Their ability to engage in
-                    constructive and pleasurable dialogue with a wide range of
-                    individuals, including those who aren't particularly
-                    gregarious or agreeable, is almost unrivaled.
-                  </p>
-                  <h2 className="text-2xl font-bold mb-1 mt-4">Imaginative</h2>
-                  <p className="text-black text-lg text-justify mt-4">
-                    The notion that conventional methods are always the best is
-                    rejected by ENFPs, who solve problems creatively. They
-                    refuse to become prisoners of routine or habit and think
-                    that an innovative approach is both desirable and feasible
-                    in every circumstance. They approach every obstacle they
-                    encounter with new perspectives and no preconceived ideas,
-                    and they view obstacles as opportunities.
+                    Being fearless in the face of difficulty is one of the
+                    ENTP's best traits and a major factor in their success.
+                    These individuals don't mind trying, failing, and trying
+                    again—possibly thousands of times. They view it as an
+                    additional step on the road to success rather than as
+                    failure. Doubts don't stop them from inventing and
+                    innovating; they are hardly perturbed when things don't work
+                    out as expected, and they view all "problems" as chances to
+                    seize.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-1 mt-4">
-                    Natural Leaders
+                    Creative Innovators
                   </h2>
                   <p className="text-black text-lg text-justify mt-4">
-                    Easily and naturally, ENFPs take on leadership roles right
-                    away. They have faith that they can manage difficult tasks
-                    that many people find frightening or intimidating. carefully
-                    listening to their colleagues' opinions and enthusiastically
-                    responding to their insightful recommendations, ENFP leaders
-                    are consensus builders who put a lot of effort into earning
-                    their trust. They inspire and motivate others to take action
-                    with their assertive, "can-do" attitude.
+                    ENTPs are aware that there is always a better way, and they
+                    will find it if they think about it properly. They may
+                    experience numerous apparent setbacks but also have notable
+                    triumphs. Even if they are extremely wealthy, they may lose
+                    all of their life savings—possibly multiple times during
+                    their lifetime. Because they are not attached to tradition,
+                    ENTPs can discard current structures and practices and
+                    combine different ideas to create innovative, daring
+                    solutions. They react with unabashed joy when allowed to
+                    address persistent, systemic issues.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-1 mt-4">
-                    Strong Social Conscience
+                    Flexible and Adaptable
                   </h2>
                   <p className="text-black text-lg text-justify mt-4">
-                    ENFPs frequently participate in social movements and are
-                    unapologetically vocal about their beliefs. Although some
-                    people play the compassion game but don't actually do
-                    anything about it, ENFPs think it's crucial to support kind
-                    words with deeds. Even though they are generally amiable,
-                    when an ENFP witnesses injustice and suffering, they will
-                    explode with righteous rage. If they need to make their
-                    opinions known, they can become very vocal and forceful.
-                  </p>
-
-                  <h2 className="text-2xl font-bold mb-1 mt-4">Curious</h2>
-                  <p className="text-black text-lg text-justify mt-4">
-                    Nearly anything can be beautiful and fascinating to people
-                    with the ENFP personality type. Being creative and
-                    receptive, ENFPs don't hesitate to step outside of their
-                    comfort zone in pursuit of novel concepts, encounters, and
-                    adventures. Furthermore, they are not only curious about new
-                    things. They also have a strong desire to comprehend the
-                    workings of the world and the reasons behind its current
-                    state.
-                  </p>
-
-                  <h2 className="text-2xl font-bold mb-1 mt-4">Perceptive</h2>
-
-                  <p className="text-black text-lg text-justify mt-4">
-                    Individuals with this particular personality trait don't
-                    consider anyone insignificant, possibly due to their ability
-                    to detect even the slightest changes in another person's
-                    emotion or facial expression. Given their heightened
-                    awareness of others' emotions and requirements, ENFPs can
-                    effectively utilize their compassionate and thoughtful
-                    disposition.
-                  </p>
-
-                  <h2 className="text-2xl font-bold mb-1 mt-4">Enthusiastic</h2>
-                  <p className="text-black text-lg text-justify mt-4">
-                    When they find something inspiring and captivating, ENFPs
-                    want to share it with as many people as possible.
-                    Additionally, they are equally interested in hearing other
-                    people's perspectives, even if they diverge greatly from
-                    their own.
-                  </p>
-
-                  <h2 className="text-2xl font-bold mb-1 mt-4">Easygoing</h2>
-                  <p className="text-black text-lg text-justify mt-4">
-                    Though they may enjoy in-depth discussions, ENFPs can also
-                    be impulsive and humorous. These individuals are adept at
-                    finding joy and fun in the here and now, and there aren't
-                    many things that make them happier than spreading their
-                    happiness to others.
+                    ENTPs are typically laid-back individuals. They adjust well
+                    to situations and issues that come up in life and at work,
+                    which is not to say they are especially amiable. ENTPs can
+                    improvise quickly and come up with original solutions. They
+                    relish the challenges that come with frequent, fast-paced
+                    change.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-1 mt-4">
-                    Good-Natured and Positive
+                    Self-Assured and Resilient
                   </h2>
                   <p className="text-black text-lg text-justify mt-4">
-                    The combination of these qualities creates a person who is
-                    friendly, approachable, altruistic, and warm-hearted. Since
-                    ENFPs aim to get along with almost everyone, they frequently
-                    have large social networks of friends and acquaintances.
+                    ENTPs are hardly affected by criticism or exclusion. They
+                    believe in the power of their ideas and are self-assured in
+                    their abilities. It is normal to encounter resistance along
+                    the path to success, and they choose to disprove their
+                    critics rather than take it personally.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-1 mt-4">
+                    Curious and Knowledge-Seeking
+                  </h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    The ENTP personality type rarely misses an opportunity to
+                    learn something new, particularly when it comes to abstract
+                    ideas. They typically find this material fascinating rather
+                    than absorbing it with any specific goal in mind, as is the
+                    case with focused study.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-1 mt-4">
+                    Fast and Agile Thinkers
+                  </h2>
+
+                  <p className="text-black text-lg text-justify mt-4">
+                    With little effort, ENTPs can switch between ideas and use
+                    their vast knowledge base to support their positions or
+                    refute those of their opponents. They are prone to switch
+                    topics in conversations with ease and without missing a
+                    beat.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-1 mt-4">
+                    Exceptional Problem Solvers
+                  </h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    Finding the best solutions to problems by looking at them
+                    from all sides is the most enjoyable thing for ENTPs. They
+                    are invaluable in brainstorming sessions because they
+                    combine their knowledge and creativity to effortlessly
+                    reject options that don't work and present an endless array
+                    of possibilities.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-1 mt-4">
+                    Magnetic Communicators
+                  </h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    Others find ENTPs' use of language and wit fascinating.
+                    Their self-assurance, rapid thinking, and ability to
+                    creatively link seemingly disparate ideas result in a
+                    communication style that is simultaneously endearing,
+                    amusing, and educational.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-1 mt-4">
+                    Highly Energetic and Driven
+                  </h2>
+                  <p className="text-black text-lg text-justify mt-4">
+                    ENTPs can exhibit genuinely remarkable levels of energy and
+                    enthusiasm when allowed to combine their traits to analyze
+                    an intriguing problem. They don't mind working long days and
+                    nights to solve the problem.
                   </p>
 
                   <h2 className="text-3xl font-bold mb-1 mt-4">
-                    ENFP Weaknesses
+                    ENTP Weaknesses
                   </h2>
                   <h2 className="text-2xl font-bold mb-1 mt-4">
-                    Hypersensitivity
+                    Struggling with Focus and Commitment
                   </h2>
                   <p className="text-black text-lg text-justify mt-4">
-                    ENFPs often let their imaginations run freely, sometimes
-                    perceiving false negative intentions. Their heightened
-                    awareness contributes to better social understanding, but
-                    deciphering hidden messages only proves fruitful when
-                    there's something concealed. When there's nothing hidden,
-                    miscommunications may occur, potentially causing hurt
-                    feelings and damaging strong relationships.
+                    Idea generation, an ENTP's strongest suit, can also be their
+                    greatest weakness. They frequently exhibit flightiness and
+                    flakiness, hopping from one idea to another without carrying
+                    them through, as a result of their innate capacity for
+                    creative thought and opportunity exploration. Their fear of
+                    missing out (FOMO) is the root cause of this restlessness,
+                    which motivates them to continuously explore new
+                    opportunities and try out novel experiences rather than
+                    settling on one course. Because of their adaptability, they
+                    can come up with creative plans, but once the initial
+                    excitement wears off and new ideas come to mind, they may
+                    also readjust or abandon perfectly good ideas. ENTPs are
+                    easily bored in static environments, and their propensity to
+                    seek out novel concepts may impede their advancement on
+                    long-term projects. This dynamic frequently demonstrates
+                    their inability to concentrate since they may find it
+                    difficult to maintain consistency when their curiosity takes
+                    them in different directions.
                   </p>
 
                   <h1 className="text-2xl font-bold mt-8 mb-2">
-                    Lack of Focus and Follow-Through
+                    Neglect of Practical Responsibilities
                   </h1>
                   <p className="text-black text-lg">
-                    A thousand days could be filled with a thousand audacious
-                    ideas from ENFPs' boundless creativity. Their best ideas
-                    might never be implemented, though, if they don't always
-                    carry out their inspirations and don't enlist others to
-                    manage the details. ENFPs tend to over-rely on their initial
-                    enthusiasm and passion and lack the self-control needed to
-                    turn their ideas into practical output. ENFPs sometimes fail
-                    to see things through to completion because they have a
-                    propensity to begin new projects before the last ones are
-                    completed.
+                    Particularly to spouses and coworkers, ENTPs have a chaotic
+                    personality that can be both humorous and annoying. They
+                    frequently become so engrossed in their thoughts that they
+                    neglect more pressing responsibilities, like paying bills or
+                    doing the house or yard. Organization, structure, and all
+                    things practical are often difficult for ENTPs because of
+                    their inclination for spontaneity and novelty. This
+                    preference for flexible ideas and plans over specifics can
+                    lead to incomplete projects and concepts that never get
+                    implemented. In their everyday lives, ENTPs frequently come
+                    across as disorganized and untethered, despite their
+                    extraordinary brilliance.
                   </p>
-                  <h1 className="text-2xl font-bold mt-4 mb-2">Overthinking</h1>
+
+                  <h1 className="text-2xl font-bold mt-4 mb-2">
+                    Resistance to Conformity
+                  </h1>
                   <p className="text-black text-lg">
-                    ENFPs often overanalyze other people's actions, which can
-                    cause needless rage and conflict. They also have a
-                    propensity to see slights, resentments, or hostility where
-                    none actually exist. Insecurities can be triggered and ENFPs
-                    may begin to feel unloved and undervalued if they don't get
-                    the amount of praise they anticipate from their partners.
+                    Despite being a sign of ENTP creativity, nonconformity
+                    frequently leads to problems. They live their lives by
+                    setting their own goals, pushing the envelope, and doing
+                    things the way they want to. Although this encourages
+                    creativity, it can also cause them to clash with superiors
+                    and authority figures, which will impede their advancement.
+                    The terms "stubborn" and "incorrigible" are frequently used
+                    to characterize the average ENTP.
                   </p>
 
                   <h2 className="text-2xl font-semibold mb-4 mt-6">
-                    Overemotional and Approval-Seeking
+                    Challenges with Time Management
                   </h2>
                   <p className="text-black text-lg">
-                    Even though an ENFP's emotional expression is fundamental to
-                    who they are, it can be overpowering. Not all partners are a
-                    good fit for the vivacious personality of ENFPs, and
-                    introverts in particular may feel rushed around them. In an
-                    attempt to make a good impression, ENFPs may go a bit too
-                    far, talking too much and listening too little because they
-                    are also approval-seekers and want acknowledgement and
-                    praise.
+                    Time management issues and procrastination are common among
+                    ENTPs. Action is frequently delayed by their inclination to
+                    absorb new information rather than make decisions. This is
+                    more likely a result of a reluctance to commit to one idea
+                    rather than a lack of motivation. They have trouble setting
+                    priorities and usually allow new ideas to divert them from
+                    finishing ongoing tasks.
                   </p>
 
                   <h2 className="text-2xl font-semibold mb-4 mt-6">
-                    People-Pleasing
+                    Overly Argumentative
                   </h2>
                   <p className="text-black text-lg">
-                    Those identified as ENFPs typically feel uneasy about the
-                    possibility of being disliked. In order to keep the peace,
-                    they may sacrifice their own values or endure mistreatment.
-                    When they fail to win someone's approval, they might
-                    experience sleepless nights, contemplating possible courses
-                    of action.
+                    ENTPs derive joy from engaging in intellectual disputes, but
+                    their zeal can occasionally create a divide with others.
+                    People who lean towards consensus in their interactions
+                    typically struggle to comprehend or appreciate the ferocity
+                    with which ENTPs dismantle beliefs and strategies, which can
+                    lead to discord and annoyance.
                   </p>
 
                   <h2 className="text-2xl font-semibold mb-4 mt-6">
-                    Disorganized
+                    Lack of Emotional Awareness
                   </h2>
                   <p className="text-black text-lg">
-                    Sometimes, ENFPs' attention to daily practical issues is
-                    overshadowed by their big-picture focus and love of
-                    discovering new concepts and experiences. In particular,
-                    those with this personality type might attempt to avoid
-                    mundane activities that they find uninteresting, such as
-                    paperwork, basic maintenance, or housework. Their life may
-                    become extremely stressful as a result of the ensuing
-                    feeling of disarray.
+                    ENTPs are very logical, but they frequently misinterpret
+                    other people's emotions and push arguments past their
+                    tolerance limits. They frequently reject emotional arguments
+                    as unfounded, which only makes the problem worse. They may
+                    come across as aloof or uncaring due to this lack of
+                    emotional consideration.
                   </p>
 
                   <h2 className="text-2xl font-semibold mb-4 mt-6">
-                    Overly Accommodating
+                    Difficulty Tolerating Differing Opinions
                   </h2>
                   <p className="text-black text-lg">
-                    When someone asks for advice or assistance, ENFP
-                    personalities may find themselves responding in the
-                    affirmative because they feel compelled to encourage others.
-                    Even the most active of them may become overcommitted and
-                    lack the time and energy to take care of their own needs if
-                    they don't establish boundaries.
-                  </p>
-
-                  <h2 className="text-2xl font-semibold mb-4 mt-6">
-                    Overly Optimistic
-                  </h2>
-                  <p className="text-black text-lg mt-4">
-                    One of this personality type's main advantages may be
-                    optimism. However, the optimistic attitude of ENFPs can
-                    cause them to make well-meaning but naïve choices, like
-                    trusting people they haven't earned. This characteristic may
-                    also make it challenging for these personalities to share
-                    and accept difficult but necessary truths.
-                  </p>
-
-                  <h1 className="text-2xl font-bold mb-4 mt-6">Restless</h1>
-                  <p className="text-black text-lg mt-4">
-                    On the outside, ENFPs rarely appear unhappy or dissatisfied
-                    due to their cheerful, positive outlook. However, their
-                    internal idealism may cause them to feel constantly that
-                    they are falling short in some important areas of their
-                    lives, such as their relationships, their jobs, or their
-                    homes.
+                    ENTPs tend to discard proposals, as well as individuals,
+                    promptly if they lack solid reasoning in a discussion. If a
+                    notion lacks sufficient logical examination, ENTPs might
+                    conclude that it doesn't deserve their attention, which
+                    might be misunderstood as intolerance or haughtiness.
                   </p>
                 </section>
               )}
