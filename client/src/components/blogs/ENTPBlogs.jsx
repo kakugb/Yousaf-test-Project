@@ -1029,84 +1029,94 @@ function ENTPBlogs() {
               {/* Romantic Relationships Section */}
               {activeSection === "romantic-relationships" && (
                 <section id="romantic-relationships">
-                  <h1 className="text-3xl font-bold mb-2">Relationships</h1>
+                  <h1 className="text-3xl font-bold mb-2">
+                    Relationships of ENTP
+                  </h1>
                   <h2 className="text-2xl font-bold mb-2">
                     Romantic Relationships
                   </h2>
 
                   <p className="text-black text-lg mt-6">
-                    Since they are extraverted, ENFPs enjoy interacting with
-                    people. By nature, they are cheerful, affectionate, and
-                    constantly looking to improve their relationships. Sharing
-                    their emotions and life experiences with their partners
-                    helps ENFPs connect with them. They encourage their partners
-                    to follow their dreams and expect the same support in
-                    return. They accept their partners for who they are and
-                    refrain from forcing them to be or do anything in
-                    particular.
-                  </p>
-                  <p className="text-black text-lg mt-6">
-                    INFJs are motivated by their strong morals and look for
-                    purpose in friendships and interpersonal relationships,
-                    among other aspects of their lives. Even though they might
-                    not know many people, the close friendships they do make are
-                    frequently incredibly strong and enduring. INFJs are great
-                    listeners who provide emotional support and connection to
-                    people they care about.
-                  </p>
-                  <p className="text-black text-lg mt-6">
-                    In love, ENFPs are extremely idealistic, full of ideas,
-                    hopes, and dreams, and they yearn for a life filled with
-                    rich experiences. They show their partners a lot of
-                    affection and have faith in the depth of their feelings,
-                    which makes them fall in love quickly and deeply. They
-                    remain optimistic despite real-world difficulties, such as
-                    long-distance relationships. But occasionally, their high
-                    standards and fervor can make it challenging when their
-                    partner requires more emotional or physical space.
-                  </p>
-                  <p className="text-black text-lg mt-6">
-                    ENFPs often focus on what is possible rather than
-                    appreciating things as they are, which can make long-term
-                    relationships difficult for them. They might wonder if their
-                    devotion has been misdirected if the excitement begins to
-                    wane. ENFPs must value the present while keeping things
-                    interesting and novel through travel and novel experiences
-                    in order to sustain a fruitful collaboration. Despite their
-                    sensitivity, they prefer to avoid conflict and instead
-                    retreat, which can affect how well people communicate in
-                    relationships.
+                    ENTPs are creative, vivacious, and impulsive in
+                    relationships. They make fascinating partners because
+                    they are always coming up with new ideas
+                    to try. ENTPs frequently create passionate, ever-evolving
+                    relationships by bringing their distinctive energy and
+                    intellectual curiosity to their romantic lives. For ENTPs,
+                    love is a chance for both parties to grow and learn from one
+                    another.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Compatibility with Other Personality Types
+                    Dynamic and Adventurous Partners
                   </h2>
                   <p className="text-black text-lg mt-4">
-                    INTJ and INFJ personality types are likely to be the most
-                    compatible with ENFPs, making them excellent candidates for
-                    marriage or other partnerships.
+                    ENTPs value their capacity for effective
+                    communication and understanding others, and they are
+                    constantly looking to better themselves and their
+                    relationships. They are imaginative
+                    in their problem-solving and curious about their partners'
+                    mental processes. They frequently urge their partners
+                    to follow their goals. Dating someone with these
+                    personalities is rarely dull because they push boundaries
+                    and conventions, test their partner's limits, and seek
+                    spontaneity and open-mindedness. Their passion,
+                    inventiveness, and capacity to surprise and delight their
+                    partners with novel experiences make
+                    them exciting and demanding partners.
                   </p>
                   <p className="text-black text-lg mt-4">
-                    ISTP, ESTJ, ISTJ, and ISFJ personalities, on the other hand,
-                    are the least compatible with ENFPs, and these relationships
-                    frequently present difficulties.
+                    However, as they constantly seek novelty and show a dislike
+                    for monotony, ENTPs' innate impatience and restlessness may
+                    become apparent. It can be difficult for them to strike a
+                    balance between the demands of a committed romantic
+                    relationship and their desire for novel experiences and
+                    adventures. Even the most patient partners can become worn
+                    down by their vigor, though some may find it appealing.
                   </p>
 
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                    What ENTPs Seek in Relationships
+                  </h2>
                   <p className="text-black text-lg mt-4">
-                    Certain personality types are inherently compatible with the
-                    values, hobbies, and outlook of the ENFP. Although they may
-                    not always agree, these like-minded people frequently get
-                    along well with ENFPs and have a lot in common.
+                    The primary function of ENTPs, Extraverted Intuition
+                    (Ne), is what propels their flexibility, adaptability,
+                    and inventiveness in interpersonal interactions. They look
+                    for partners who are willing to talk about ideas, even those
+                    deemed taboo or unconventional, are open-minded, and have an
+                    intellectual curiosity. A person who enjoys a wide range of
+                    activities, including games, movies, the arts, and culture,
+                    is preferred by ENTPs, who also seek partners who
+                    are adaptable and adventurous.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    ENTPs value independence and self-determination in
+                    relationships because of their Ne-Ti combination. They want
+                    room to experiment, explore, and follow their passions
+                    however they see fit. ENTPs frequently take a more logical
+                    rather than emotional approach to relationships. Genuine
+                    relationships, according to Thinkers like ENTPs,
+                    are founded more on intellectual connection (T) than
+                    emotional intimacy (F). If they don't strike
+                    a balance between their inclination for
+                    intellectual stimulation and emotional sensitivity, this
+                    tendency could cause problems.
                   </p>
 
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                    Opportunities for Growth
+                  </h2>
                   <p className="text-black text-lg mt-4">
-                    On the other hand, confronting the opposite can lead to both
-                    meaningful chances for personal development and personality
-                    conflicts. At first, it could be challenging to relate to
-                    these types because of their essentially different values
-                    and motivations. However, relationships with them can
-                    promote significant personal development because their
-                    strengths complement the ENFP's weaknesses.
+                    ENTPs are incredibly adaptive people despite these
+                    difficulties. Their capacity and willingness to adopt new
+                    viewpoints can aid them in resolving
+                    conflicts or miscommunications. ENTPs can preserve their
+                    unconventional and debate-loving nature while preserving
+                    solid relationships by appreciating the importance of
+                    emotional intelligence, sensitivity, and compromise. An
+                    ENTP's ideal partner values their creativity,
+                    skill, and insight and encourages them in their constantly
+                    evolving hobbies, plans, and social endeavors.
                   </p>
                 </section>
               )}
