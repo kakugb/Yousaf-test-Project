@@ -1125,40 +1125,110 @@ function ENTPBlogs() {
               {activeSection === "friendships" && (
                 <section id="friendships">
                   <h2 className="text-3xl font-bold mb-2 mt-6">
-                    ENFPs as Friends
+                    Friendships of ENTPs
                   </h2>
                   <h2 className="text-2xl font-bold mb-2 mt-6">
                     {" "}
-                    Transforming Ordinary Moments into Adventures
+                    Thriving on Debate and Intellectual Stimulation
                   </h2>
 
                   <p className="text-black text-lg mt-4">
-                    Enthusiastic and creative, ENFPs are adept at transforming
-                    even the most mundane situations into memorable events. They
-                    can turn any event into an adventure with their
-                    characteristic good humor, whether it's a memorable dance
-                    party, an unplanned cookie-baking competition, or a
-                    thoughtful discussion about the state of the world. Almost
-                    every opportunity to spend time with friends is an
-                    opportunity for ENFPs to make enduring memories.
+                    ENTPs create friendships that are as dynamic and stimulating
+                    as they are stimulating by
+                    bringing their distinctive wit, excitement, and love of
+                    intellectual engagement to the table. "You're right" is
+                    the last thing an ENTP wants to hear unless they have earned
+                    it via a contentious intellectual argument. They want every
+                    weakness in their reasoning exposed, and they welcome being
+                    told they are mistaken. This results from their pursuit
+                    of truth and their delight in using
+                    counterarguments to support their reasoning.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    In debates and discussions, where ENTPs can
+                    spend whole evenings debating ideas—sometimes even ones
+                    they don't believe in—their sharp wit frequently comes
+                    through. Finding someone who can defend their position with
+                    sound, reasoned arguments is the hallmark of
+                    ENTP friendships. Debates are intellectual sparring matches
+                    that spur growth for ENTPs; they are rarely
+                    personal. ENTPs see debates as an opportunity to push
+                    themselves and their friends toward greater understanding,
+                    much like athletes compete for the spirit of competition.
                   </p>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">
-                    Balancing Social Connections with Deeper, Meaningful
-                    Relationships
+                    Finding Fun in Thoughtful Conversation
                   </h2>
 
                   <p className="text-black text-lg mt-4">
-                    Even though ENFPs appear to be social by nature, they have a
-                    strong desire for deep connections. However, some people
-                    might not be as receptive to emotional depth as ENFPs are.
-                    Others might have judgmental or narrow-minded opinions that
-                    run counter to ENFPs' principles. When ENFPs feel that the
-                    world is happy with surface-level relationships, they may
-                    wonder if their desire for meaningful human connection is
-                    too great for other people to handle. They may find it
-                    difficult to accept that they can't befriend everyone
-                    because they are eternal idealists.
+                    Despite their preference for intellectual stimulation, ENTPs
+                    can enjoy life in their own way. Having fun for these
+                    irreverent personalities frequently entails
+                    fusing meaningful conversations with social interaction. For
+                    instance, while a debate about global issues and a bottle of
+                    wine may seem like a recipe for disaster to some, ENTPs find
+                    it to be pure joy.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    ENTPs make interesting companions in any situation because
+                    of their versatility and capacity to speak in the language
+                    and frame of reference of others. They can connect with
+                    a variety of personality types because of their
+                    adaptability.  Their inability to express their emotions,
+                    which is the weakness of all Analyst (NT) types, can,
+                    however, occasionally hinder their ability to build
+                    strong emotional bonds.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                    Openness to New Perspectives
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    One of the most common personality types to look
+                    for friendships with people who have different beliefs
+                    and values is the ENTP. They value friends who aren't afraid
+                    to disagree because they are receptive to different
+                    viewpoints and enjoy a challenge. The secret to an engaging
+                    and fulfilling friendship for ENTPs is the capacity to talk
+                    about unusual or even taboo subjects.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                    Navigating Emotional Connections
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    Friendships can occasionally suffer as a result of
+                    ENTPs' preference for reason over emotion. ENTPs may feel
+                    out of their element when confronted with emotionally
+                    charged situations, like consoling a friend who is
+                    upset. They may find it difficult to give their friends the
+                    tact and visible affection they may require, but they are
+                    happy to provide logical answers to issues.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    Instead of showing empathy, ENTPs can occasionally even turn
+                    emotional conversations into arguments by
+                    examining the reasons behind a friend's suffering. Their
+                    capacity to present opposing viewpoints is a
+                    strength, but it can also give the impression that they
+                    are emotionally aloof. To balance their love of
+                    intellectual competition with an awareness of
+                    emotional needs, ENTPs must be aware of this tendency.
+                  </p>
+
+                  <h2 className="text-2xl font-bold mb-2 mt-6">
+                    Meaningful and Lasting Friendships
+                  </h2>
+                  <p className="text-black text-lg mt-4">
+                    ENTPs make deep and enduring friendships with people who
+                    share their love of learning new things and who know not to
+                    take things personally. Even
+                    though their engagement style may not be to everyone's
+                    taste, ENTPs don't care about being liked by everyone.
+                    Friendships involving ENTPs are incredibly fulfilling for
+                    people who appreciate thought-provoking and stimulating
+                    relationships.
                   </p>
                 </section>
               )}
@@ -1166,35 +1236,111 @@ function ENTPBlogs() {
               {/* Parenthood Section */}
               {activeSection === "parenthood" && (
                 <section id="parenthood">
-                  <h1 className="text-3xl font-bold mb-2">ENFPs as Parents</h1>
+                  <h1 className="text-3xl font-bold mb-2">
+                    Family Dynamics of ENTPs
+                  </h1>
 
+                  <h1 className="text-2xl font-bold mb-2">Parenthood</h1>
                   <p className="text-black text-lg mt-4">
-                    ENFPs are imaginative, loving parents who love creating new
-                    experiences for their families and encouraging their kids to
-                    develop as people. Whether it's dolls and dinosaurs today or
-                    oceans and stars tomorrow, they foster curiosity and easily
-                    adjust to their kids' changing interests. They are great
-                    confidants because of their radiance of acceptance and
-                    compassion, which fosters safe environments where kids can
-                    freely express their frustrations, anxieties, and dreams
-                    without worrying about being judged.
+                    Parenting may seem particularly difficult for ENTPs due to
+                    their flighty and blustery personalities, and in
+                    many respects, it is. On the other hand, ENTPs enjoy a
+                    challenge and believe that being a parent is one of the
+                    most fulfilling roles they can play. They take
+                    this responsibility seriously and are prepared to face their
+                    shortcomings to better serve their kids.
                   </p>
                   <p className="text-black text-lg mt-4">
-                    Although ENFPs have strong moral convictions, they have a
-                    hard time enforcing discipline because they value close
-                    relationships more than anything else. For fear of
-                    alienating their kids, they might be reluctant to establish
-                    clear limits. Many ENFP parents eventually discover, though,
-                    that providing just the right amount of structure fosters
-                    their kids' success. Seeing it as another way to show their
-                    love and concern, they figure out how to firmly but lovingly
-                    enforce the rules that are necessary.
+                    By encouraging a love of learning, an
+                    open-minded outlook, and the self-assurance to
+                    express oneself without undue concern for the opinions
+                    of others, ENTPs seek to give their kids a world full of
+                    opportunities. For ENTPs, raising kids means encouraging
+                    them to think for themselves and to be curious
+                    about the world.
+                  </p>
+
+                  <h1 className="text-2xl font-bold mb-2">
+                    Raising Independent Thinkers
+                  </h1>
+                  <p className="text-black text-lg mt-4">
+                    From the start, the parenting style of ENTPs makes clear
+                    their dislike of rules and regulations. One
+                    of their fundamental beliefs is independence, so they place
+                    a high priority on allowing their kids to explore on
+                    their own. ENTP parents are dedicated to cultivating their
+                    children's independent thinking because they feel that no
+                    person is complete without it.
                   </p>
                   <p className="text-black text-lg mt-4">
-                    Even though ENFPs are passionate about parenting, they can
-                    get bored easily with routine tasks and demands. Rather than
-                    routine duties, they derive the most joy from emotional
-                    connection and creative exploration with their children.
+                     Instead of creating highly structured environments solely
+                    for safety, ENTP parents foster
+                    laid-back and unconventional environments based on excitement and logical
+                    discovery. By encouraging their kids to express their
+                    concerns, viewpoints, and alternatives, they
+                    help them learn to make decisions based on effectiveness and
+                    reason rather than feelings.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    ENTP parents may find it difficult to manage arguments
+                    or emotional outbursts as their kids get older, especially
+                    into adolescence. Even though ENTPs enjoy a
+                    good argument, they might find it difficult to handle the
+                    emotional conflicts that arise when parenting teenagers.
+                  </p>
+
+                  <h1 className="text-2xl font-bold mb-2">
+                    Navigating Emotional Challenges
+                  </h1>
+                  <p className="text-black text-lg mt-4">
+                    Even though ENTPs are naturally
+                    inclined toward argument and reasoning, they
+                    understand the value of emotional expression in parenting.
+                    They are willing to change to accomplish the goal
+                    of raising intelligent, self-reliant, and honest
+                    adults because they understand what is at stake.
+                    To effectively communicate these values, ENTP
+                    parents understand that they must develop
+                    their emotional intelligence and learn how to connect with
+                    their kids and meet their emotional needs through emotional
+                    expression tools.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    ENTPs respect their kids' independence, but they
+                    also recognize that freedom and direction must
+                    coexist. They strive to establish settings that
+                    allow their kids to express their emotions
+                    healthily and learn how to live logically and sensibly.
+                  </p>
+
+                  <h1 className="text-2xl font-bold mb-2">
+                    ENTP Challenges in Relationships
+                  </h1>
+                  <p className="text-black text-lg mt-4">
+                    Relational harmony can be mistaken for relational health by
+                    ENTPs, just like my other P-types. Given their innate
+                    tendency toward adaptation, they might believe they
+                    can adjust to almost any relationship challenge. Any
+                    relationship needs and benefits
+                    from some level of compromise, but some ENTPs may compromise
+                    too much. Their tertiary Fe,
+                    which aims to preserve harmony and peace in relationships,
+                    is linked to this tendency in addition to their P-type
+                    status. As a result, by adapting to the point of
+                    losing themselves, ENTPs may wind up ruining their
+                    relationships. They may become resentful of their partner as
+                    a result and behave passive-aggressively. To ensure that
+                    their complaints and preferences are freely
+                    expressed and discussed, ENTPS must establish an open and
+                    honest policy in their relationships.
+                  </p>
+                  <p className="text-black text-lg mt-4">
+                    Finding consistently fulfilling work is a common challenge
+                    for ENTPs. Their relationships are unavoidably impacted by
+                    this struggle, particularly when others rely on them for
+                    financial support. There’s nothing worse for an ENTP than
+                    feeling stuck in a situation where they must work at a job
+                    that isn't their best to make ends meet.
                   </p>
                 </section>
               )}
