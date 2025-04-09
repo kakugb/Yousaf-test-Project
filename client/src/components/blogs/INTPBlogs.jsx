@@ -1,7 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FaStar, FaChevronRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import INTP_1 from '../../assets/INTP-Images/INTP-01.jpg'
+import INTP_2 from '../../assets/INTP-Images/INTP-02.jpg'
+import INTP_3 from '../../assets/INTP-Images/INTP-03.jpg'
+import INTP_4 from '../../assets/INTP-Images/INTP-04.jpg'
+import INTP_5 from '../../assets/INTP-Images/INTP-05.jpg'
 function INTPBlogs() {
   // Define the sections in order
   const sections = [
@@ -200,7 +204,7 @@ function INTPBlogs() {
                     down new paths.” – Walt Disney
                   </blockquote>
 
-                  <h1 className="text-3xl font-bold">Image here</h1>
+                  <img src={INTP_1} className="my-6"/>
                   <h2 className="text-3xl font-bold mb-4">
                     What is the personality type?
                   </h2>
@@ -223,7 +227,7 @@ function INTPBlogs() {
                     seeking to understand the ‘why’ behind every phenomenon they
                     encounter.” Patricia B. Highsmith, The Secret History
                   </blockquote>
-                  <h1 className="text-3xl font-bold">Image here</h1>
+                  <img src={INTP_2} className="my-6"/>
                   <p className="text-black text-lg text-justify mt-4">
                     The traits of the (Logician) personality type are
                     Introverted, Intuitive, Thinking, and Perceiving. In many
@@ -361,7 +365,7 @@ function INTPBlogs() {
                     one develops this area. The inferior function is a weakness
                     and is primarily unconscious.
                   </p>
-                  <h2 className="text-3xl font-bold mb-4">Image Here</h2>
+                  <img src={INTP_3} className="my-6"/>
 
                   <h2 className="text-2xl font-bold mt-8">
                     Dominant: Introverted Thinking (Ti)
@@ -1165,7 +1169,7 @@ function INTPBlogs() {
                   <p className="text-black text-lg">
                     If you are an INTP, you may enjoy a career as a:
                   </p>
-                  <h2 className="text-2xl font-bold mb-2 mt-6">Image Here</h2>
+                  <img src={INTP_4} className="my-6"/>
                   <ul className="list-disc pl-5 text-black text-xl">
                     <li className="mt-4 font-bold text-xl">Chemist</li>
                     <li className="mt-4 font-bold text-xl">Physicist</li>
@@ -1255,7 +1259,7 @@ function INTPBlogs() {
                   <h2 className="text-2xl font-bold mb-2 mt-6">
                     Rarity and Representation
                   </h2>
-                  <h2 className="text-2xl font-bold mb-2 mt-6">Image Here</h2>
+                  <img src={INTP_5} className="my-6"/>
 
                   <h2 className="text-2xl font-bold mb-2 mt-6">Famous INTPs</h2>
                   <ul className="list-disc pl-5 text-black text-xl">

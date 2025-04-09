@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FaStar, FaChevronRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import INTJ_1 from '../../assets/INTJ-Images/INTJ-01.jpg'
+import INTJ_2 from '../../assets/INTJ-Images/INTJ-02.jpg'
+import INTJ_3 from '../../assets/INTJ-Images/INTJ-03.jpg'
+import INTJ_4 from '../../assets/INTJ-Images/INTJ-04.jpg'
 function INTJBlogs() {
   // Define the sections in order
   const sections = [
@@ -14,7 +17,7 @@ function INTJBlogs() {
     "workplace-habits",
     "conclusion",
   ];
-
+  
   // State to track the active section
   const [activeSection, setActiveSection] = useState(sections[0]); // Start with the first section
 
@@ -181,7 +184,7 @@ function INTJBlogs() {
                     knowledge.
                   </p>
 
-                  <h1 className="text-3xl font-bold">Image Here</h1>
+                  <img src={INTJ_1}/>
                   <h1 className="text-2xl font-bold mt-4">
                     What Is an INTJ Personality Type?
                   </h1>
@@ -218,7 +221,7 @@ function INTJBlogs() {
                     can gain deeper insights into your own tendencies and
                     challenges.
                   </blockquote>
-                  <h1 className="text-3xl font-bold">Image Here</h1>
+                  <img src={INTJ_2} className="my-6"/>
 
                   <h2 className="text-3xl font-bold mb-4">INTJ Subtypes</h2>
                   <h1 className="text-2xl font-bold mt-4">
@@ -299,7 +302,7 @@ function INTJBlogs() {
                     preference.
                   </p>
 
-                  <h1 className="text-3xl font-bold mt-4">Image Here</h1>
+                  <img src={INTJ_3} className="my-6"/>
                   <h1 className="text-2xl font-bold mt-4">
                     Dominant: Introverted Intuition (Ni){" "}
                   </h1>
@@ -324,7 +327,7 @@ function INTJBlogs() {
                     INTJs generally like to decide for themselves and prefer
                     efficiency at times.
                   </p>
-                  <h1 className="text-3xl font-bold mt-4">Image Here</h1>
+                  <img src={INTJ_4} className="my-6"/>
                   <h1 className="text-2xl font-bold mt-4">
                     Tertiary: Introverted Feeling (Fi){" "}
                   </h1>
