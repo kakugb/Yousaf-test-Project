@@ -86,7 +86,7 @@ function ENFPBlogs() {
       <div className="w-full flex font-sans">
         {/* Sidebar (Fixed on Desktop, Hidden on Mobile) */}
         <aside
-          className={`hidden md:block fixed top-24 left-0 h-full w-64 bg-white shadow-lg z-50 transform transition-transform duration-300`}
+          className={`hidden md:block fixed top-24 left-0 h-auto w-64 bg-white shadow-lg z-50 transform transition-transform duration-300`}
         >
           <div className="p-6">
             <h2 className="text-lg font-bold text-[#1A3C34] mb-6">

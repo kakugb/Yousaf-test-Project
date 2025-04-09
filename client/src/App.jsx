@@ -23,6 +23,7 @@ import INTJBlogs from './components/blogs/INTJBlogs';
 import ISTJBlogs from './components/blogs/ISTJBlogs';
 import ENFPBlogs from './components/blogs/ENFPBlogs';
 import ENTPBlogs from './components/blogs/ENTPBlogs';
+import Footer from './components/Footer';
 
 
    const App = () => {
@@ -53,6 +54,7 @@ import ENTPBlogs from './components/blogs/ENTPBlogs';
                        <Route path='/entp-blogs' element={<ENTPBlogs/>}/>
                    </Routes>
                </main>
+               <Footer/>
            </Router>
        );
    };
