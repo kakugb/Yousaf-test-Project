@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FaStar, FaChevronRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import INFJ_1 from '../../assets/INFJ-Images/INFJ-01.jpg'
+import INFJ_2 from '../../assets/INFJ-Images/INFJ-02.jpg'
+import INFJ_3 from '../../assets/INFJ-Images/INFJ-03.jpg'
 
 function INFJBlogs() {
   // Define the sections in order
@@ -206,7 +209,7 @@ function INFJBlogs() {
                   <h2 className="text-3xl font-bold mb-4">
                     What Does INFJ Stand For?
                   </h2>
-                  <h1 className="text-3xl font-bold">Image here</h1>
+                 <img src={INFJ_1}  className="my-6"/>
                   <p className="text-black text-lg mt-6">
                     The Myers-Briggs Type Indicator (MBTI) was developed by
                     Katharine Briggs and Isabel Myers, who also created the
@@ -334,7 +337,7 @@ function INFJBlogs() {
                   <h2 className="text-3xl font-bold mb-1 mt-4">
                     Key Characteristics
                   </h2>
-                  <h1 className="text-3xl font-bold mb-1 ">Image Here</h1>
+                  <img src={INFJ_2}  className="my-6"/>
                   <p className="text-black text-lg text-justify mt-4">
                     INFJs are considerate nurturers who are driven to help
                     others reach their full potential and have a strong sense of
@@ -789,7 +792,7 @@ function INFJBlogs() {
                   <h1 className="text-3xl font-semibold mb-2">
                     Cognitive Functions and Personality Development Phases
                   </h1>
-                  <h1 className="text-3xl font-semibold mb-2">image here</h1>
+                  <img src={INFJ_3}  className="my-6"/>
 
                   <h2 className="text-2xl font-semibold mb-4 mt-6">
                     Dominant: Introverted Intuition (Ni)
